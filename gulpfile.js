@@ -30,6 +30,7 @@ gulp.task('js', () => {
     .pipe(babel({
       presets: ['es2015']
     }))
+    .pipe(uglify())
     .pipe(gulp.dest('dist'))
 })
 
@@ -44,7 +45,8 @@ gulp.task('images', () => {
 gulp.task('watch', () => {
   browserSync.init({
     server: {
-      baseDir: './dist'
+      baseDir: './dist',
+      index: '../index.html'
     }
   })
 
