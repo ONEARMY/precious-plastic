@@ -79,6 +79,11 @@ a {
       padding: 16px 11px;
       display: inline-block;
       margin: 20px 0;
+      transition: background .2s;
+
+      &:hover {
+        background: #d5b879;
+      }
     }
 
     .boost {
@@ -243,6 +248,11 @@ a {
     padding: 16px 11px;
     display: inline-block;
     margin-top: 50px;
+    transition: background .2s;
+
+    &:hover {
+      background: #d5b879;
+    }
   }
 }
 
