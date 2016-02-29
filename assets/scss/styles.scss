@@ -136,9 +136,35 @@ a {
   }
 }
 
+#areas {
+  text-align: center;
+  padding: 70px 0;
+
+  h1 {
+    font-size: 18px;
+    color: #53BBB4;
+  }
+
+  img {
+    max-width: 100%;
+    margin-top: 50px;
+  }
+
+  a {
+    background: #EDCD86;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 16px 11px;
+    display: inline-block;
+    margin-top: 50px;
+  }
+}
+
 #copyright {
   background: #fff;
   text-align: center;
+  padding-top: 140px;
   padding-bottom: 140px;
 
   a {
