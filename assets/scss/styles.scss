@@ -135,3 +135,65 @@ a {
     }
   }
 }
+
+#copyright {
+  background: #fff;
+  text-align: center;
+  padding-bottom: 140px;
+
+  a {
+    display: block;
+  }
+
+  .by {
+    width: 260px;
+    margin: 40px auto 0;
+    height: 20px;
+    background: url(/images/project-by.png) no-repeat center center;
+    background-size: contain;
+    text-indent: -999999px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background: url(/images/logo.png) no-repeat center center;
+    background-size: contain;
+    margin-top: 40px;
+  }
+
+  .visit {
+    color: #5D6570;
+    font-size: 24px;
+  }
+
+  .social {
+    margin-top: 20px;
+
+    a {
+      width: 25px;
+      height: 20px;
+      margin: 0 5px;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      &[href*="facebook"] {
+        background-image: url(/images/facebook.svg);
+      }
+
+      &[href*="twitter"] {
+        background-image: url(/images/twitter.svg);
+      }
+
+      &[href*="youtube"] {
+        background-image: url(/images/youtube.svg);
+      }
+
+      &[href*="mail"] {
+        background-image: url(/images/newsletter.svg);
+      }
+    }
+  }
+}
