@@ -14,7 +14,12 @@ a {
 #intro {
   background: #B9CFE4;
   color: #fff;
+  background-image: url(/images/intro.png);
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  background-size: 100% auto;
   padding-top: 50px;
+  padding-bottom: 510px;
 
   .top {
     text-align: center;
@@ -83,7 +88,7 @@ a {
 
   .bottom {
     text-align: center;
-    padding-bottom: 50px;
+    margin: 250px 0 0 0;
 
     h1 {
       font-size: 24px;
