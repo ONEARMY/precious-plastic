@@ -12,7 +12,7 @@ a {
 }
 
 #intro {
-  background: #79BAD9;
+  background: #B9CFE4;
   color: #fff;
   padding-top: 50px;
 
@@ -68,6 +68,16 @@ a {
       padding: 16px 11px;
       display: inline-block;
       margin: 20px 0;
+    }
+
+    .boost {
+      background: url(/images/boost.png) no-repeat center center;
+      background-size: contain;
+      width: 150px;
+      height: 40px;
+      display: block;
+      position: absolute;
+      right: 20px;
     }
   }
 
