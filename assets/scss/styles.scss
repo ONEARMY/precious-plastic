@@ -224,6 +224,10 @@ a {
   h1 {
     font-size: 18px;
     color: #53BBB4;
+
+    @media (min-width: 768px) {
+      font-size: 30px;
+    }
   }
 
   img {
@@ -302,6 +306,21 @@ a {
       &[href*="mail"] {
         background-image: url(/images/newsletter.svg);
       }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .visit {
+      font-size: 25px;
+    }
+
+    .by {
+      width: 450px;
+      height: 22px;
+    }
+
+    .social {
+      margin-top: 60px;
     }
   }
 }
