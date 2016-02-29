@@ -168,6 +168,13 @@ a {
         line-height: 40px;
       }
     }
+
+    @media (min-width: 992px) {
+      h1 {
+        font-size: 45px;
+        line-height: 58px;
+      }
+    }
   }
 
   @media (min-width: 768px) {
@@ -181,6 +188,9 @@ a {
   }
 
   @media (min-width: 992px) {
+    background-image: url(/images/intro-md.png);
+    background-size: auto 500px;
+
     .wrap {
       width: 980px;
       margin: 100px auto 0;
