@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Varela Round', sans-serif;
   -webkit-font-smoothing: antialiased;
+  background: #F2F6F8;
 }
 
 a {
@@ -77,6 +78,56 @@ a {
     h1 {
       font-size: 24px;
       line-height: 29px;
+    }
+  }
+}
+
+#the-plan {
+  text-align: center;
+  padding-top: 300px;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    top: -150px;
+    left: -200px;
+    width: 700px;
+  }
+
+  article {
+    background: #fff;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 40px;
+    color: #5D6570;
+  }
+
+  ul {
+    margin: 0 20px;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+
+    li {
+      color: #424242;
+      font-size: 15px;
+      padding-left: 45px;
+      margin-bottom: 10px;
+      background: url(/images/unchecked.svg) no-repeat left top;
+      min-height: 30px;
+      padding-top: 5px;
+
+      &.check {
+        background-image: url(/images/checked.svg)
+      }
+    }
+
+    a {
+      color: #4A90E2
     }
   }
 }
