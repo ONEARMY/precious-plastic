@@ -61,6 +61,10 @@ a {
     position: relative;
     margin-bottom: 100px;
 
+    a {
+      color: #5275F0;
+    }
+
     h1 {
       font-size: 24px;
       line-height: 30px;
@@ -71,7 +75,7 @@ a {
       line-height: 24px;
     }
 
-    a {
+    .spread {
       background: #EDCD86;
       color: #fff;
       border-radius: 7px;
