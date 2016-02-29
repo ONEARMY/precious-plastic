@@ -38,6 +38,11 @@ a {
       height: 70px;
       margin: 20px 0 50px 0;
       background-size: 270px auto;
+
+      @media (min-width: 768px) {
+        margin-top: 40px;
+        background-size: 400px auto;
+      }
     }
   }
 
@@ -53,6 +58,7 @@ a {
   .right {
     text-align: center;
     padding: 30px 20px 0;
+    position: relative;
     margin-bottom: 100px;
 
     h1 {
@@ -83,6 +89,24 @@ a {
       display: block;
       position: absolute;
       right: 20px;
+
+      @media (min-width: 768px) {
+        width: 200px;
+        height: 70px;
+        right: -40px;
+        bottom: -25px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      a {
+        margin-top: 40px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 28px;
+      }
     }
   }
 
@@ -97,6 +121,26 @@ a {
 
     a {
       color: #5B72EB;
+    }
+
+    @media (min-width: 768px) {
+      margin-left: auto;
+      margin-right: auto;
+
+      h1 {
+        font-size: 29px;
+        line-height: 40px;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    background-image: url(/images/intro-sm.png);
+    padding-top: 100px;
+
+    aside {
+      width: 500px;
+      margin: 0 auto;
     }
   }
 }
