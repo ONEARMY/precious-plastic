@@ -9,7 +9,8 @@ const browserSync = require('browser-sync')
 const paths = {
   scss: 'assets/scss/**/*.scss',
   js: 'assets/js/**/*.js',
-  images: 'assets/images/**/*'
+  images: 'assets/images/**/*',
+  html: 'pages/**/*'
 }
 
 gulp.task('styles', () => {
@@ -42,17 +43,26 @@ gulp.task('images', () => {
     .pipe(gulp.dest('dist/images'))
 })
 
+gulp.task('html', () => {
+  return gulp
+    .src(paths.html)
+    .pipe(gulp.dest('dist'))
+})
+
+gulp.task('pages', ['html'], browserSync.reload)
+
 gulp.task('watch', () => {
   browserSync.init({
     server: {
-      baseDir: './dist',
-      index: '../index.html'
-    }
+      baseDir: './dist'
+    },
+    notify: false
   })
 
   gulp.watch(paths.scss, ['styles'])
   gulp.watch(paths.js, ['scripts'])
   gulp.watch(paths.images, ['images'])
+  gulp.watch(paths.html, ['pages'])
 })
 
-gulp.task('default', ['styles', 'js', 'images'])
+gulp.task('default', ['styles', 'js', 'images', 'pages'])
