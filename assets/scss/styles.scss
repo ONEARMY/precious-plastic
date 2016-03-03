@@ -594,3 +594,42 @@ a {
     }
   }
 }
+
+#what-made {
+  padding: 70px 20px;
+  text-align: center;
+
+  h1 {
+    font-size: 40px;
+    color: #5D6570;
+  }
+
+  figure {
+    margin: 130px 0;
+
+    img {
+      width: 180px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      color: #484848;
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+      color: #7D7D7D;
+      line-height: 33px;
+    }
+  }
+
+  .button {
+    border-radius: 3px;
+    color: #fff;
+    background: #79BAD9;
+    padding: 9px 18px;
+    display: inline-block;
+  }
+}
