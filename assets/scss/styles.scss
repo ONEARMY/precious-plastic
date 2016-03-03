@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic);
 
 body {
   margin: 0;
@@ -472,6 +473,48 @@ a {
 
     .start {
       display: none;
+    }
+  }
+}
+
+#hero {
+  color: #4D5052;
+  padding: 0 20px;
+  height: 330px;
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+
+  .button-group {
+    margin-top: 30px;
+  }
+
+  a {
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 10px 29px;
+    display: inline-block;
+
+    &:first-child {
+      background: #F28282;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    &:last-child {
+      background: #FFE096;
+      color: #656565;
     }
   }
 }
