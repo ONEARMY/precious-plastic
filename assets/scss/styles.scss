@@ -523,7 +523,7 @@ a {
 }
 
 #our-plan {
-  padding: 0 20px;
+  padding: 50px 20px;
   background: #fff;
 
   hr {
@@ -539,25 +539,15 @@ a {
   }
 
   img {
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
-  }
-
-  .description {
-    text-align: center;
-
-    h1 {
-      color: #5D6570;
-      font-size: 40px;
-    }
-
-    p {
-      font-size: 18px;
-      line-height: 29px;
-    }
+    display: block;
+    margin-bottom: 50px;
   }
 
   article {
+    margin: 140px 0;
+
     h1 {
       font-size: 22px;
       color: #4D5052;
@@ -568,6 +558,43 @@ a {
       color: #7D7D7D;
       font-family: 'Open Sans', sans-serif;
       line-height: 30px;
+    }
+
+    a {
+      font-size: 15px;
+      margin-top: 30px;
+      color: #79BAD9;
+      padding: 10px 0;
+      display: block;
+
+      &:after {
+        content: '\2192';
+        margin-left: 10px;
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: -4px;
+        vertical-align: bottom
+      }
+
+      &.red {
+        color: #F36679;
+      }
+    }
+  }
+
+  .description {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    h1 {
+      color: #5D6570;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 29px;
     }
   }
 }
