@@ -521,3 +521,53 @@ a {
     }
   }
 }
+
+#our-plan {
+  padding: 0 20px;
+  background: #fff;
+
+  hr {
+    border: 0;
+    max-width: 200px;
+    margin: 50px auto;
+    border-top: 2px solid #D4D8DA;
+    display: none;
+
+    &.first {
+      display: block;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .description {
+    text-align: center;
+
+    h1 {
+      color: #5D6570;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 29px;
+    }
+  }
+
+  article {
+    h1 {
+      font-size: 22px;
+      color: #4D5052;
+    }
+
+    p {
+      font-size: 16px;
+      color: #7D7D7D;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 30px;
+    }
+  }
+}
