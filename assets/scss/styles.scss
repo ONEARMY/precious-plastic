@@ -653,3 +653,32 @@ a {
     margin-bottom: 50px;
   }
 }
+
+#ready-to-start {
+  text-align: center;
+  padding: 80px 0;
+
+  h1 {
+    color: #5D6570;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  figure {
+    margin-bottom: 80px;
+
+    img {
+      border: 5px solid #fff;
+      max-width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    figcaption {
+      color: #7D7D7D;
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+      margin-top: 20px;
+    }
+  }
+}
