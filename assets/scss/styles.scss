@@ -413,3 +413,65 @@ a {
     }
   }
 }
+
+#menu {
+  background: #fff;
+  height: 60px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 2000;
+
+  .container {
+    height: inherit;
+    line-height: 60px;
+  }
+
+  .logo {
+    background: url(/images/logo-title.png) no-repeat center center;
+    background-size: contain;
+    display: inline-block;
+    height: 50px;
+    width: 135px;
+    vertical-align: middle;
+  }
+
+  .toggle {
+    height: 30px;
+    width: 26px;
+    display: block;
+    margin-top: 18px;
+    float: right;
+    cursor: pointer;
+
+    b {
+      height: 3px;
+      width: inherit;
+      display: block;
+      background: #000;
+      border-radius: 4px;
+
+      &:nth-child(2) {
+        margin: 7px 0;
+      }
+    }
+  }
+
+  nav {
+    background: #fff;
+    line-height: normal;
+    display: none;
+
+    a {
+      font-size: 16px;
+      display: block;
+      color: #5D6570;
+      letter-spacing: 1px;
+      padding: 10px 0;
+      margin: 8px 0;
+    }
+
+    .start {
+      display: none;
+    }
+  }
+}
