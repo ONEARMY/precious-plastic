@@ -481,7 +481,7 @@ a {
 
 #hero {
   color: #4D5052;
-  padding: 0 20px;
+  padding: 90px 20px 0;
   height: 330px;
   background: url(/images/hero-sm.png) no-repeat center center;
 
@@ -493,10 +493,6 @@ a {
     font-size: 16px;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
-  }
-
-  .container {
-    margin-top: 100px;
   }
 
   .button-group {
