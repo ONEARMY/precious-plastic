@@ -744,6 +744,25 @@ a {
     padding: 9px 18px;
     display: inline-block;
   }
+
+  @media (min-width: 768px) {
+    figure {
+      margin: 50px 0;
+      width: 45%;
+      box-sizing: border-box;
+      padding: 0 30px;
+      display: inline-block;
+    }
+
+    .container > h1 {
+      font-size: 50px;
+    }
+
+    .button {
+      margin-top: 30px;
+      padding: 15px 28px;
+    }
+  }
 }
 
 #didnt-notice {
@@ -763,6 +782,21 @@ a {
     line-height: 33px;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 50px;
+  }
+
+  @media (min-width: 768px) {
+    text-align: center;
+    padding-bottom: 800px;
+
+    h1 {
+      font-size: 50px;
+      margin-top: 60px;
+    }
+
+    p {
+      font-size: 22px;
+      line-height: 40px;
+    }
   }
 }
 
