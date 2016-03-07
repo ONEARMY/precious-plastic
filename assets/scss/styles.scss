@@ -867,6 +867,18 @@ a {
       padding: 15px 28px;
     }
   }
+
+  @media (min-width: 992px) {
+    figure {
+      width: 33.333333%;
+      float: left;
+    }
+
+    .container {
+      width: 940px;
+      margin: 0 auto;
+    }
+  }
 }
 
 #didnt-notice {
@@ -900,6 +912,17 @@ a {
     p {
       font-size: 22px;
       line-height: 40px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    background-image: url(/images/intro-lg.png);
+    background-size: 100% auto;
+    padding-bottom: 900px;
+
+    .container {
+      width: 730px;
+      margin: 0 auto;
     }
   }
 }
@@ -951,6 +974,18 @@ a {
       padding: 15px 28px;
       margin-top: 50px;
       display: inline-block;
+    }
+  }
+
+  @media (min-width: 992px) {
+    figure {
+      width: 33.3333333%;
+      float: left;
+    }
+
+    .container {
+      width: 940px;
+      margin: 0 auto;
     }
   }
 }
