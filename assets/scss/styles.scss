@@ -834,4 +834,19 @@ a {
     border-radius: 3px;
     padding: 8px 21px;
   }
+
+  @media (min-width: 768px) {
+    figure {
+      width: 40%;
+      display: inline-block;
+      margin: 40px 0;
+      box-sizing: border-box;
+    }
+
+    .button {
+      padding: 15px 28px;
+      margin-top: 50px;
+      display: inline-block;
+    }
+  }
 }
