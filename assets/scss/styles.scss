@@ -511,6 +511,46 @@ a {
       width: 35px;
     }
   }
+
+  @media (min-width: 992px) {
+    background: none;
+
+    nav {
+      display: block !important;
+      float: right;
+      padding: 0;
+      background: none;
+      margin-top: 22px;
+
+      a {
+        display: inline-block;
+        padding: 0;
+        font-size: 16px;
+        margin-left: 20px;
+      }
+
+      .start {
+        background: #9DE6CF;
+        color: #fff;
+        padding: 6px 15px;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    .clearfix {
+      display: none;
+    }
+
+    .container {
+      width: 940px;
+      margin: 0 auto;
+    }
+
+    .toggle {
+      display: none;
+    }
+  }
 }
 
 #hero {
