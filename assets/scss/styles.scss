@@ -689,6 +689,10 @@ a {
 
     &.first {
       display: block;
+
+      & + p {
+        display: none;
+      }
     }
   }
 
@@ -820,7 +824,31 @@ a {
   }
 
   @media (min-width: 992px) {
+    hr.first {
+      display: none;
+
+      & + p {
+        display: block;
+        background: #FFD87D;
+        font-size: 15px;
+        text-align: center;
+        margin: 0 -20px 140px;
+        padding: 16px 0;
+
+        a {
+          color: inherit;
+          border-bottom: 1px solid #000;
+
+          &:hover {
+            border-bottom-color: transparent;
+          }
+        }
+      }
+    }
+
     .description {
+      margin-bottom: 60px;
+
       h1 {
         font-size: 50px;
       }
