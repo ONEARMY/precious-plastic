@@ -594,6 +594,7 @@ a {
   @media (min-width: 768px) {
     height: 420px;
     padding-top: 80px;
+    background-image: url(/images/hero-md.png);
 
     h1 {
       margin-bottom: 20px;
@@ -619,6 +620,10 @@ a {
         }
       }
     }
+  }
+
+  @media (min-width: 992px) {
+    background-image: url(/images/hero-lg.png);
   }
 }
 
