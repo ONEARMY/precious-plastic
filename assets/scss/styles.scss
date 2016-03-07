@@ -659,7 +659,20 @@ a {
       .left,
       .right {
         width: 50%;
+      }
+
+      .left {
         float: left;
+      }
+
+      .right {
+        float: right;
+        padding-left: 20px;
+        box-sizing: border-box;
+
+        h1 {
+          margin-top: 0;
+        }
       }
     }
   }
