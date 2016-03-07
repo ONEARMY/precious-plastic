@@ -477,6 +477,40 @@ a {
       display: none;
     }
   }
+
+  @media (min-width: 768px) {
+    height: 80px;
+
+    nav {
+
+      a {
+        font-size: 18px;
+      }
+
+      .start {
+        display: inline-block;
+        color: #9DE6CF;
+        border: 2px solid #9DE6CF;
+        border-radius: 4px;
+        padding: 8px 25px;
+      }
+
+    }
+
+    .container {
+      line-height: 80px;
+    }
+
+    .logo {
+      height: 70px;
+      width: 145px;
+    }
+
+    .toggle {
+      margin-top: 29px;
+      width: 35px;
+    }
+  }
 }
 
 #hero {
