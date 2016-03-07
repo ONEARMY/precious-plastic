@@ -421,6 +421,22 @@ a {
       margin-top: 30px
     }
   }
+
+  @media (min-width: 992px) {
+    position: relative;
+    margin-top: 10px;
+
+    &:before {
+      content: '';
+      display: block;
+      background: url(/images/footer-top.png) repeat-x left bottom;
+      background-size: 100% auto;
+      width: 100%;
+      height: 20px;
+      position: absolute;
+      top: -20px;
+    }
+  }
 }
 
 #menu {
