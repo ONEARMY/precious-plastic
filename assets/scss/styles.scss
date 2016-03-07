@@ -725,13 +725,28 @@ a {
         font-size: 17px;
       }
 
+      img {
+        max-width: 60%;
+        margin: 0;
+      }
+
       .left,
       .right {
         width: 50%;
+
+        h1 {
+          margin-top: 0;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 32px;
+        }
       }
 
       .left {
         float: left;
+        text-align: left;
       }
 
       .right {
@@ -739,10 +754,14 @@ a {
         padding-left: 20px;
         box-sizing: border-box;
 
-        h1 {
-          margin-top: 0;
+        img {
+          float: right;
         }
       }
+    }
+
+    @media (min-width: 992px) {
+      width: 940px;
     }
   }
 
@@ -773,6 +792,21 @@ a {
 
     .description {
       margin-bottom: 120px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .description {
+      h1 {
+        font-size: 50px;
+      }
+
+      p {
+        font-size: 22px;
+        line-height: 40px;
+        max-width: 570px;
+        margin: 0 auto;
+      }
     }
   }
 }
