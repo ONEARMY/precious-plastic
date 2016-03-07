@@ -989,3 +989,25 @@ a {
     }
   }
 }
+
+#more-questions {
+  background: #DBDFE1;
+  padding: 50px;
+  text-align: center;
+  color: #5D6570;
+
+  p {
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 35px;
+
+    a {
+      color: #6A90C1;
+    }
+  }
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+    line-height: normal;
+  }
+}
