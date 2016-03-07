@@ -640,6 +640,28 @@ a {
         color: #F36679;
       }
     }
+
+    @media (min-width: 768px) {
+      width: 670px;
+      margin-left: auto;
+      margin-right: auto;
+
+      &:after {
+        display: block;
+        content: '';
+        clear: both;
+      }
+
+      a {
+        font-size: 17px;
+      }
+
+      .left,
+      .right {
+        width: 50%;
+        float: left;
+      }
+    }
   }
 
   .description {
@@ -655,6 +677,12 @@ a {
     p {
       font-size: 18px;
       line-height: 29px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    hr {
+      display: block;
     }
   }
 }
