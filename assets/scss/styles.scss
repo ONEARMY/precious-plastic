@@ -337,7 +337,7 @@ a {
 }
 
 #copyright {
-  background: #fff;
+  background: #313131;
   text-align: center;
   padding-top: 140px;
   padding-bottom: 140px;
@@ -350,7 +350,7 @@ a {
     width: 260px;
     margin: 40px auto 0;
     height: 20px;
-    background: url(/images/project-by.png) no-repeat center center;
+    background: url(/images/by.svg) no-repeat center center;
     background-size: contain;
     text-indent: -999999px;
   }
@@ -365,13 +365,12 @@ a {
   }
 
   .visit {
-    color: #5D6570;
+    color: #fff;
     font-size: 24px;
   }
 
   .social {
     margin-top: 30px;
-    opacity: .6;
 
     a {
       width: 25px;
