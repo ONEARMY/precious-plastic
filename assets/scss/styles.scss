@@ -643,8 +643,7 @@ a {
 
     @media (min-width: 768px) {
       width: 670px;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 120px auto;
 
       &:after {
         display: block;
@@ -696,6 +695,14 @@ a {
   @media (min-width: 768px) {
     hr {
       display: block;
+    }
+
+    img {
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-bottom: 120px;
     }
   }
 }
