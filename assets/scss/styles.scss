@@ -627,7 +627,28 @@ a {
   }
 
   @media (min-width: 992px) {
+    padding-left: 0;
+    padding-right: 0;
     background-image: url(/images/hero-lg.png);
+    height: 610px;
+
+    h1 {
+      max-width: 700px;
+    }
+
+    .container {
+      margin: 0 auto;
+      width: 940px;
+      margin-top: 180px;
+
+      h2 {
+        display: none;
+      }
+    }
+
+    .button-group a:first-child {
+      background: #82DBDE;
+    }
   }
 }
 
