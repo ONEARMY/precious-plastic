@@ -1063,3 +1063,20 @@ a {
     line-height: normal;
   }
 }
+
+#intro-red {
+  color: #fff;
+  padding: 70px 20px 250px;
+  background: #F28282 url(/images/machines-overview-sm.png) no-repeat center bottom 30px;
+  background-size: 100% auto;
+
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+}
