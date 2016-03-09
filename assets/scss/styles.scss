@@ -1156,3 +1156,30 @@ a {
     display: none;
   }
 }
+
+#machines-many {
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
+  background: url('/images/machines-many.png') no-repeat center center;
+  background-size: auto 100%;
+
+  p {
+    color: #F28282;
+    font-size: 30px;
+    line-height: 45px;
+    z-index: 1000;
+    position: relative;
+  }
+
+  aside {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    opacity: .8;
+  }
+}
