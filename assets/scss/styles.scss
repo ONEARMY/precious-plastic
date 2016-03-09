@@ -515,6 +515,10 @@ a {
 
       a {
         font-size: 18px;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
 
       .start {
@@ -523,6 +527,11 @@ a {
         border: 2px solid #9DE6CF;
         border-radius: 4px;
         padding: 8px 25px;
+
+        &:hover {
+          border-color: #8fd1bc;
+          background: #8fd1bc;
+        }
       }
 
     }
