@@ -1126,11 +1126,15 @@ a {
 
 #machines {
   background: #fff;
-  padding: 70px 20px;
+  padding: 50px 20px;
 
   figure {
     text-align: center;
     margin: 100px 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
 
     h1 {
       font-size: 40px;
