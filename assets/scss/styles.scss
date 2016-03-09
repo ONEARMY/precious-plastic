@@ -1191,3 +1191,32 @@ a {
     opacity: .8;
   }
 }
+
+#things-made {
+  text-align: center;
+  padding: 80px 0;
+  background: #fff url(/images/things-made-sm.png) no-repeat center 360px;
+  background-size: 100% auto;
+
+  h1 {
+    font-size: 40px;
+    color: #5D6570;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 29px;
+    color: #7D7D7D;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .button {
+    border-radius: 3px;
+    font-size: 16px;
+    color: #fff;
+    background: #7894AF;
+    padding: 10px 20px;
+    margin-top: 280px;
+    display: inline-block
+  }
+}
