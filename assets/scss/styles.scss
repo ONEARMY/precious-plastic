@@ -1450,6 +1450,18 @@ a {
       margin-top: 420px;
     }
   }
+
+  @media (min-width: 992px) {
+    background-image: url(/images/things-made-biggest.png);
+    background-position: center bottom;
+    padding-bottom: 700px;
+    margin-top: 150px;
+    background-color: #F2F6F8;
+
+    .button {
+      margin-top: 30px;
+    }
+  }
 }
 
 @media (min-width: 992px) {
