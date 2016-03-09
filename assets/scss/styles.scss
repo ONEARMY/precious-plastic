@@ -1080,3 +1080,46 @@ a {
     font-size: 16px;
   }
 }
+
+#features {
+  padding: 40px 20px 30px;
+
+  figure {
+    margin: 30px 0;
+
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    img {
+      width: 100px;
+      height: 100px;
+      float: left;
+    }
+
+    figcaption {
+      width: 70%;
+      float: left;
+
+      h1 {
+        line-height: 100px;
+        margin: 0;
+        color: #4D5052;
+        padding-left: 25px;
+      }
+
+      p {
+        display: none;
+      }
+    }
+  }
+
+  .title {
+    font-size: 40px;
+    color: #5D6570;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+}
