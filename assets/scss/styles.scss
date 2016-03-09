@@ -1060,6 +1060,18 @@ a {
     .container {
       width: 940px;
       margin: 0 auto;
+
+      &:before {
+        content: '';
+        clear: both;
+        display: block;
+      }
+    }
+
+    .more {
+      display: block;
+      margin-top: 70px;
+      margin-bottom: 0;
     }
   }
 }
@@ -1332,6 +1344,30 @@ a {
         content: '';
         display: block;
         clear: both;
+      }
+    }
+
+    .build-yourself {
+      display: block;
+      text-align: center;
+      margin-bottom: 100px;
+
+      img {
+        width: 940px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        font-size: 50px;
+        color: #5D6570;
+      }
+
+      p {
+        font-size: 22px;
+        color: #7D7D7D;
+        line-height: 40px;
+        max-width: 535px;
+        margin: 0 auto;
       }
     }
   }
