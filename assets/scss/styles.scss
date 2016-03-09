@@ -1123,3 +1123,28 @@ a {
     margin-bottom: 70px;
   }
 }
+
+#machines {
+  background: #fff;
+  padding: 70px 20px;
+
+  figure {
+    text-align: center;
+    margin: 100px 0;
+
+    h1 {
+      font-size: 40px;
+      color: #5D6570;
+    }
+
+    p {
+      font-size: 18px;
+      color: #7D7D7D;
+      line-height: 29px;
+    }
+
+    img {
+      width: 80%;
+    }
+  }
+}
