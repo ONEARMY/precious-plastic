@@ -1376,3 +1376,15 @@ a {
     }
   }
 }
+
+@media (min-width: 992px) {
+  #video {
+    background: #fff;
+    padding-top: 100px;
+
+    .container {
+      width: 940px;
+      margin: 0 auto;
+    }
+  }
+}
