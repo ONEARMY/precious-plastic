@@ -1214,6 +1214,44 @@ a {
       }
     }
   }
+
+  @media (min-width: 992px) {
+    background: #F28282;
+    color: #fff;
+    padding-bottom: 100px;
+
+    .title {
+      color: #fff;
+    }
+
+    .container {
+      width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+
+      &:after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+    }
+
+    figure {
+      width: 50%;
+      float: left;
+      margin: 50px 0;
+
+      figcaption {
+        h1, p {
+          color: #fff;
+        }
+
+        p {
+          line-height: 25px;
+        }
+      }
+    }
+  }
 }
 
 #machines {
