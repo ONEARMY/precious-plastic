@@ -1036,6 +1036,14 @@ a {
       margin-top: 50px;
       display: inline-block;
     }
+
+    .more {
+      font-size: 22px;
+      line-height: 40px;
+      max-width: 730px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   @media (min-width: 992px) {
@@ -1247,6 +1255,21 @@ a {
     top: 0;
     opacity: .8;
   }
+
+  @media (min-width: 768px) {
+    background-size: cover;
+    padding-bottom: 720px;
+    background-position: center bottom;
+
+    p {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    aside {
+      display: none;
+    }
+  }
 }
 
 #things-made {
@@ -1275,5 +1298,13 @@ a {
     padding: 10px 20px;
     margin-top: 280px;
     display: inline-block
+  }
+
+  @media (min-width: 768px) {
+    background-image: url(/images/things-made-lg.png);
+
+    .button {
+      margin-top: 420px;
+    }
   }
 }
