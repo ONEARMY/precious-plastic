@@ -1559,6 +1559,7 @@ a {
       font-size: 16px;
       font-family: 'Open Sans', sans-serif;
       color: #7D7D7D;
+      font-weight: 200;
     }
 
     &.middle {
@@ -1625,6 +1626,38 @@ a {
           margin-right: auto;
         }
       }
+    }
+  }
+
+  @media (min-width: 992px) {
+    article {
+      width: auto;
+      margin: -20px auto;
+
+      h1 {
+        font-size: 25px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 32px;
+      }
+
+      .right {
+        float: right;
+      }
+
+      &.middle {
+        background-size: 950px auto;
+        overflow: visible;
+        padding-bottom: 450px;
+      }
+    }
+
+    .container {
+      width: 970px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }
