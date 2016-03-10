@@ -1518,6 +1518,22 @@ a {
       margin: 0 auto;
     }
   }
+
+  @media (min-width: 992px) {
+    background-image: url(/images/into-new-things-lg.png);
+    background-size: 920px auto;
+    background-position: center top 250px;
+    padding-top: 610px;
+
+    h1 {
+      font-size: 50px;
+      line-height: 75px;
+    }
+
+    p {
+      font-size: 22px;
+    }
+  }
 }
 
 #kinds {
