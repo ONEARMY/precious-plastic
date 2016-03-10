@@ -1504,3 +1504,30 @@ a {
     font-family: 'Open Sans', sans-serif;
   }
 }
+
+#kinds {
+  background: #fff;
+  padding: 50px 0;
+
+  article {
+    padding: 30px 20px;
+
+    img {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 22px;
+      line-height: 26px;
+      color: #4D5052;
+    }
+
+    p {
+      line-height: 30px;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      color: #7D7D7D;
+    }
+  }
+}
