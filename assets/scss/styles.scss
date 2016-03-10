@@ -1474,8 +1474,8 @@ a {
   }
 }
 
-@media (min-width: 992px) {
-  #video {
+#video {
+  @media (min-width: 992px) {
     background: #fff;
     padding-top: 100px;
 
@@ -1483,5 +1483,24 @@ a {
       width: 940px;
       margin: 0 auto;
     }
+  }
+}
+
+#into-new-things {
+  background: #F1F6F9 url(/images/into-new-things.png) center top 100px no-repeat;
+  background-size: 200% auto;
+  padding: 375px 20px 70px;
+  color: #5D6570;
+  text-align: center;
+
+  h1 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  p {
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
   }
 }
