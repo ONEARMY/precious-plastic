@@ -5,4 +5,5 @@ $(document).ready(function() {
   })
 
   $('#video').fitVids()
+  $('#slider .container').unslider()
 })

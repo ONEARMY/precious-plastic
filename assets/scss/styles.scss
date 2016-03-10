@@ -1560,3 +1560,42 @@ a {
     }
   }
 }
+
+#slider {
+  position: relative;
+
+  img {
+    max-width: 100%;
+  }
+
+  nav {
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+
+    ol {
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+    }
+
+    li {
+      width: 15px;
+      height: 15px;
+      background: #fff;
+      border-radius: 10px;
+      text-indent: -99999px;
+      display: inline-block;
+      margin: 0 10px;
+
+      &.unslider-active {
+        background: #939393;
+      }
+    }
+  }
+
+  .unslider-arrow {
+    display: none;
+  }
+}
