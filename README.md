@@ -1,4 +1,8 @@
-# Contribute
+# Precious Plastic
+
+This is the Jekyll site that powers [Precious Plastic](http://preciousplastic.com).
+
+## Contribute
 
 [Fork](https://help.github.com/articles/fork-a-repo/) and clone it
 
