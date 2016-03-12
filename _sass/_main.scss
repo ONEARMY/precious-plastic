@@ -24,7 +24,7 @@ a {
 #intro {
   background: #B9CFE4;
   color: #fff;
-  background-image: url(/images/intro.png);
+  background-image: url(/assets/images/intro.png);
   background-repeat: repeat-x;
   background-position: center bottom;
   background-size: 100% auto;
@@ -38,7 +38,7 @@ a {
       height: 66px;
       width: 66px;
       display: inline-block;
-      background: url(/images/logo.png) no-repeat center center;
+      background: url(/assets/images/logo.png) no-repeat center center;
       background-size: contain;
 
       @media (min-width: 992px) {
@@ -49,7 +49,7 @@ a {
 
     p {
       width: 100%;
-      background: url(/images/title.png) no-repeat center center;
+      background: url(/assets/images/title.png) no-repeat center center;
       height: 70px;
       margin: 20px 0 50px 0;
       background-size: 270px auto;
@@ -112,7 +112,7 @@ a {
     }
 
     .boost {
-      background: url(/images/boost.png) no-repeat center center;
+      background: url(/assets/images/boost.png) no-repeat center center;
       background-size: contain;
       width: 150px;
       height: 40px;
@@ -184,7 +184,7 @@ a {
   }
 
   @media (min-width: 768px) {
-    background-image: url(/images/intro-sm.png);
+    background-image: url(/assets/images/intro-sm.png);
     padding-top: 100px;
 
     aside {
@@ -194,7 +194,7 @@ a {
   }
 
   @media (min-width: 992px) {
-    background-image: url(/images/intro-md.png);
+    background-image: url(/assets/images/intro-md.png);
     background-size: auto 500px;
 
     .wrap {
@@ -265,12 +265,12 @@ a {
       font-size: 15px;
       padding-left: 45px;
       margin-bottom: 10px;
-      background: url(/images/unchecked.svg) no-repeat left top;
+      background: url(/assets/images/unchecked.svg) no-repeat left top;
       min-height: 30px;
       padding-top: 5px;
 
       &.check {
-        background-image: url(/images/checked.svg)
+        background-image: url(/assets/images/checked.svg)
       }
     }
 
@@ -368,7 +368,7 @@ a {
     width: 260px;
     margin: 40px auto 0;
     height: 20px;
-    background: url(/images/by.svg) no-repeat center center;
+    background: url(/assets/images/by.svg) no-repeat center center;
     background-size: contain;
     text-indent: -999999px;
   }
@@ -377,7 +377,7 @@ a {
     width: 70px;
     height: 70px;
     display: inline-block;
-    background: url(/images/logo.png) no-repeat center center;
+    background: url(/assets/images/logo.png) no-repeat center center;
     background-size: contain;
     margin-top: 40px;
   }
@@ -399,19 +399,19 @@ a {
       background-size: contain;
 
       &[href*="facebook"] {
-        background-image: url(/images/facebook.svg);
+        background-image: url(/assets/images/facebook.svg);
       }
 
       &[href*="twitter"] {
-        background-image: url(/images/twitter.svg);
+        background-image: url(/assets/images/twitter.svg);
       }
 
       &[href*="youtube"] {
-        background-image: url(/images/youtube.svg);
+        background-image: url(/assets/images/youtube.svg);
       }
 
       &[href*="mail"] {
-        background-image: url(/images/newsletter.svg);
+        background-image: url(/assets/images/newsletter.svg);
       }
     }
   }
@@ -435,7 +435,7 @@ a {
     &:before {
       content: '';
       display: block;
-      background: url(/images/footer-top.png) repeat-x left bottom;
+      background: url(/assets/images/footer-top.png) repeat-x left bottom;
       background-size: 100% auto;
       width: 100%;
       height: 20px;
@@ -458,7 +458,7 @@ a {
   }
 
   .logo {
-    background: url(/images/logo-title.png) no-repeat center center;
+    background: url(/assets/images/logo-title.png) no-repeat center center;
     background-size: contain;
     display: inline-block;
     height: 50px;
@@ -601,7 +601,7 @@ a {
   color: #4D5052;
   padding: 90px 20px 0;
   height: 330px;
-  background: url(/images/hero-sm.png) no-repeat center center;
+  background: url(/assets/images/hero-sm.png) no-repeat center center;
 
   h1 {
     font-size: 22px;
@@ -638,7 +638,7 @@ a {
   @media (min-width: 768px) {
     height: 420px;
     padding-top: 80px;
-    background-image: url(/images/hero-md.png);
+    background-image: url(/assets/images/hero-md.png);
 
     h1 {
       margin-bottom: 20px;
@@ -669,7 +669,7 @@ a {
   @media (min-width: 992px) {
     padding-left: 0;
     padding-right: 0;
-    background-image: url(/images/hero-lg.png);
+    background-image: url(/assets/images/hero-lg.png);
     height: 610px;
 
     h1 {
@@ -952,7 +952,7 @@ a {
 #didnt-notice {
   color: #fff;
   padding: 50px 20px 750px;
-  background: #B9CFE4 url(/images/intro-sm.png) no-repeat center bottom;
+  background: #B9CFE4 url(/assets/images/intro-sm.png) no-repeat center bottom;
 
   h1 {
     font-size: 40px;
@@ -984,7 +984,7 @@ a {
   }
 
   @media (min-width: 992px) {
-    background-image: url(/images/intro-lg.png);
+    background-image: url(/assets/images/intro-lg.png);
     background-size: 100% auto;
     padding-bottom: 900px;
 
@@ -1111,7 +1111,7 @@ a {
 #intro-red {
   color: #fff;
   padding: 70px 20px 60%;
-  background: #F28282 url(/images/machines-overview-sm.png) no-repeat center bottom 30px;
+  background: #F28282 url(/assets/images/machines-overview-sm.png) no-repeat center bottom 30px;
   background-size: 100% auto;
 
   h1 {
@@ -1125,7 +1125,7 @@ a {
   }
 
   @media (min-width: 768px) {
-    background-image: url(/images/machines-overview-lg.png);
+    background-image: url(/assets/images/machines-overview-lg.png);
 
     h1 {
       font-size: 50px;
@@ -1138,7 +1138,7 @@ a {
   }
 
   @media (min-width: 992px) {
-    background: #FCFCFE url(/images/intro-colored.png) no-repeat center bottom;
+    background: #FCFCFE url(/assets/images/intro-colored.png) no-repeat center bottom;
     background-size: 100% auto;
     height: 100%;
     padding-bottom: 0;
@@ -1387,7 +1387,7 @@ a {
   text-align: center;
   padding: 60px 20px;
   position: relative;
-  background: url('/images/machines-many.png') no-repeat center center;
+  background: url('/assets/images/machines-many.png') no-repeat center center;
   background-size: auto 100%;
 
   p {
@@ -1428,7 +1428,7 @@ a {
 #things-made {
   text-align: center;
   padding: 80px 0;
-  background: #fff url(/images/things-made-sm.png) no-repeat center 360px;
+  background: #fff url(/assets/images/things-made-sm.png) no-repeat center 360px;
   background-size: 100% auto;
 
   h1 {
@@ -1454,7 +1454,7 @@ a {
   }
 
   @media (min-width: 768px) {
-    background-image: url(/images/things-made-lg.png);
+    background-image: url(/assets/images/things-made-lg.png);
 
     .button {
       margin-top: 420px;
@@ -1462,7 +1462,7 @@ a {
   }
 
   @media (min-width: 992px) {
-    background-image: url(/images/things-made-biggest.png);
+    background-image: url(/assets/images/things-made-biggest.png);
     background-position: center bottom;
     padding-bottom: 700px;
     margin-top: 150px;
@@ -1487,7 +1487,7 @@ a {
 }
 
 #into-new-things {
-  background: #F1F6F9 url(/images/into-new-things.png) center top 100px no-repeat;
+  background: #F1F6F9 url(/assets/images/into-new-things.png) center top 100px no-repeat;
   background-size: 200% auto;
   padding: 100% 20px 70px;
   color: #5D6570;
@@ -1520,7 +1520,7 @@ a {
   }
 
   @media (min-width: 992px) {
-    background-image: url(/images/into-new-things-lg.png);
+    background-image: url(/assets/images/into-new-things-lg.png);
     background-size: 920px auto;
     background-position: center top 250px;
     padding-top: 610px;
@@ -1564,7 +1564,7 @@ a {
 
     &.middle {
       text-align: center;
-      background: url(/images/molds.png) no-repeat center bottom;
+      background: url(/assets/images/molds.png) no-repeat center bottom;
       background-size: 200%;
       padding-bottom: 340px;
 
