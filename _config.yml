@@ -2,3 +2,6 @@
 title: Precious Plastic
 url: http://preciousplastic.com
 baseurl: ''
+
+sass:
+  style: compressed
