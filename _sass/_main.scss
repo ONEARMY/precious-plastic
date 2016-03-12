@@ -516,7 +516,8 @@ a {
       a {
         font-size: 18px;
 
-        &:hover {
+        &:hover,
+        &.active {
           text-decoration: underline;
         }
       }

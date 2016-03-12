@@ -16,6 +16,16 @@
       <a href="/creations">Creations</a>
       <a href="/news">News</a>
       <a href="/" class="start">Start</a>
+
+      {% for node in site.pages %}
+
+          {% if page.url == node.url %}
+            <a href="{{node.url}}" class="active">{{node.title}}</a>
+          {% else %}
+            <a href="{{node.url}}">{{node.title}}</a>
+          {% endif %}
+
+      {% endfor %}
     </nav>
   </div>
 </header>
