@@ -11,21 +11,21 @@
     <div class="clearfix"></div>
 
     <nav>
-      <a href="/plan">The plan</a>
-      <a href="/machines">Machines</a>
-      <a href="/creations">Creations</a>
-      <a href="/news">News</a>
-      <a href="/" class="start">Start</a>
-
       {% for node in site.pages %}
 
-          {% if page.url == node.url %}
-            <a href="{{node.url}}" class="active">{{node.title}}</a>
-          {% else %}
-            <a href="{{node.url}}">{{node.title}}</a>
-          {% endif %}
+        {% assign current = nil %}
+
+        {% if page.url == node.url %}
+          {% assign current = "active" %}
+        {% endif %}
+
+        {% unless node.url == "/" or node.url contains "assets"%}
+          <a href="{{node.url}}" class="{{current}}">{{node.title}}</a>
+        {% endunless %}
 
       {% endfor %}
+
+      <a href="/" class="start">Start</a>
     </nav>
   </div>
 </header>
