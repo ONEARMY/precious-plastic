@@ -13,7 +13,7 @@ git clone https://github.com/hakkens/plastic.git
 Install Jekyll and a special gem from GitHub (if running the following command won't work, try prepending "sudo")
 
 ```bash
-gem install jekyll github-pages
+[sudo] gem install jekyll github-pages
 ```
 
 Run Jekyll within the repo!
