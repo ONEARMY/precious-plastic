@@ -1,8 +1,4 @@
-# dependencies
-node_modules
+_site
 
-# log
-npm-debug.log
-
-# build output
-dist
+.jekyll-metadata
+.sass-cache

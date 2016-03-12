@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+    <link href="//fonts.googleapis.com" rel="preconnect" crossorigin>
+    <link href="/assets/css/styles.css" rel="stylesheet">
+    <link rel="canonical" href="{{site.url}}">
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    {{content}}
+
+    {% include footer.html %}
+
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="/assets/js/unslider.js"></script>
+    <script src="/assets/js/fitvid.js"></script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>
