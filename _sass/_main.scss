@@ -29,7 +29,7 @@ a {
   background-position: center bottom;
   background-size: 100% auto;
   padding-top: 50px;
-  padding-bottom: 510px;
+  padding-bottom: 570px;
 
   .top {
     text-align: center;
@@ -50,7 +50,7 @@ a {
     p {
       width: 100%;
       background: url(/assets/images/title.png) no-repeat center center;
-      height: 70px;
+      height: 30px;
       margin: 20px 0 50px 0;
       background-size: 270px auto;
 
@@ -92,22 +92,29 @@ a {
     }
 
     p {
-      font-size: 14px;
-      line-height: 24px;
+      font-size: 18px;
+      line-height: 30px;
     }
 
     .spread {
-      background: #EDCD86;
-      color: #fff;
+      background: #FFE096;
+      color: #000;
+      text-transform: uppercase;
       border-radius: 7px;
-      font-size: 16px;
-      padding: 16px 11px;
+      font-size: 22px;
+      padding: 29px 62px;
       display: inline-block;
       margin: 20px 0;
       transition: background .2s;
 
       &:hover {
         background: #d5b879;
+      }
+
+      & + span {
+        color: #9C9C9C;
+        font-size: 18px;
+        display: block;
       }
     }
 
@@ -157,12 +164,18 @@ a {
     margin: 250px 0 0 0;
 
     h1 {
-      font-size: 24px;
-      line-height: 29px;
+      font-size: 64px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #000;
     }
 
     a {
       color: #5B72EB;
+      text-decoration: underline;
     }
 
     @media (min-width: 768px) {
@@ -262,15 +275,29 @@ a {
 
     li {
       color: #424242;
-      font-size: 15px;
-      padding-left: 45px;
+      font-size: 16px;
+      padding-left: 60px;
       margin-bottom: 10px;
-      background: url(/assets/images/unchecked.svg) no-repeat left top;
       min-height: 30px;
       padding-top: 5px;
+      position: relative;
 
-      &.check {
-        background-image: url(/assets/images/checked.svg)
+      &:before {
+        content: '';
+        border: 3px solid #79BAD9;
+        background: #fff;
+        height: 30px;
+        display: block;
+        width: 30px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 4px;
+      }
+
+      &.check:before {
+        background: url(/assets/images/checkmark.svg) no-repeat center center;
+        background-size: 70% auto;
       }
     }
 
@@ -302,7 +329,7 @@ a {
 
 #areas {
   text-align: center;
-  padding: 70px 0;
+  padding: 0 0 70px 0;
 
   h1 {
     font-size: 18px;
@@ -330,6 +357,19 @@ a {
 
     &:hover {
       background: #d5b879;
+    }
+  }
+
+  aside {
+    text-align: center;
+    padding: 40px 20px 360px;
+    background: #fff url(/assets/images/the-plan-built.png) no-repeat left bottom;
+    background-size: 180% auto;
+
+    h1 {
+      font-size: 40px;
+      line-height: 45px;
+      color: #9DE6CF;
     }
   }
 
