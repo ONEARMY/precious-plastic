@@ -518,7 +518,7 @@ a {
 
 #menu {
   background: #fff;
-  height: 60px;
+  min-height: 60px;
   padding: 0 20px;
   position: relative;
   z-index: 2000;
@@ -580,7 +580,7 @@ a {
   }
 
   @media (min-width: 768px) {
-    height: 80px;
+    min-height: 80px;
 
     nav {
 
