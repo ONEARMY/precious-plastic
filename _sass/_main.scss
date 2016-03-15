@@ -81,12 +81,6 @@ a {
       box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.31);
       max-width: 100%;
     }
-
-    @media (min-width: 992px) {
-      margin: 0;
-      padding: 0;
-      width: 50%;
-    }
   }
 
   .right {
@@ -143,11 +137,15 @@ a {
     }
 
     @media (min-width: 992px) {
-      width: 50%;
+      text-align: center;
       padding: 0;
       text-align: left;
-      padding-left: 40px;
       box-sizing: border-box;
+
+      p {
+        line-height: 47px;
+        font-size: 28px;
+      }
     }
   }
 
@@ -191,14 +189,22 @@ a {
     background-image: none;
     padding-bottom: 0;
 
+    aside {
+      width: 800px;
+    }
+
+    .right {
+      text-align: center;
+
+      p {
+        width: 660px;
+        margin: 30px auto 60px;
+      }
+    }
+
     .wrap {
       width: 980px;
       margin: 100px auto 0;
-    }
-
-    .left,
-    .right {
-      float: left;
     }
   }
 }
