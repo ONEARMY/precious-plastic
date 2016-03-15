@@ -1774,3 +1774,31 @@ a {
     display: none;
   }
 }
+
+#visit-website {
+  height: 545px;
+  background: url(/assets/images/visit-website.png);
+  text-align: center;
+  display: table;
+  width: 100%;
+
+  a {
+    font-size: 26px;
+    background: #9DE6CF;
+    color: #000;
+    border-radius: 7px;
+    padding: 0 22px;
+    line-height: 96px;
+    height: 96px;
+    display: inline-block;
+
+    &:hover {
+      background: #8fd1bc;
+    }
+  }
+
+  .container {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
