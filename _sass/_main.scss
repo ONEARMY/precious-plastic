@@ -118,27 +118,6 @@ a {
       }
     }
 
-    .boost {
-      background: url(/assets/images/boost.png) no-repeat center center;
-      background-size: contain;
-      width: 150px;
-      height: 40px;
-      display: block;
-      position: absolute;
-      right: 20px;
-
-      @media (min-width: 768px) {
-        width: 200px;
-        height: 70px;
-        right: -40px;
-        bottom: -25px;
-      }
-
-      @media (min-width: 992px) {
-        right: 20px;
-      }
-    }
-
     @media (min-width: 768px) {
       a {
         margin-top: 40px;
@@ -334,6 +313,12 @@ a {
   article {
     padding: 60px 20px 0;
 
+    &:after {
+      content: '';
+      clear: both;
+      display: block;
+    }
+
     ul {
       padding: 0;
       margin: 100px 0 0 0;
@@ -393,6 +378,16 @@ a {
       &:hover {
         background: #d5b879;
       }
+    }
+
+    .boost {
+      background: url(/assets/images/boost.png) no-repeat center center;
+      display: block;
+      width: 166px;
+      height: 130px;
+      background-size: 100% auto;
+      float: right;
+      margin-top: 40px;
     }
   }
 
