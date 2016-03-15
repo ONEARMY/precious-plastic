@@ -11,6 +11,10 @@ body {
   font-family: 'Varela Round', sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #F2F6F8;
+
+  &.start #menu {
+    display: none;
+  }
 }
 
 a {
