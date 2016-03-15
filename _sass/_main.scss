@@ -349,6 +349,10 @@ a {
           display: inline-block;
         }
       }
+
+      @media (min-width: 992px) {
+        margin-bottom: 50px;
+      }
     }
 
     h1 {
@@ -401,6 +405,23 @@ a {
         float: right;
         margin-top: 40px;
       }
+
+      @media (min-width: 992px) {
+        position: relative;
+        margin: 0 auto;
+        width: 600px;
+
+        .boost {
+          width: 170px;
+          position: absolute;
+          right: 30px;
+          bottom: -140px
+        }
+      }
+    }
+
+    @media (min-width: 992px) {
+      padding-bottom: 120px;
     }
   }
 
