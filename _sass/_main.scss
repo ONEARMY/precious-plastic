@@ -31,6 +31,19 @@ a {
   padding-top: 50px;
   padding-bottom: 140%;
 
+  .banner {
+    display: none;
+
+    @media (min-width: 992px) {
+      height: 500px;
+      background-image: url(/assets/images/intro-md.png);
+      display: block;
+      background-position: center top;
+      background-size: 100% auto;
+      margin-top: -200px;
+    }
+  }
+
   .top {
     text-align: center;
 
@@ -175,8 +188,8 @@ a {
   }
 
   @media (min-width: 992px) {
-    background-image: url(/assets/images/intro-md.png);
-    background-size: 100% auto;
+    background-image: none;
+    padding-bottom: 0;
 
     .wrap {
       width: 980px;
