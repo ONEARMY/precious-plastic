@@ -255,6 +255,7 @@ a {
 
     @media (min-width: 992px) {
       margin-top: 0;
+      font-size: 50px;
     }
   }
 
@@ -305,6 +306,22 @@ a {
         min-height: 50px;
         padding-left: 70px;
         background-size: 40px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      max-width: 550px;
+
+      li {
+        font-size: 24px;
+        line-height: 29px;
+        padding-left: 100px;
+        padding-top: 15px;
+
+        &:before {
+          height: 50px;
+          width: 50px;
+        }
       }
     }
   }
@@ -375,6 +392,15 @@ a {
 
       @media (min-width: 992px) {
         margin-bottom: 50px;
+
+        b {
+          font-size: 25px;
+        }
+
+        span {
+          font-size: 22px;
+          font-weight: 200;
+        }
       }
     }
 
@@ -466,6 +492,14 @@ a {
     @media (min-width: 768px) {
       background-image: url(/assets/images/the-plan-built-lg.png);
       background-size: 100% auto;
+    }
+
+    @media (min-width: 992px) {
+      h1 {
+        font-size: 50px;
+        width: 790px;
+        line-height: 75px;
+      }
     }
   }
 
