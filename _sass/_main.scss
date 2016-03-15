@@ -515,10 +515,11 @@ a {
 
       a {
         font-size: 18px;
+        border-bottom: 1px solid transparent;
 
         &:hover,
         &.active {
-          text-decoration: underline;
+          border-bottom-color: #5D6570;
         }
       }
 
