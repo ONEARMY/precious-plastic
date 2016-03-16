@@ -2087,8 +2087,16 @@ a {
       float: right;
       width: 660px;
 
-      h1:first-child {
-        margin-top: 0;
+      h1 {
+        font-size: 50px;
+
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+
+      h2 {
+        color: #484848;
       }
 
       p {
