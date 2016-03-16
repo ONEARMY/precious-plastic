@@ -2043,6 +2043,26 @@ a {
       font-size: 25px;
     }
 
+    figure {
+      margin: 100px 0;
+      text-align: center;
+
+      img {
+        width: 130px;
+        display: inline-block;
+      }
+
+      figcaption {
+        h1 {
+          font-size: 25px;
+        }
+
+        p {
+          margin-top: 10px;
+        }
+      }
+    }
+
     dl {
       dt {
         margin-top: 35px;
