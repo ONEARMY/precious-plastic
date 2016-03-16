@@ -2200,3 +2200,39 @@ a {
     }
   }
 }
+
+#news {
+  padding: 60px 20px;
+
+  article {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #D9DDE4;
+    margin-bottom: 60px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    figure {
+      margin: -20px -20px 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    h1 {
+      font-size: 22px;
+      color: #4D5052;
+    }
+
+    p {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 30px;
+      color: #7D7D7D;
+      font-size: 16px;
+    }
+  }
+}
