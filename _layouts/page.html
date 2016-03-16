@@ -8,12 +8,12 @@ layout: default
       <span>tiny menu <b>&plus;</b></span>
 
       <nav>
-        <a href="/about" class="current">About</a>
-        <a href="/faq">FAQ</a>
-        <a href="/help-us">Help Us</a>
-        <a href="/team">Team</a>
-        <a href="/terms">Terms</a>
-        <a href="/contact">Contact</a>
+        <a href="/about" {% if page.url == "/about/" %}class="current"{% endif %}>About</a>
+        <a href="/faq" {% if page.url == "/faq/" %}class="current"{% endif %}>FAQ</a>
+        <a href="/help-us" {% if page.url == "/help-us/" %}class="current"{% endif %}>Help Us</a>
+        <a href="/team" {% if page.url == "/team/" %}class="current"{% endif %}>Team</a>
+        <a href="/terms" {% if page.url == "/terms/" %}class="current"{% endif %}>Terms</a>
+        <a href="/contact" {% if page.url == "/contact/" %}class="current"{% endif %}>Contact</a>
       </nav>
     </aside>
 
