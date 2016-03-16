@@ -2247,5 +2247,27 @@ a {
     display: inline-block;
     border-radius: 3px;
     padding: 8px 24px;
+
+    &:hover {
+      background: #6ba4c0;
+    }
+  }
+
+  @media (min-width: 768px) {
+    padding-top: 190px;
+
+    article {
+      margin-bottom: 100px;
+
+      &:last-child {
+        margin-bottom: 50px;
+      }
+    }
+
+    .container {
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
