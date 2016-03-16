@@ -2061,6 +2061,35 @@ a {
           margin-top: 10px;
         }
       }
+
+      @media (min-width: 768px) {
+        text-align: left;
+        margin: 60px 0;
+
+        &:after {
+          content: '';
+          clear: both;
+          display: block;
+        }
+
+        img {
+          float: left;
+        }
+
+        figcaption {
+          width: 70%;
+          float: right;
+
+          h1 {
+            margin-top: 0;
+          }
+
+          p {
+            font-size: 14px;
+            line-height: 30px;
+          }
+        }
+      }
     }
 
     dl {
