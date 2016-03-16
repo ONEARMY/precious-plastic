@@ -19,7 +19,7 @@
           {% assign current = "active" %}
         {% endif %}
 
-        {% unless node.url == "/" or node.url contains "assets" or node.layout == "sub" %}
+        {% unless node.url == "/" or node.url contains "assets" or node.layout == "page" %}
           <a href="{{node.url}}" class="{{current}}">{{node.title}}</a>
         {% endunless %}
 

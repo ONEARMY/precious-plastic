@@ -765,7 +765,7 @@ a {
       display: none;
     }
 
-    .sub & {
+    .page & {
       position: relative;
       top: 0;
       background: #fff;
@@ -1976,7 +1976,7 @@ a {
       }
 
       @media (min-width: 768px) {
-        display: block;
+        display: block !important;
         border-top: 1px solid;
         border-bottom: 1px solid;
         margin-top: 0;
@@ -1993,10 +1993,25 @@ a {
           margin: 0 12px;
         }
       }
+
+      @media (min-width: 992px) {
+        background: none;
+        border: 0;
+        text-align: left;
+
+        a {
+          display: block;
+        }
+      }
     }
 
     @media (min-width: 768px) {
       padding: 0;
+    }
+
+    @media (min-width: 992px) {
+      width: 200px;
+      float: left;
     }
   }
 
@@ -2030,9 +2045,21 @@ a {
         line-height: 35px;
       }
     }
+
+    @media (min-width: 992px) {
+      padding-top: 0;
+      width: auto;
+    }
   }
 
   @media (min-width: 768px) {
     overflow: hidden;
+  }
+
+  @media (min-width: 992px) {
+    .container {
+      width: 940px;
+      margin: 0 auto;
+    }
   }
 }
