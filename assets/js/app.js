@@ -11,4 +11,6 @@ $(document).ready(function() {
     $(this).next('nav').slideToggle(300)
     $(this).toggleClass('on')
   })
+
+  $('#page dl').accordion()
 })

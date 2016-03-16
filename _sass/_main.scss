@@ -2027,12 +2027,38 @@ a {
   article {
     padding: 0 20px 60px;
 
-    h1 {
+    h1, h2, h3 {
       color: #5D6570;
+    }
+
+    h1 {
       font-size: 40px;
       line-height: 56px;
       margin-bottom: 0;
       margin-top: 40px;
+    }
+
+    h2 {
+      margin-top: 60px;
+      font-size: 25px;
+    }
+
+    dl {
+      dt {
+        margin-top: 35px;
+        color: #73AAEB;
+        cursor: pointer;
+        font-size: 20px;
+      }
+
+      dd {
+        margin-left: 0;
+        padding-top: 15px;
+        color: #7D7D7D;
+        font-size: 16px;
+        line-height: 30px;
+        font-family: 'Open Sans', sans-serif;
+      }
     }
 
     p {
