@@ -5,3 +5,5 @@ baseurl: ''
 
 sass:
   style: compressed
+
+exclude: ['CNAME', '*.md']
