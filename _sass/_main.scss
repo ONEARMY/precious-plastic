@@ -735,6 +735,8 @@ a {
       padding: 0;
       background: none;
       margin-top: 22px;
+      margin-left: 0;
+      margin-right: 0;
 
       a {
         display: inline-block;
@@ -1997,10 +1999,17 @@ a {
       @media (min-width: 992px) {
         background: none;
         border: 0;
+        padding: 0;
         text-align: left;
 
         a {
           display: block;
+          padding: 13px 0 13px 40px;
+
+          &.current {
+            border-radius: 3px;
+            background: #DEEBF1;
+          }
         }
       }
     }
@@ -2049,6 +2058,16 @@ a {
     @media (min-width: 992px) {
       padding-top: 0;
       width: auto;
+      float: right;
+      width: 660px;
+
+      h1:first-child {
+        margin-top: 0;
+      }
+
+      p {
+        margin: 35px 0;
+      }
     }
   }
 
@@ -2057,6 +2076,8 @@ a {
   }
 
   @media (min-width: 992px) {
+    padding-top: 75px;
+
     .container {
       width: 940px;
       margin: 0 auto;
