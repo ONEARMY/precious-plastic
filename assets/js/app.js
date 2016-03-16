@@ -6,4 +6,9 @@ $(document).ready(function() {
 
   $('#video').fitVids()
   $('#slider .container').unslider()
+
+  $('#page aside > span').click(function (event) {
+    $(this).next('nav').slideToggle(300)
+    $(this).toggleClass('on')
+  })
 })

@@ -1905,3 +1905,57 @@ a {
     background-image: url(/assets/images/visit-website-lg.png);
   }
 }
+
+#page {
+  aside {
+    padding: 30px 20px 0;
+
+    span {
+      color: #4D5052;
+      font-size: 20px;
+      display: block;
+      line-height: 40px;
+
+      &:after {
+        content: '';
+        clear: both;
+        display: block;
+      }
+
+      &.on b {
+        transform: rotate(45deg);
+      }
+
+      b {
+        height: 26px;
+        width: 26px;
+        transition: all 0.3s;
+        border: 2px solid #4D5052;
+        display: block;
+        line-height: 28px;
+        border-radius: 26px;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 5px;
+        float: right;
+        cursor: pointer;
+      }
+    }
+
+    nav {
+      margin-top: 25px;
+      font-size: 18px;
+      background: #fff;
+      margin-left: -20px;
+      margin-right: -20px;
+      padding: 20px;
+      display: none;
+
+      a {
+        color: #7B86E5;
+        display: block;
+        padding: 10px 0;
+      }
+    }
+  }
+}

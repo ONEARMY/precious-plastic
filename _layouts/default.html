@@ -12,7 +12,7 @@
     <link rel="canonical" href="{{site.url}}">
   </head>
 
-  <body class="{% if page.url == "/" %}start{% endif %}">
+  <body class="{{page.layout}}{% if page.url == "/" %} start{% endif %}">
     {% include header.html %}
 
     {{content}}
