@@ -2235,4 +2235,17 @@ a {
       font-size: 16px;
     }
   }
+
+  .container:nth-child(2) {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .load-more {
+    background: #79BAD9;
+    color: #fff;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 8px 24px;
+  }
 }
