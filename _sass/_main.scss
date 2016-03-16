@@ -2089,6 +2089,17 @@ a {
             line-height: 30px;
           }
         }
+
+        @media (min-width: 992px) {
+          img {
+            width: 110px;
+            margin-top: 25px;
+          }
+
+          figcaption {
+            width: 75%;
+          }
+        }
       }
     }
 
