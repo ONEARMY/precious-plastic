@@ -11,10 +11,6 @@ body {
   font-family: 'Varela Round', sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #F2F6F8;
-
-  &.start #menu {
-    display: none;
-  }
 }
 
 a {
@@ -682,7 +678,6 @@ a {
     min-height: 80px;
 
     nav {
-
       a {
         font-size: 18px;
         border-bottom: 1px solid transparent;
@@ -706,7 +701,6 @@ a {
           text-decoration: none;
         }
       }
-
     }
 
     .container {
@@ -730,6 +724,10 @@ a {
     top: 10px;
     padding: 0;
     width: 100%;
+
+    .start & {
+      display: none;
+    }
 
     nav {
       display: block !important;
@@ -765,6 +763,22 @@ a {
 
     .toggle {
       display: none;
+    }
+
+    .sub & {
+      position: relative;
+      top: 0;
+      background: #fff;
+
+      nav .start {
+        background: #fff;
+        color: #9DE6CF;
+
+        &:hover {
+          background: #8fd1bc;
+          color: #fff;
+        }
+      }
     }
   }
 }
@@ -1966,6 +1980,8 @@ a {
         border-top: 1px solid;
         border-bottom: 1px solid;
         margin-top: 0;
+        padding-left: 0;
+        padding-right: 0;
         border-color: #D4D8DA;
         text-align: center;
 
@@ -2007,13 +2023,16 @@ a {
       width: 670px;
       margin-left: auto;
       margin-right: auto;
-      padding-top: 50px;
-      padding-bottom: 100px;
+      padding: 50px 0 100px;
 
       p {
         font-size: 18px;
         line-height: 35px;
       }
     }
+  }
+
+  @media (min-width: 768px) {
+    overflow: hidden;
   }
 }
