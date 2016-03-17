@@ -1926,7 +1926,7 @@ a {
   aside {
     padding: 30px 20px 0;
 
-    span {
+    > span {
       color: #4D5052;
       font-size: 20px;
       display: block;
@@ -1975,6 +1975,10 @@ a {
         color: #7B86E5;
         display: block;
         padding: 10px 0;
+
+        span {
+          display: none;
+        }
       }
 
       @media (min-width: 768px) {
@@ -2009,6 +2013,10 @@ a {
           &.current {
             border-radius: 3px;
             background: #DEEBF1;
+          }
+
+          span {
+            display: inline;
           }
         }
       }
