@@ -2289,6 +2289,10 @@ a {
       background: #fff;
       padding: 0 20px;
 
+      img {
+        max-width: 100%;
+      }
+
       .chapters {
         border-collapse: collapse;
         width: 100%;
@@ -2381,6 +2385,10 @@ a {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
 
+        h2 {
+          margin-top: 100px;
+        }
+
         .title {
           margin: -1px -41px 0;
         }
@@ -2400,6 +2408,10 @@ a {
 
           img {
             margin-top: 0;
+          }
+
+          & + h2 {
+            margin-top: 60px;
           }
         }
       }
