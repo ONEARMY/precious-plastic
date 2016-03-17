@@ -2248,6 +2248,10 @@ a {
   &.video {
     aside nav a:first-child {
       display: none;
+
+      @media (min-width: 992px) {
+        display: block;
+      }
     }
 
     article {
@@ -2257,13 +2261,12 @@ a {
 
       .chapters {
         border-collapse: collapse;
-        table-layout: fixed;
         width: 100%;
 
         td {
           padding: 7px 0;
 
-          &:nth-child(1) {
+          &.time {
             width: 70px;
           }
 
@@ -2283,6 +2286,25 @@ a {
             font-size: 16px;
             padding: 10px 0;
             color: #808080;
+          }
+        }
+
+        @media (min-width: 768px) {
+          td {
+            font-size: 18px;
+
+            &.time {
+              background: url(/assets/images/play-button.png) no-repeat left center;
+              padding-left: 25px;
+              background-size: 19px auto;
+              box-sizing: border-box;
+              width: 145px;
+              cursor: pointer;
+            }
+
+            &:nth-child(2) {
+              display: table-cell;
+            }
           }
         }
       }
