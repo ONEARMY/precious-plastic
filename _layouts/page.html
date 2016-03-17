@@ -4,16 +4,14 @@ layout: default
 
 {% assign video = false %}
 
-{{page.url}}
-
 {% if page.url contains "/video" %}
   {% assign video = true %}
 {% endif %}
 
 {% if video %}
-  <main id="page">
+  <main id="page" class="video {{page.color}}">
 {% else %}
-  <main id="page" class="video">
+  <main id="page">
 {% endif %}
 
   <div class="container">
@@ -25,7 +23,10 @@ layout: default
 
       <nav>
         {% if video %}
-          {% for node in site.pages %}
+
+          {% assign sorted = (site.pages | sort: "short") %}
+
+          {% for node in sorted %}
             {% assign active = "" %}
 
             {% if node.url == page.url %}
@@ -33,9 +34,10 @@ layout: default
             {% endif %}
 
             {% if node.url contains "/video" %}
-              <a href="{{node.url}}" class="{{active}}">{{node.title}}</a>
+              <a href="{{node.url}}" class="{{active}}">{{node.short}}</a>
             {% endif %}
           {% endfor %}
+
         {% else %}
           <a href="/about" {% if page.url == "/about/" %}class="current"{% endif %}>About</a>
           <a href="/faq" {% if page.url == "/faq/" %}class="current"{% endif %}>FAQ</a>
