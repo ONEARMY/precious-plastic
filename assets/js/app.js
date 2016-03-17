@@ -8,7 +8,7 @@ $(document).ready(function() {
   $('#slider .container').unslider()
 
   $('#page aside > span').click(function (event) {
-    $(this).next('nav').slideToggle(300)
+    $(this).nextAll('nav').slideToggle(300)
     $(this).toggleClass('on')
   })
 
