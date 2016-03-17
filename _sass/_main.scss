@@ -2207,7 +2207,7 @@ a {
   );
 
   @each $handle, $hex in $colors {
-    &.#{$handle} article > h1:first-child {
+    &.#{$handle} article .title {
       background: #{$hex};
     }
   }
@@ -2241,6 +2241,22 @@ a {
     .container {
       width: 940px;
       margin: 0 auto;
+    }
+  }
+
+  &.video {
+    article {
+      margin-top: 25px;
+      background: #fff;
+      padding-left: 0;
+      padding-right: 0;
+
+      .title {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px 20px;
+        margin-top: 0;
+      }
     }
   }
 }
