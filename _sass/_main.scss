@@ -2394,20 +2394,53 @@ a {
         }
       }
 
+      .filter {
+        color: #7F7F7F;
+        position: relative;
+
+        nav {
+          display: inline-block;
+          font-size: 0;
+          margin-left: 60px;
+          top: 0;
+          position: absolute;
+
+          a {
+            color: #7CA2CC;
+            font-size: 16px;
+
+            &:after {
+              content: ' / ';
+            }
+
+            &:last-child:after {
+              display: none;
+            }
+          }
+        }
+      }
+
       .extras {
         figure {
           border-radius: 5px;
           border: 1px solid #D9DDE4;
+          margin: 65px 0;
+
+          &:first-child {
+            margin-top: 80px;
+          }
 
           img {
             width: 100%;
             max-width: none;
           }
 
-          h1 {
+          a {
             color: #4D5052;
             font-size: 24px;
-            margin-top: 5px;
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 10px;
           }
 
           span {
