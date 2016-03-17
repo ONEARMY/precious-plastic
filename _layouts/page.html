@@ -33,11 +33,11 @@ layout: default
             {% assign active = "" %}
 
             {% if node.url == page.url %}
-              {% assign active = "current" %}
+              {% assign active = " current" %}
             {% endif %}
 
             {% if node.url contains "/video" %}
-              <a href="{{node.url}}" class="{{active}}">
+              <a href="{{node.url}}" class="page-{{node.id}}{{active}}">
                 <span>{{node.id}}. </span>{{node.short}}
               </a>
             {% endif %}

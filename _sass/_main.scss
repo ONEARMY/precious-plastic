@@ -2258,6 +2258,33 @@ a {
           &:first-child {
             display: block;
           }
+
+          &.page-7,
+          &.page-8 {
+            background-repeat: no-repeat;
+            background-position: left 30px center;
+            padding-left: 55px;
+
+            span {
+              display: none;
+            }
+          }
+
+          &.page-7 {
+            background-image: url(/assets/images/menu-icon-question.svg);
+
+            &.current {
+              background-image: url(/assets/images/menu-icon-question-white.svg);
+            }
+          }
+
+          &.page-8 {
+            background-image: url(/assets/images/menu-icon-download.svg);
+
+            &.current {
+              background-image: url(/assets/images/menu-icon-download-white.svg);
+            }
+          }
         }
       }
 
