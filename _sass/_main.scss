@@ -680,12 +680,6 @@ a {
     nav {
       a {
         font-size: 18px;
-        border-bottom: 1px solid transparent;
-
-        &:hover,
-        &.active {
-          border-bottom-color: #5D6570;
-        }
       }
 
       .start {
@@ -743,6 +737,12 @@ a {
         padding: 0;
         font-size: 16px;
         margin-left: 20px;
+        border-bottom: 1px solid transparent;
+
+        &:hover,
+        &.active {
+          border-bottom-color: #5D6570;
+        }
       }
 
       .start {
