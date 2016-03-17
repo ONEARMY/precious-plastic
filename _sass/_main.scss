@@ -2195,12 +2195,48 @@ a {
     }
   }
 
+  $colors: (
+    ('green', '#9DE6CF'),
+    ('blue', '#7BC6E5'),
+    ('pink', '#C1A4E6'),
+    ('red', '#F28282'),
+    ('whale', '#7894AF'),
+    ('orange', '#F7B67B'),
+    ('support', '#C1E49C'),
+    ('grey', '#9B9B9B')
+  );
+
+  @each $handle, $hex in $colors {
+    &.#{$handle} article > h1:first-child {
+      background: #{$hex};
+    }
+  }
+
   @media (min-width: 768px) {
     overflow: hidden;
   }
 
   @media (min-width: 992px) {
     padding-top: 75px;
+
+    $colors: (
+      ('green', '#9DE6CF'),
+      ('blue', '#7BC6E5'),
+      ('pink', '#C1A4E6'),
+      ('red', '#F28282'),
+      ('whale', '#7894AF'),
+      ('orange', '#F7B67B'),
+      ('support', '#C1E49C'),
+      ('grey', '#9B9B9B')
+    );
+
+    @each $handle, $hex in $colors {
+      &.#{$handle} {
+        aside nav a.current {
+          background: #{$hex};
+        }
+      }
+    }
 
     .container {
       width: 940px;
