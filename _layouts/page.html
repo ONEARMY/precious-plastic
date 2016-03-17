@@ -21,6 +21,10 @@ layout: default
         <b>&plus;</b>
       </span>
 
+      {% if video %}
+        <h1 class="menu-title">Videos</h1>
+      {% endif %}
+
       <nav>
         {% if video %}
           {% assign sorted = (site.pages | sort: "id") %}
