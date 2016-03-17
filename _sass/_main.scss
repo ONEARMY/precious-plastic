@@ -2205,7 +2205,7 @@ a {
     ('red', '#F28282'),
     ('whale', '#7894AF'),
     ('orange', '#F7B67B'),
-    ('support', '#C1E49C'),
+    ('lightgreen', '#C1E49C'),
     ('grey', '#9B9B9B')
   );
 
@@ -2224,17 +2224,6 @@ a {
 
   @media (min-width: 992px) {
     padding-top: 75px;
-
-    $colors: (
-      ('green', '#9DE6CF'),
-      ('blue', '#7BC6E5'),
-      ('pink', '#C1A4E6'),
-      ('red', '#F28282'),
-      ('whale', '#7894AF'),
-      ('orange', '#F7B67B'),
-      ('support', '#C1E49C'),
-      ('grey', '#9B9B9B')
-    );
 
     @each $handle, $hex in $colors {
       &.#{$handle} aside nav a.current {
@@ -2385,10 +2374,6 @@ a {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
 
-        h2 {
-          margin-top: 100px;
-        }
-
         .title {
           margin: -1px -41px 0;
         }
@@ -2408,6 +2393,10 @@ a {
 
           img {
             margin-top: 0;
+          }
+
+          & ~ h2 {
+            margin-top: 100px;
           }
 
           & + h2 {
