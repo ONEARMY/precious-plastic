@@ -2,18 +2,48 @@
 layout: default
 ---
 
-<main id="page">
+{% assign video = false %}
+
+{{page.url}}
+
+{% if page.url contains "/video" %}
+  {% assign video = true %}
+{% endif %}
+
+{% if video %}
+  <main id="page">
+{% else %}
+  <main id="page" class="video">
+{% endif %}
+
   <div class="container">
     <aside>
-      <span>tiny menu <b>&plus;</b></span>
+      <span>
+        {% if video %}Machines{% else %}tiny menu{% endif %}
+        <b>&plus;</b>
+      </span>
 
       <nav>
-        <a href="/about" {% if page.url == "/about/" %}class="current"{% endif %}>About</a>
-        <a href="/faq" {% if page.url == "/faq/" %}class="current"{% endif %}>FAQ</a>
-        <a href="/help-us" {% if page.url == "/help-us/" %}class="current"{% endif %}>Help Us</a>
-        <a href="/thanks" {% if page.url == "/thanks/" %}class="current"{% endif %}>Thanks!</a>
-        <a href="/terms" {% if page.url == "/terms/" %}class="current"{% endif %}>Terms</a>
-        <a href="/contact" {% if page.url == "/contact/" %}class="current"{% endif %}>Contact</a>
+        {% if video %}
+          {% for node in site.pages %}
+            {% assign active = "" %}
+
+            {% if node.url == page.url %}
+              {% assign active = "current" %}
+            {% endif %}
+
+            {% if node.url contains "/video" %}
+              <a href="{{node.url}}" class="{{active}}">{{node.title}}</a>
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          <a href="/about" {% if page.url == "/about/" %}class="current"{% endif %}>About</a>
+          <a href="/faq" {% if page.url == "/faq/" %}class="current"{% endif %}>FAQ</a>
+          <a href="/help-us" {% if page.url == "/help-us/" %}class="current"{% endif %}>Help Us</a>
+          <a href="/thanks" {% if page.url == "/thanks/" %}class="current"{% endif %}>Thanks!</a>
+          <a href="/terms" {% if page.url == "/terms/" %}class="current"{% endif %}>Terms</a>
+          <a href="/contact" {% if page.url == "/contact/" %}class="current"{% endif %}>Contact</a>
+        {% endif %}
       </nav>
     </aside>
 
