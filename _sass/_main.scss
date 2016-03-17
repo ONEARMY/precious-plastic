@@ -2207,8 +2207,11 @@ a {
   );
 
   @each $handle, $hex in $colors {
-    &.#{$handle} article .title {
-      background: #{$hex};
+    &.#{$handle} {
+      article .title,
+      .button-group a {
+        background: #{$hex};
+      }
     }
   }
 
@@ -2231,10 +2234,8 @@ a {
     );
 
     @each $handle, $hex in $colors {
-      &.#{$handle} {
-        aside nav a.current {
-          background: #{$hex};
-        }
+      &.#{$handle} aside nav a.current {
+        background: #{$hex};
       }
     }
 
