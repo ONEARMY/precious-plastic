@@ -2249,23 +2249,53 @@ a {
     article {
       margin-top: 25px;
       background: #fff;
-      padding-left: 0;
-      padding-right: 0;
+      padding: 0 20px;
+
+      .chapters {
+        border-collapse: collapse;
+        table-layout: fixed;
+        width: 100%;
+
+        td {
+          padding: 7px 0;
+
+          &:nth-child(1) {
+            width: 70px;
+          }
+
+          &:nth-child(2) {
+            display: none;
+          }
+
+          &:nth-child(3) {
+            color: #6A90C1;
+          }
+        }
+
+        .head {
+          border-bottom: 1px solid #979797;
+
+          td {
+            font-size: 16px;
+            padding: 10px 0;
+            color: #808080;
+          }
+        }
+      }
 
       .title {
         color: #fff;
         font-size: 25px;
         padding: 7px 20px;
-        margin-top: 0;
+        margin: 0 -20px;
       }
 
       .view {
-        margin: 0;
-        width: 100%;
+        margin: 0 -20px;
         height: auto;
 
         img {
-          width: inherit;
+          width: 100%;
           display: block;
         }
       }
