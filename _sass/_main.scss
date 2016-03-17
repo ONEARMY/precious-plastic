@@ -2246,6 +2246,10 @@ a {
   }
 
   &.video {
+    aside nav a:first-child {
+      display: none;
+    }
+
     article {
       margin-top: 25px;
       background: #fff;
