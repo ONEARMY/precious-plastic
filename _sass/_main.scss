@@ -2257,6 +2257,17 @@ a {
         padding: 7px 20px;
         margin-top: 0;
       }
+
+      .view {
+        margin: 0;
+        width: 100%;
+        height: auto;
+
+        img {
+          width: inherit;
+          display: block;
+        }
+      }
     }
   }
 }
