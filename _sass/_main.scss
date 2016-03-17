@@ -2299,6 +2299,19 @@ a {
           display: block;
         }
       }
+
+      .button-group {
+        text-align: center;
+        margin-top: 60px;
+        padding-bottom: 100px;
+
+        a {
+          border-radius: 3px;
+          color: #fff;
+          display: inline-block;
+          padding: 18px 28px
+        }
+      }
     }
   }
 }
