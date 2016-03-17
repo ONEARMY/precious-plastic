@@ -2397,6 +2397,7 @@ a {
       .filter {
         color: #7F7F7F;
         position: relative;
+        height: 50px;
 
         nav {
           display: inline-block;
@@ -2417,9 +2418,14 @@ a {
               display: none;
             }
 
-            &:hover {
-              color: #5d7a9a;
+            &:hover span,
+            &.active span {
+              color: #273341;
             }
+          }
+
+          @media (min-width: 768px) {
+            margin-left: 20px;
           }
         }
 
@@ -2429,10 +2435,20 @@ a {
       }
 
       .extras {
+        .item {
+          margin: 40px 0;
+
+          @media (min-width: 768px) {
+            width: 50%;
+            text-align: center;
+            margin: 20px 0;
+          }
+        }
+
         figure {
           border-radius: 5px;
           border: 1px solid #D9DDE4;
-          margin: 65px 0;
+          margin: 0 !important;
 
           &:first-child {
             margin-top: 80px;
@@ -2476,7 +2492,6 @@ a {
           figure {
             width: 320px;
             display: inline-block;
-            margin: 30px 10px;
 
             figcaption {
               width: 100%;
@@ -2486,11 +2501,14 @@ a {
         }
 
         @media (min-width: 992px) {
-          margin-left: -40px;
-          margin-right: -40px;
+          margin-left: -25px;
+          margin-right: -25px;
+
+          .item {
+            box-sizing: border-box;
+          }
 
           figure {
-            margin: 20px 20px;
             width: 265px;
 
             img {
