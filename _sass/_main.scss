@@ -2416,7 +2416,15 @@ a {
             &:last-child:after {
               display: none;
             }
+
+            &:hover {
+              color: #5d7a9a;
+            }
           }
+        }
+
+        @media (min-width: 768px) {
+          margin-top: 50px;
         }
       }
 
@@ -2457,6 +2465,37 @@ a {
 
           figcaption {
             padding: 0 15px;
+          }
+        }
+
+        @media (min-width: 768px) {
+          text-align: center;
+          margin-left: -20px;
+          margin-right: -20px;
+
+          figure {
+            width: 320px;
+            display: inline-block;
+            margin: 30px 10px;
+
+            figcaption {
+              width: 100%;
+              box-sizing: border-box;
+            }
+          }
+        }
+
+        @media (min-width: 992px) {
+          margin-left: -40px;
+          margin-right: -40px;
+
+          figure {
+            margin: 20px 20px;
+            width: 265px;
+
+            img {
+              margin-top: 0;
+            }
           }
         }
       }
