@@ -2335,7 +2335,11 @@ a {
           border-radius: 3px;
           color: #fff;
           display: inline-block;
-          padding: 18px 28px
+          padding: 18px 28px;
+
+          &:hover {
+            opacity: .7;
+          }
         }
       }
     }
