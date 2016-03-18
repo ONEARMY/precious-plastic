@@ -22,31 +22,7 @@
     {{content}}
 
     {% include footer.html %}
-
-    <aside id="overlay">
-      <span class="toggle"></span>
-
-      <div class="inner">
-        <a href="/" class="logo"></a>
-        <h1>Spread the knowledge!</h1>
-        <p>Make sure it reaches your friend, uncle and that farmer living in Africa.</p>
-
-        <nav class="social">
-          <a href="#" class="google-plus"></a>
-          <a href="#" class="twitter"></a>
-          <a href="#" class="facebook"></a>
-          <a href="#" class="q-zone"></a>
-          <a href="#" class="pinterest"></a>
-          <a href="#" class="linkedin"></a>
-        </nav>
-
-        <p class="total">Total shares: <span>0</span></p>
-      </div>
-    </aside>
-
-    <aside id="toggle-overlay">
-      Want to help us? <a href="#">SPREAD</a> the project and let the magic happen.
-    </aside>
+    {% include overlay.html %}
 
     <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 
