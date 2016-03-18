@@ -11,6 +11,10 @@ body {
   font-family: 'Varela Round', sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #F2F6F8;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 a {
@@ -2647,9 +2651,8 @@ a {
   background: #FFE096;
   position: fixed;
   height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 100%;
+  width: 100%;
   z-index: 4000;
   text-align: center;
 

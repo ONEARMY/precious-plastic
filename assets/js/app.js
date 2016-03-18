@@ -12,6 +12,24 @@ $(document).ready(function() {
     $(this).toggleClass('on')
   })
 
+  $('#toggle-overlay a').click(function (event) {
+    $('#overlay').animate({
+      top: '0%'
+    }, 400, function () {
+      $('body').addClass('no-scroll')
+    })
+
+    event.preventDefault()
+  })
+
+  $('#overlay .toggle').click(function () {
+    $('#overlay').animate({
+      top: '100%'
+    }, 400, function () {
+      $('body').removeClass('no-scroll')
+    })
+  })
+
   if ($('#news')) {
     $.ajax({
       type: 'GET',
