@@ -1,6 +1,6 @@
 # Site settings
 title: Precious Plastic
-url: http://leo.im/plastic/
+url: http://leo.im/plastic
 baseurl: ''
 
 sass:
