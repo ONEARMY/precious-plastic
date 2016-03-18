@@ -612,6 +612,19 @@ a {
       position: absolute;
       top: -20px;
     }
+
+    nav a {
+      border-bottom: 1px solid transparent;
+      line-height: normal;
+
+      &:hover {
+        border-bottom-color: #fff;
+      }
+    }
+
+    .logo {
+      margin-top: 0;
+    }
   }
 }
 
