@@ -2642,3 +2642,114 @@ a {
     }
   }
 }
+
+#overlay {
+  background: #FFE096;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4000;
+  text-align: center;
+
+  h1 {
+    font-size: 24px;
+    color: #000;
+  }
+
+  p {
+    color: #5E5E5E;
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .logo {
+    width: 78px;
+    height: 78px;
+    background: url(/assets/images/logo.png) no-repeat center center;
+    background-size: 100% auto;
+    display: block;
+    margin: 30px auto;
+  }
+
+  .inner {
+    padding: 20px;
+  }
+
+  .social {
+    width: 290px;
+    margin: 40px auto;
+    font-size: 0;
+
+    a {
+      height: 64px;
+      width: 64px;
+      display: inline-block;
+      margin: 15px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      &.google-plus {
+        background-image: url(/assets/images/social/google-plus.png);
+      }
+
+      &.twitter {
+        background-image: url(/assets/images/social/twitter.png);
+      }
+
+      &.q-zone {
+        background-image: url(/assets/images/social/q-zone.png);
+      }
+
+      &.facebook {
+        background-image: url(/assets/images/social/facebook.png);
+      }
+
+      &.pinterest {
+        background-image: url(/assets/images/social/pinterest.png);
+      }
+
+      &.linkedin {
+        background-image: url(/assets/images/social/linkedin.png);
+      }
+    }
+  }
+
+  .total {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .toggle {
+    width: 26px;
+    height: 26px;
+    background: url(/assets/images/overlay-cross.svg);
+    display: block;
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    right: 20px;
+    background-size: 100% auto;
+  }
+}
+
+#toggle-overlay {
+  background: #FFD87D;
+  color: #000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px;
+  line-height: 25px;
+  z-index: 3000;
+
+  a {
+    color: inherit;
+    border-bottom: 1px solid #000
+  }
+}
