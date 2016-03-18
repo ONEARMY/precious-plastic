@@ -7,6 +7,7 @@ sass:
   style: compressed
 
 exclude: ['CNAME', '*.md']
+permalink: pretty
 
 gems:
   - jekyll-sitemap
