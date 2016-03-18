@@ -43,12 +43,12 @@ layout: default
             {% endif %}
           {% endfor %}
         {% else %}
-          <a href="{{url}}/about" {% if page.url == "/about/" %}class="current"{% endif %}>About</a>
-          <a href="{{url}}/faq" {% if page.url == "/faq/" %}class="current"{% endif %}>FAQ</a>
-          <a href="{{url}}/help-us" {% if page.url == "/help-us/" %}class="current"{% endif %}>Help Us</a>
-          <a href="{{url}}/thanks" {% if page.url == "/thanks/" %}class="current"{% endif %}>Thanks!</a>
-          <a href="{{url}}/terms" {% if page.url == "/terms/" %}class="current"{% endif %}>Terms</a>
-          <a href="{{url}}/contact" {% if page.url == "/contact/" %}class="current"{% endif %}>Contact</a>
+          <a href="/about" {% if page.url == "/about/" %}class="current"{% endif %}>About</a>
+          <a href="/faq" {% if page.url == "/faq/" %}class="current"{% endif %}>FAQ</a>
+          <a href="/help-us" {% if page.url == "/help-us/" %}class="current"{% endif %}>Help Us</a>
+          <a href="/thanks" {% if page.url == "/thanks/" %}class="current"{% endif %}>Thanks!</a>
+          <a href="/terms" {% if page.url == "/terms/" %}class="current"{% endif %}>Terms</a>
+          <a href="/contact" {% if page.url == "/contact/" %}class="current"{% endif %}>Contact</a>
         {% endif %}
       </nav>
     </aside>
