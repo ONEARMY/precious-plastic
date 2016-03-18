@@ -2659,12 +2659,23 @@ a {
   h1 {
     font-size: 24px;
     color: #000;
+
+    @media (min-width: 992px) {
+      font-size: 40px;
+    }
   }
 
   p {
     color: #5E5E5E;
     font-size: 17px;
     line-height: 22px;
+
+    @media (min-width: 768px) {
+      max-width: 370px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 24px;
+    }
   }
 
   .logo {
@@ -2674,6 +2685,13 @@ a {
     background-size: 100% auto;
     display: block;
     margin: 30px auto;
+
+    @media (min-width: 992px) {
+      width: 100px;
+      height: 100px;
+      margin-top: 60px;
+      margin-bottom: 50px;
+    }
   }
 
   .inner {
@@ -2717,12 +2735,30 @@ a {
       &.linkedin {
         background-image: url(/assets/images/social/linkedin.png);
       }
+
+      @media (min-width: 992px) {
+        width: 90px;
+        height: 90px;
+
+        &:hover {
+          opacity: .8;
+        }
+      }
+    }
+
+    @media (min-width: 768px) {
+      width: auto;
     }
   }
 
   .total {
     color: #fff;
     font-size: 18px;
+
+    @media (min-width: 992px) {
+      font-size: 24px;
+      margin-top: 50px;
+    }
   }
 
   .toggle {
@@ -2735,6 +2771,20 @@ a {
     cursor: pointer;
     right: 20px;
     background-size: 100% auto;
+
+    @media (min-width: 768px) {
+      right: 30px;
+      top: 30px;
+    }
+
+    @media (min-width: 992px) {
+      right: 40px;
+      top: 40px;
+
+      &:hover {
+        opacity: .8;
+      }
+    }
   }
 }
 
@@ -2754,5 +2804,14 @@ a {
   a {
     color: inherit;
     border-bottom: 1px solid #000
+  }
+
+  @media (min-width: 768px) {
+    font-size: 15px;
+    padding: 16px 0;
+
+    a:hover {
+      border-color: transparent;
+    }
   }
 }
