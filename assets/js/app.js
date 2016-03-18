@@ -93,4 +93,28 @@ $(document).ready(function() {
       e.preventDefault()
     })
   }
+
+  //var canonical = $('head link[rel="canonical"]').attr('href')
+  var canonical = 'http://preciousplastic.com'
+  var url = encodeURIComponent(canonical)
+
+  var counts = [
+    {
+      url: 'api.facebook.com/method/links.getStats?urls=' + url + '&format=json',
+      field: 'share_count'
+    }
+  ]
+
+  for (var api of counts) {
+    $.ajax({
+      type: 'GET',
+      url: 'https://' + api.url,
+      success: function (response) {
+        var count = parseInt(response[0][api.field])
+        var previous = parseInt($('#overlay .total span').text())
+
+        $('#overlay .total span').html(previous + count)
+      }
+    })
+  }
 })
