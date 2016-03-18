@@ -12,7 +12,7 @@ $(document).ready(function() {
     $(this).toggleClass('on')
   })
 
-  $('#toggle-overlay a').click(function (event) {
+  $('#toggle-overlay a, section .spread').click(function (event) {
     $('#overlay').animate({
       top: '0%'
     }, 400, function () {
