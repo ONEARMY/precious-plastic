@@ -2181,9 +2181,8 @@ a {
 
     @media (min-width: 992px) {
       padding-top: 0;
-      width: auto;
       float: right;
-      width: 660px;
+      width: 700px;
 
       h1 {
         font-size: 50px;
@@ -2338,17 +2337,33 @@ a {
       padding: 0 20px;
 
       iframe {
-        max-width: 100%;
+        width: 100%;
         height: 200px;
+
+        @media (min-width: 768px) {
+          height: 300px;
+          margin-bottom: 40px;
+        }
+
+        @media (min-width: 992px) {
+          height: 350px;
+        }
       }
 
       img {
         max-width: 100%;
       }
 
-      .customs.extras {
-        figure {
-          margin-bottom: 50px !important;
+      .customs.extras figure {
+        margin-bottom: 50px !important;
+
+        @media (min-width: 768px) {
+          margin: 20px 20px !important;
+          width: 300px;
+        }
+
+        @media (min-width: 992px) {
+          width: 285px;
         }
       }
 
@@ -2383,6 +2398,27 @@ a {
 
         img {
           display: none;
+        }
+
+        @media (min-width: 768px) {
+          img {
+            float: right;
+            display: block;
+            width: 250px;
+          }
+
+          figcaption {
+            float: left;
+            width: 50%;
+          }
+        }
+
+        @media (min-width: 992px) {
+          margin-bottom: 0;
+
+          figcaption {
+            width: 240px;
+          }
         }
       }
 
