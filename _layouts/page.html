@@ -31,15 +31,31 @@ layout: default
 
           {% for node in sorted %}
             {% assign active = "" %}
+            {% assign isVideo = false %}
 
-            {% if node.url == page.url %}
+            {% if page.url contains node.url and node.url != "/videos/" %}
+              {% assign active = " current" %}
+            {% endif %}
+
+            {% if page.url == node.url %}
               {% assign active = " current" %}
             {% endif %}
 
             {% if node.url contains "/video" %}
+              {% assign isVideo = true %}
+            {% endif %}
+
+            {% assign node_url_parts = node.url | split: '/' %}
+            {% assign node_url_parts_size = node_url_parts | size %}
+
+            {% if isVideo and node_url_parts_size < 4 %}
               <a href="{{node.url}}" class="page-{{node.id}}{{active}}">
                 <span>{{node.id}}. </span>{{node.short}}
               </a>
+            {% endif %}
+
+            {% if node_url_parts_size >= 4 and isVideo and page.url contains "/build" %}
+              <a href="{{node.url}}" class="sub-item page-{{node.id}}{{active}}">{{node.short}}</a>
             {% endif %}
           {% endfor %}
         {% else %}

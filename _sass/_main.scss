@@ -1973,6 +1973,19 @@ a {
         display: block;
         padding: 10px 0;
 
+        &.current {
+          color: #000;
+        }
+
+        &.sub-item {
+          padding-left: 25px;
+          border-left: 1px solid #e7e8ff;
+
+          &.current {
+            border-color: #9495a3;
+          }
+        }
+
         span {
           display: none;
         }
@@ -1994,6 +2007,10 @@ a {
           display: inline-block;
           padding: 0;
           margin: 0 12px;
+
+          &.sub-item {
+            display: none;
+          }
         }
       }
 
@@ -2013,6 +2030,15 @@ a {
           &.current {
             border-radius: 3px;
             background: #DEEBF1;
+          }
+
+          &.sub-item {
+            display: block;
+            color: #4D5052;
+            font-size: 20px;
+            margin-left: 40px;
+            padding: 0px;
+            border: 0;
           }
 
           span {
@@ -2249,6 +2275,15 @@ a {
 
           &.current {
             color: #fff;
+
+            &.sub-item {
+              background: none !important;
+              color: #F28282;
+            }
+          }
+
+          &.sub-item {
+            color: #4D5052;
           }
 
           &:first-child {
