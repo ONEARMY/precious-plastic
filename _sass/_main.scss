@@ -567,6 +567,7 @@ a {
       display: inline-block;
       background-repeat: no-repeat;
       background-size: contain;
+      background-position: center center;
 
       &[href*="facebook"] {
         background-image: url(/assets/images/facebook.svg);
@@ -578,6 +579,10 @@ a {
 
       &[href*="youtube"] {
         background-image: url(/assets/images/youtube.svg);
+      }
+
+      &[href*="github"] {
+        background-image: url(/assets/images/github.svg);
       }
 
       &[href*="mail"] {
