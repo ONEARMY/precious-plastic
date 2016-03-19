@@ -2762,6 +2762,7 @@ a {
   top: 100%;
   width: 100%;
   z-index: 4000;
+  -webkit-text-size-adjust: 100%;
   text-align: center;
 
   h1 {
@@ -2899,6 +2900,7 @@ a {
 #toggle-overlay {
   background: #FFD87D;
   color: #000;
+  -webkit-text-size-adjust: 100%;
   position: fixed;
   bottom: 0;
   left: 0;
