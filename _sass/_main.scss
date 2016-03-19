@@ -692,7 +692,11 @@ a {
     }
 
     .start {
-      display: none;
+      display: inline-block;
+      color: #9DE6CF;
+      border: 2px solid #9DE6CF;
+      border-radius: 4px;
+      padding: 8px 25px;
     }
   }
 
@@ -704,18 +708,10 @@ a {
         font-size: 18px;
       }
 
-      .start {
-        display: inline-block;
-        color: #9DE6CF;
-        border: 2px solid #9DE6CF;
-        border-radius: 4px;
-        padding: 8px 25px;
-
-        &:hover {
-          border-color: #8fd1bc;
-          background: #8fd1bc;
-          text-decoration: none;
-        }
+      .start:hover {
+        border-color: #8fd1bc;
+        background: #8fd1bc;
+        text-decoration: none;
       }
     }
 
