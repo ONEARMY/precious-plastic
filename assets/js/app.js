@@ -21,7 +21,9 @@ $(document).ready(function() {
   }
 
   $('#video').fitVids()
-  $('#slider .container').unslider()
+  $('#slider .container').unslider({
+    autoplay: true
+  })
 
   $('#page aside > span').click(function (event) {
     $(this).nextAll('nav').slideToggle(300)
