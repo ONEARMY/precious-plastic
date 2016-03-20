@@ -953,8 +953,16 @@ a {
         vertical-align: bottom
       }
 
+      &:hover {
+        color: #5c8ea6;
+      }
+
       &.red {
         color: #F36679;
+
+        &:hover {
+          color: #9d424e;
+        }
       }
     }
 
