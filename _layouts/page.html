@@ -50,13 +50,13 @@ layout: default
 
             {% assign id = node.id %}
 
-            {% if node.id > 9 %}
+            {% if node.id > 8 %}
               {% assign id = node.id | minus:4 %}
             {% endif %}
 
             {% if isVideo and node_url_parts_size < 4 %}
               <a href="{{node.url}}" class="page-{{id}}{{active}}">
-                <span>{{node.id}}. </span>{{node.short}}
+                <span>{{id}}. </span>{{node.short}}
               </a>
             {% endif %}
 
