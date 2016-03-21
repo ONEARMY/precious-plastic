@@ -4,19 +4,9 @@ $(window).load(function() {
 
 $(document).ready(function() {
   if ($('#page').length) {
-    var stickyNavTop = $('.container > aside').offset().top - 30
-
-    function stickySidebar() {
-      if ($(window).scrollTop() > stickyNavTop) {
-        $('.container > aside').addClass('sticky')
-      } else {
-        $('.container > aside').removeClass('sticky')
-      }
-    }
-
-    stickySidebar()
-
-    $(window).scroll(stickySidebar)
+    $('.container > aside').stick_in_parent({
+      offset_top: 30
+    })
   }
 
   $('#menu .toggle').click(function (event) {
