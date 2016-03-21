@@ -1129,6 +1129,12 @@ a {
     figure {
       width: 33.333333%;
       float: left;
+
+      img {
+        max-height: 86px;
+        width: auto;
+        max-width: 180px;
+      }
     }
 
     .container {
