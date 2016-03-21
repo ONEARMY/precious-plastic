@@ -77,7 +77,7 @@ $(document).ready(function() {
 
           figure.append(preview)
           article.append(figure)
-          article.append('<a href="' + url +  '" class="title">' + title + '</a>')
+          article.append('<a href="' + url +  '" class="title" target="_blank">' + title + '</a>')
 
           var descText = $(description).text()
 
