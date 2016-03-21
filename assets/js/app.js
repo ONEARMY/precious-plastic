@@ -147,4 +147,9 @@ $(document).ready(function() {
       }
     })
   }
+
+  $('#ready-to-start figure').click(function() {
+    var url = $(this).attr('data-url')
+    window.location.href = url
+  })
 })
