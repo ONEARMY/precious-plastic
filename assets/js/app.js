@@ -3,7 +3,7 @@ $(window).load(function() {
 })
 
 $(document).ready(function() {
-  if ($('#page').length) {
+  if ($('#page').length && $(window).width() > 992) {
     $('.container > aside').stick_in_parent({
       offset_top: 30
     })
