@@ -20,7 +20,7 @@ $(document).ready(function() {
     }
   }
 
-  $('#video').fitVids()
+  $('#video, .video article .view').fitVids()
   $('#slider .container').unslider({
     autoplay: true
   })
