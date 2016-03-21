@@ -1,3 +1,7 @@
+$(window).load(function() {
+  $('#overlay').addClass('ready')
+})
+
 $(document).ready(function() {
   $('#menu .toggle').click(function (event) {
     $(this).closest('header').find('nav').slideToggle(300)
