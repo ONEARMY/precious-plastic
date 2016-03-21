@@ -24,7 +24,8 @@ $(document).ready(function() {
     }
   }
 
-  $('#video, .video article .view').fitVids()
+  $('#video, .video article .view, #intro .wrap').fitVids()
+
   $('#slider .container').unslider({
     autoplay: true
   })
