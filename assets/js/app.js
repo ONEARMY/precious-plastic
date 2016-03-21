@@ -31,21 +31,15 @@ $(document).ready(function() {
   })
 
   $('#toggle-overlay a, section .spread').click(function (event) {
-    $('#overlay').animate({
-      top: '0%'
-    }, 400, function () {
-      $('body').addClass('no-scroll')
-    })
+    $('#overlay').addClass('open')
+    $('body').addClass('no-scroll')
 
     event.preventDefault()
   })
 
   $('#overlay .toggle').click(function () {
-    $('#overlay').animate({
-      top: '100%'
-    }, 400, function () {
-      $('body').removeClass('no-scroll')
-    })
+    $('#overlay').removeClass('open')
+    $('body').removeClass('no-scroll')
   })
 
   $('#overlay .social a').click(function (event) {
