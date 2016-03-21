@@ -2053,9 +2053,17 @@ a {
           padding: 13px 0 13px 40px;
           margin: 0;
 
+          &:hover {
+            color: #acb3b7;
+          }
+
           &.current {
             border-radius: 3px;
             background: #DEEBF1;
+
+            &:hover {
+              color: #000;
+            }
           }
 
           &.sub-item {
