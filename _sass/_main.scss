@@ -878,11 +878,19 @@ a {
       background: #F28282;
       color: #fff;
       margin-bottom: 15px;
+
+      &:hover {
+        background: #71bec1 !important;
+      }
     }
 
     &:last-child {
       background: #FFE096;
       color: #656565;
+
+      &:hover {
+        background: #d7bc7e;
+      }
     }
   }
 
@@ -1153,6 +1161,10 @@ a {
     background: #79BAD9;
     padding: 9px 18px;
     display: inline-block;
+
+    &:hover {
+      background: #5d7388;
+    }
   }
 
   @media (min-width: 768px) {
@@ -1281,6 +1293,10 @@ a {
     background: #F28282;
     border-radius: 3px;
     padding: 8px 21px;
+
+    &:hover {
+      background: #c46969;
+    }
   }
 
   @media (min-width: 768px) {
@@ -1695,7 +1711,11 @@ a {
     background: #7894AF;
     padding: 10px 20px;
     margin-top: 20px;
-    display: inline-block
+    display: inline-block;
+
+    &:hover {
+      background: #5d7388;
+    }
   }
 
   @media (min-width: 768px) {
@@ -1830,6 +1850,10 @@ a {
         background: #F28282;
         border-radius: 3px;
         padding: 8px 18px;
+
+        &:hover {
+          background: #c46969;
+        }
       }
     }
   }
@@ -2811,7 +2835,7 @@ a {
     padding: 8px 24px;
 
     &:hover {
-      background: #6ba4c0;
+      background: #5d7388;
     }
   }
 
