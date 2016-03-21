@@ -721,8 +721,8 @@ a {
       }
 
       .start:hover {
-        border-color: #8fd1bc;
-        background: #8fd1bc;
+        background: #9DE6CF;
+        color: #fff;
         text-decoration: none;
       }
     }
@@ -776,11 +776,13 @@ a {
       }
 
       .start {
-        background: #9DE6CF;
-        color: #fff;
         padding: 6px 15px;
         margin-top: 0;
         margin-bottom: 0;
+
+        &:hover {
+          border-color: #9DE6CF;
+        }
       }
     }
 
@@ -804,12 +806,12 @@ a {
       border-bottom: 1px solid #D8D8D8;
 
       nav .start {
-        background: #fff;
-        color: #9DE6CF;
+        background: #9DE6CF;
+        color: #fff;
 
         &:hover {
           background: #8fd1bc;
-          color: #fff;
+          border-color: #8fd1bc;
         }
       }
     }
