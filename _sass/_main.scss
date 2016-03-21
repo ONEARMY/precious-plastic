@@ -658,6 +658,10 @@ a {
   position: relative;
   z-index: 2000;
 
+  .start & {
+    display: none;
+  }
+
   .container {
     height: inherit;
     line-height: 60px;
@@ -754,10 +758,6 @@ a {
     top: 0;
     padding: 0;
     width: 100%;
-
-    .start & {
-      display: none;
-    }
 
     nav {
       display: block !important;

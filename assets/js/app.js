@@ -91,7 +91,7 @@ $(document).ready(function() {
           news.append(article)
 
           if (index == 9) {
-            return false;
+            return false
           }
         })
       }
