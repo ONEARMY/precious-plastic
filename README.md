@@ -20,5 +20,5 @@ Run Jekyll within the repo!
 
 ```bash
 cd plastic
-jekyll serve --watch
+jekyll serve -w
 ```
