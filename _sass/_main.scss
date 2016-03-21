@@ -1654,8 +1654,8 @@ a {
 
 #things-made {
   text-align: center;
-  padding: 80px 0;
-  background: #fff url(/assets/images/things-made-sm.png) no-repeat center 360px;
+  padding: 80px 0 260px;
+  background: #fff url(/assets/images/things-made-sm.png) no-repeat center bottom;
   background-size: 100% auto;
 
   h1 {
@@ -1676,23 +1676,20 @@ a {
     color: #fff;
     background: #7894AF;
     padding: 10px 20px;
-    margin-top: 280px;
+    margin-top: 20px;
     display: inline-block
   }
 
   @media (min-width: 768px) {
     background-image: url(/assets/images/things-made-lg.png);
-
-    .button {
-      margin-top: 420px;
-    }
+    padding-bottom: 60%;
   }
 
   @media (min-width: 992px) {
     background-image: url(/assets/images/things-made-biggest.png);
     background-position: center bottom;
-    padding-bottom: 700px;
-    margin-top: 150px;
+    padding-bottom: 50%;
+    margin-top: 50px;
     background-color: #F2F6F8;
 
     .button {
