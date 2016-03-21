@@ -826,9 +826,20 @@ a {
 
 #hero {
   color: #4D5052;
-  padding: 90px 20px 0;
   height: 330px;
-  background: url(/assets/images/hero-sm.png) no-repeat center center;
+  overflow: hidden;
+  position: relative;
+
+  video {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+  }
 
   h1 {
     font-size: 22px;
@@ -838,6 +849,19 @@ a {
     font-size: 16px;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
+  }
+
+  .curtain {
+    height: inherit;
+    padding: 40px 20px 0;
+    background: rgba(255, 255, 255, 0.86);
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
   }
 
   .button-group {
@@ -863,9 +887,7 @@ a {
   }
 
   @media (min-width: 768px) {
-    height: 420px;
-    padding-top: 80px;
-    background-image: url(/assets/images/hero-md.png);
+    height: 500px;
 
     h1 {
       margin-bottom: 20px;
@@ -876,6 +898,10 @@ a {
     h2 {
       font-size: 22px;
       margin-top: 0;
+    }
+
+    .curtain {
+      padding-top: 80px;
     }
 
     .button-group {
@@ -896,11 +922,14 @@ a {
   @media (min-width: 992px) {
     padding-left: 0;
     padding-right: 0;
-    background-image: url(/assets/images/hero-lg.png);
     height: 610px;
 
     h1 {
       max-width: 700px;
+    }
+
+    .curtain {
+      padding-top: 40px;
     }
 
     .container {
