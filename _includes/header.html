@@ -21,7 +21,7 @@
           {% assign current = "active" %}
         {% endif %}
 
-        {% unless node.url == "/campaign/" or node.url contains "assets" or node.layout == "page" %}
+        {% unless node.url == "/" or node.url contains "assets" or node.layout == "page" %}
           <a href="{{node.url}}" class="{{current}}">{{node.title}}</a>
         {% endunless %}
 

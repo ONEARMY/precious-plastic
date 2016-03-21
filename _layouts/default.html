@@ -20,14 +20,14 @@
     <link rel="canonical" href="{{site.url}}">
   </head>
 
-  <body class="{{page.kind}}{% if page.url == "/campaign/" %} start{% endif %}">
+  <body class="{{page.kind}}{% if page.url == "/" %} start{% endif %}">
     {% include header.html %}
 
     {{content}}
 
     {% include footer.html %}
 
-    {% unless page.url == "/campaign/" %}
+    {% unless page.url == "/" %}
       {% include overlay.html %}
     {% endunless %}
 
