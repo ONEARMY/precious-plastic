@@ -2089,6 +2089,12 @@ a {
     @media (min-width: 992px) {
       width: 200px;
       float: left;
+
+      &.sticky {
+        position: fixed;
+        top: 30px;
+        z-index: 100;
+      }
     }
   }
 
@@ -2715,6 +2721,10 @@ a {
     @media (min-width: 768px) {
       margin-bottom: 100px;
     }
+  }
+
+  .container {
+    position: relative;
   }
 }
 
