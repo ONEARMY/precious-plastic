@@ -66,7 +66,6 @@ $(document).ready(function() {
       url: 'http://davehakkens.nl/tag/preciousplastic/feed/',
       success: function (xml) {
         $(xml).find('item').each(function (index) {
-          /*
           var article = $('<article />')
 
           var title = $(this).find('title').text()
@@ -93,7 +92,7 @@ $(document).ready(function() {
 
           if (index == 9) {
             return false;
-          }*/
+          }
         })
       }
     })
