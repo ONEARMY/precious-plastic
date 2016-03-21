@@ -11,7 +11,9 @@
     <div class="clearfix"></div>
 
     <nav>
-      {% for node in site.pages %}
+      {% assign sorted = (site.pages | sort: "index") %}
+
+      {% for node in sorted %}
 
         {% assign current = nil %}
 
@@ -19,7 +21,7 @@
           {% assign current = "active" %}
         {% endif %}
 
-        {% unless node.url == "/" or node.url contains "assets" or node.layout == "page" %}
+        {% unless node.url == "/campaign/" or node.url contains "assets" or node.layout == "page" %}
           <a href="{{node.url}}" class="{{current}}">{{node.title}}</a>
         {% endunless %}
 
