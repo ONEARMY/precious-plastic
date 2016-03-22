@@ -683,8 +683,8 @@ a {
   z-index: 2000;
 
   .start & {
-  border-bottom: dashed 1px grey;
-}
+    border-bottom: dashed 1px grey;
+  }
 
   .container {
     height: inherit;
@@ -2383,8 +2383,10 @@ a {
   &.video {
     aside {
       nav a {
-        &:first-child {
-          display: none;
+        @media (min-width: 768px) {
+          &:first-child {
+            display: none;
+          }
         }
 
         @media (min-width: 992px) {
