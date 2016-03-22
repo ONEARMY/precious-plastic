@@ -248,6 +248,7 @@ a {
         bottom: 0;
         left: 0;
         right: 0;
+        z-index: 100;
         background: url(/assets/images/where-you-come-in.png) no-repeat left top;
         background-size: 220px auto;
       }
@@ -316,6 +317,8 @@ a {
 
     @media (min-width: 992px) {
       max-width: 550px;
+      z-index: 200;
+      position: relative;
 
       li {
         font-size: 24px;
@@ -326,6 +329,10 @@ a {
         &:before {
           height: 50px;
           width: 50px;
+        }
+
+        &.spread {
+          cursor: pointer;
         }
       }
     }
