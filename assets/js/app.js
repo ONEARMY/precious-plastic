@@ -74,7 +74,7 @@ $(document).ready(function() {
     $(this).toggleClass('on')
   })
 
-  $('#toggle-overlay a, section .spread').click(function (event) {
+  $('#toggle-overlay, section .spread').click(function (event) {
     $('#overlay').addClass('open')
     $('body').addClass('no-scroll')
 

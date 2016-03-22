@@ -3031,7 +3031,7 @@ a {
   line-height: 25px;
   z-index: 3000;
 
-  a {
+  span {
     color: inherit;
     border-bottom: 1px solid #000
   }
@@ -3043,9 +3043,5 @@ a {
   @media (min-width: 768px) {
     font-size: 15px;
     padding: 16px 0;
-
-    a:hover {
-      border-color: transparent;
-    }
   }
 }
