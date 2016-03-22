@@ -520,7 +520,7 @@ a {
 #copyright {
   background: #313131;
   text-align: center;
-  padding-top: 140px;
+  padding-top: 100px;
   padding-bottom: 140px;
 
   a {
@@ -529,9 +529,10 @@ a {
   }
 
   nav {
-    color: #fff;
-    font-size: 16px;
-    margin-top: 45px;
+    color: #DADADA;
+    font-size: 14px;
+    margin-top: 35px;
+  }
 
     a {
       color: inherit;
@@ -1749,7 +1750,7 @@ a {
 }
 
 #into-new-things {
-  background: #F1F6F9 url(/assets/images/into-new-things.png) center top 100px no-repeat;
+  background: #F1F6F9 url(/assets/images/into-new-things.jpg) center top 100px no-repeat;
   background-size: 200% auto;
   padding: 100% 20px 70px;
   color: #5D6570;
@@ -1776,7 +1777,7 @@ a {
     }
 
     .container {
-      max-width: 600px;
+      max-width: 1000px;
       margin: 0 auto;
     }
   }
