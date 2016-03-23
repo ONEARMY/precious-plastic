@@ -58,13 +58,16 @@ a {
     }
 
     p {
-      width: 100%;
+      width: 95%;
+      padding:2.5%;
       background: url(/assets/images/title_full_white.png) no-repeat center center;
       height: 100px;
       margin: 20px 0 50px 0;
       background-size: 350px auto;
 
       @media (min-width: 768px) {
+        width:100%;
+        padding:0px;
         margin-top: 40px;
         background-size: 500px auto;
 
