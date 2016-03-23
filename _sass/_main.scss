@@ -675,6 +675,7 @@ a {
   }
 }
 
+
 #menu {
   background: #fff;
   min-height: 60px;
@@ -683,7 +684,6 @@ a {
   z-index: 2000;
 
   .start & {
-    border-bottom: dashed 1px grey;
   }
 
   .container {
@@ -1314,12 +1314,12 @@ a {
 
   .button {
     color: #fff;
-    background: #F28282;
+    background: #9DE6CF;
     border-radius: 3px;
     padding: 8px 21px;
 
     &:hover {
-      background: #c46969;
+      background: #76C7AE ;
     }
   }
 
@@ -1365,7 +1365,6 @@ a {
 
     .more {
       display: block;
-      margin-top: 70px;
       margin-bottom: 0;
     }
   }
@@ -1744,13 +1743,13 @@ a {
 
   @media (min-width: 768px) {
     background-image: url(/assets/images/things-made-lg.png);
-    padding-bottom: 60%;
+    padding-bottom: 50%;
   }
 
   @media (min-width: 992px) {
     background-image: url(/assets/images/things-made-biggest.png);
     background-position: center bottom;
-    padding-bottom: 50%;
+    padding-bottom: 40%;
     margin-top: 50px;
     background-color: #F2F6F8;
 
@@ -1842,7 +1841,7 @@ a {
 
     p {
       line-height: 30px;
-      font-size: 16px;
+      font-size: 18px;
       font-family: 'Open Sans', sans-serif;
       color: #7D7D7D;
       font-weight: 200;
@@ -1929,7 +1928,7 @@ a {
       }
 
       p {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 32px;
       }
 
@@ -2240,7 +2239,7 @@ a {
           }
 
           p {
-            font-size: 14px;
+            font-size: 18px;
             line-height: 30px;
           }
         }
@@ -2248,7 +2247,7 @@ a {
         @media (min-width: 992px) {
           img {
             width: 110px;
-            margin-top: 25px;
+            margin-top: 35px;
           }
 
           figcaption {
