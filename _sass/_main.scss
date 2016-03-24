@@ -505,8 +505,8 @@ a {
   aside {
     text-align: center;
     padding: 40px 20px 50%;
-    background: #fff url(/assets/images/the-plan-built.png) no-repeat left bottom;
-    background-size: 180% auto;
+    background: #fff url(/assets/images/intro-colored-white.jpg) no-repeat left bottom;
+    background-size: 138% auto;
 
     h1 {
       font-size: 30px;
@@ -518,7 +518,7 @@ a {
     }
 
     @media (min-width: 768px) {
-      background-image: url(/assets/images/intro-colored.jpg);
+      background-image: url(/assets/images/intro-colored-white.jpg);
       padding-bottom: 30%;
       background-size: 100% auto;
     }
