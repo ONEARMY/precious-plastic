@@ -1,5 +1,27 @@
 $(window).load(function() {
   $('#overlay').addClass('ready')
+
+  if ($().isotope) {
+    var grid = $('.extras').isotope({
+      itemSelector: '.item'
+    })
+
+    $('.filter nav a').click(function (e) {
+      var group = $(this).attr('href').split('#')[1]
+      var isActive = $(this).hasClass('active')
+
+      grid.isotope({
+        filter: isActive ? '*' : '.' + group
+      })
+
+      if( !isActive ) {
+        $(this).closest('nav').find('.active').removeClass('active')
+      }
+
+      $(this).toggleClass('active')
+      e.preventDefault()
+    })
+  }
 })
 
 if ($('#player').length) {
@@ -133,28 +155,6 @@ $(document).ready(function() {
 
   if ($().accordion) {
     $('#page dl').accordion()
-  }
-
-  if ($().isotope) {
-    var grid = $('.extras').isotope({
-      itemSelector: '.item'
-    })
-
-    $('.filter nav a').click(function (e) {
-      var group = $(this).attr('href').split('#')[1]
-      var isActive = $(this).hasClass('active')
-
-      grid.isotope({
-        filter: isActive ? '*' : '.' + group
-      })
-
-      if( !isActive ) {
-        $(this).closest('nav').find('.active').removeClass('active')
-      }
-
-      $(this).toggleClass('active')
-      e.preventDefault()
-    })
   }
 
   //var canonical = $('head link[rel="canonical"]').attr('href')
