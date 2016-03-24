@@ -231,14 +231,12 @@ a {
 
 #the-plan {
   text-align: center;
-  padding-top: 300px;
+  padding-top: 0px;
   overflow: hidden;
 
   img {
-    position: absolute;
     top: -150px;
-    left: -200px;
-    width: 700px;
+    width: 100%;
 
     @media (min-width: 768px) {
       left: 0;
