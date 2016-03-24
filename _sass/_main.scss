@@ -61,18 +61,16 @@ a {
       background: url(/assets/images/title_full_white.png) no-repeat center center;
       height: 100px;
       margin: 20px 0 50px 0;
-      background-size: 80% auto;
+      background-size: 70% auto;
 
       @media (min-width: 768px) {
         margin-top: 40px;
         background-size: 500px auto;
-
-      @media (min-width: 992px){
-        background-size: 800px auto;
-        height: 150px;
-
-
       }
+
+      @media (min-width: 992px) {
+        background-size: 600px auto;
+        height: 150px;
       }
     }
   }
