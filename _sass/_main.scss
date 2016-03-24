@@ -1399,10 +1399,10 @@ a {
 }
 
 #intro-red {
-  color: #fff;
+  color: #5D6570;
   padding: 70px 20px 60%;
-  background: #F28282 url(/assets/images/machines-overview-sm.png) no-repeat center bottom 30px;
-  background-size: 100% auto;
+  background: #FCFCFE url(/assets/images/intro-colored.jpg) no-repeat center bottom;
+  background-size: 150% auto;
 
   h1 {
     font-size: 30px;
@@ -1415,8 +1415,6 @@ a {
   }
 
   @media (min-width: 768px) {
-    background-image: url(/assets/images/machines-overview-lg.png);
-
     h1 {
       font-size: 50px;
       line-height: 75px;
