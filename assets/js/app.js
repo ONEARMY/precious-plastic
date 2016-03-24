@@ -174,9 +174,15 @@ $(document).ready(function() {
       url: 'https://' + api.url,
       success: function (response) {
         var count = parseInt(response[0][api.field])
-        var previous = parseInt($('#overlay .total span').text())
+        var previousOve = parseInt($('#overlay .total span').text())
 
-        $('#overlay .total span').html(previous + count)
+        var previous = {
+          overlay: parseInt($('#overlay .total span').text()),
+          general: parseInt($('.shares-count').text())
+        }
+
+        $('#overlay .total span').html(previous.overlay + count)
+        $('.shares-count').html(previous.general + count)
       }
     })
   }
