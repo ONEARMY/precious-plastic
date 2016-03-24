@@ -1242,8 +1242,8 @@ a {
 
 #didnt-notice {
   color: #fff;
-  padding: 50px 20px 750px;
-  background: #B9CFE4 url(/assets/images/intro-sm.png) no-repeat center bottom;
+  padding: 200px 15px;
+  background: #B9CFE4 url(/assets/images/plan-sm.jpg) no-repeat center bottom;
 
   h1 {
     font-size: 40px;
@@ -1259,9 +1259,14 @@ a {
     margin-bottom: 50px;
   }
 
+  .container{
+    width: 100% auto;
+    margin: 0 auto;
+    background-color: #9DE6CF;
+    padding: 10px 38px;}
+
   @media (min-width: 768px) {
     text-align: center;
-    padding-bottom: 800px;
 
     h1 {
       font-size: 50px;
@@ -1275,9 +1280,9 @@ a {
   }
 
   @media (min-width: 992px) {
-    background-image: url(/assets/images/intro-lg.png);
+    background-image: url(/assets/images/plan-lg.jpg);
     background-size: 100% auto;
-    padding-bottom: 55%;
+    padding: 200px 15px;
 
     .container {
       width: 730px;
