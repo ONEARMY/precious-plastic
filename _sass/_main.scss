@@ -682,9 +682,6 @@ a {
   position: relative;
   z-index: 2000;
 
-  .start & {
-  }
-
   .container {
     height: inherit;
     line-height: 60px;
@@ -811,6 +808,16 @@ a {
 
         &:hover {
           border-color: #9DE6CF;
+        }
+
+        .start & {
+          border-color: #fff;
+          color: #fff;
+
+          &:hover {
+            background: #fff;
+            color: #5D6570;
+          }
         }
       }
     }
