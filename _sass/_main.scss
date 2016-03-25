@@ -706,6 +706,8 @@ a {
     width: 26px;
     display: block;
     margin-top: 18px;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
     float: right;
     cursor: pointer;
 
@@ -715,9 +717,33 @@ a {
       display: block;
       background: #000;
       border-radius: 4px;
+      transition: 0.3s all;
+      -webkit-transition: 0.3s all;
 
       &:nth-child(2) {
         margin: 7px 0;
+      }
+    }
+
+    &.on {
+      margin-top: 29px;
+
+      b {
+        &:nth-child(1) {
+          transform: rotate(-45deg);
+          -webkit-transform: rotate(-45deg);
+          margin-bottom: -9px;
+        }
+
+        &:nth-child(2) {
+          opacity: 0;
+        }
+
+        &:nth-child(3) {
+          transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+          margin-top: -11px;
+        }
       }
     }
   }
