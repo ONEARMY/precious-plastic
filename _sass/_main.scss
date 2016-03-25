@@ -2389,6 +2389,15 @@ a {
       .button-group a {
         background: #{$hex};
       }
+
+      p a {
+        color: #{$hex};
+        font-weight: 700;
+
+        &:hover {
+          opacity: .7;
+        }
+      }
     }
   }
 
