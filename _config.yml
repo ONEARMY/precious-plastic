@@ -2,7 +2,7 @@
 title: Precious Plastic
 url: http://preciousplastic.com
 baseurl: ''
-description: Turn plastic waste into new valuable things
+description: Turn plastic waste into new valuable things #preciousplastic
 
 sass:
   style: compressed
