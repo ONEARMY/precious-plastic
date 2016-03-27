@@ -54,7 +54,18 @@ if ($('#player').length) {
   })
 }
 
+function daysSince (old) {
+  var date1 = new Date(old)
+  var date2 = new Date()
+  var timeDiff = Math.abs(date2.getTime() - date1.getTime())
+  var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24))
+
+  return diffDays
+}
+
 $(document).ready(function() {
+  $('.days-count').html(daysSince('3/24/2016') - 1)
+
   if ($('#page').length && $(window).width() > 992) {
     $('.container > aside').stick_in_parent({
       offset_top: 30
