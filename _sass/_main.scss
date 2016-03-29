@@ -787,6 +787,11 @@ a {
       border: 2px solid #9DE6CF;
       border-radius: 4px;
       padding: 8px 25px;
+
+      @media (min-width: 992px) {
+        color: #5D6570;
+        border-color: #5D6570;
+      }
     }
   }
 
@@ -799,7 +804,8 @@ a {
       }
 
       .start:hover {
-        background: #9DE6CF;
+        background: #5D6570;
+        border-color: #5D6570;
         color: #fff;
         text-decoration: none;
       }
@@ -853,20 +859,6 @@ a {
         padding: 6px 15px;
         margin-top: 0;
         margin-bottom: 0;
-
-        &:hover {
-          border-color: #9DE6CF;
-        }
-
-        .start & {
-          border-color: #fff;
-          color: #fff;
-
-          &:hover {
-            background: #fff;
-            color: #5D6570;
-          }
-        }
       }
     }
 
@@ -891,6 +883,7 @@ a {
 
       nav .start {
         background: #9DE6CF;
+        border-color: #9DE6CF;
         color: #fff;
 
         &:hover {
