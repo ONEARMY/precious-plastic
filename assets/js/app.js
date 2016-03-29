@@ -63,7 +63,32 @@ function daysSince (old) {
   return diffDays
 }
 
+$.urlParam = function (name, url){
+  var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(url)
+  return results[1] || 0
+}
+
 $(document).ready(function() {
+  if ($('.city-count').length) {
+    var types = [
+      'country',
+      'city'
+    ]
+
+    for (var index in types) {
+      var type = types[index]
+
+      $.ajax({
+        url: 'http://dumpark.com/embed/ppmap/gaQuery.php?query=' + type + '&count=true',
+        dataType: 'jsonp',
+        success: function (data) {
+          type = $.urlParam('query', this.url)
+          $('.' + type + '-count').text(data.results.count)
+        }
+      })
+    }
+  }
+
   $('.days-count').html(daysSince('3/24/2016') - 1)
 
   if ($('#page').length && $(window).width() > 992) {
