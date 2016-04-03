@@ -195,8 +195,7 @@ $(document).ready(function() {
     $('#page dl').accordion()
   }
 
-  //var canonical = $('head link[rel="canonical"]').attr('href')
-  var canonical = 'http://preciousplastic.com'
+  var canonical = $('head link[rel="canonical"]').attr('href')
   var url = encodeURIComponent(canonical)
 
   var counts = [
