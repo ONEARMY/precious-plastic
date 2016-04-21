@@ -12,3 +12,9 @@ permalink: pretty
 
 gems:
   - jekyll-sitemap
+
+languages:
+  - name: 'English'
+    key: 'en'
+  - name: 'Nederlands'
+    key: 'nl'
