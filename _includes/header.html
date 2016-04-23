@@ -11,13 +11,13 @@
     <div class="clearfix"></div>
 
     <nav>
-      {% assign sorted = (site.pages | sort: "index") %}
+        {% assign sorted = (site.pages | sort: "index") %}
 
-      {% for node in sorted %}
+        {% for node in sorted %}
 
-				{% if node.lang != page.lang %}
-					{% continue %}
-				{% endif %}
+        {% if node.lang != page.lang %}
+          {% continue %}
+        {% endif %}
 
         {% assign current = nil %}
 
