@@ -1,6 +1,6 @@
 <header id="menu">
   <div class="container">
-    <a href="/" class="logo"></a>
+    <a href="/{{page.lang}}" class="logo"></a>
 
     <span class="toggle">
       <b></b>
@@ -15,6 +15,10 @@
 
       {% for node in sorted %}
 
+				{% if node.lang != page.lang %}
+					{% continue %}
+				{% endif %}
+
         {% assign current = nil %}
 
         {% if page.url == node.url %}
@@ -27,7 +31,7 @@
 
       {% endfor %}
 
-      <a href="/videos" class="start">Start</a>
+      <a href="/{{page.lang}}/videos" class="start">{{layout.translations.[page.lang].videos.title}}</a>
     </nav>
   </div>
 </header>

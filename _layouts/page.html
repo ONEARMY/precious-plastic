@@ -17,12 +17,12 @@ layout: default
   <div class="container">
     <aside>
       <span>
-        {% if video %}Machines{% else %}tiny menu{% endif %}
+        {% if video %}{{layout.translations.[page.lang].videos.mobile-title}}{% else %}tiny menu{% endif %}
         <b>&plus;</b>
       </span>
 
       {% if video %}
-        <h1 class="menu-title">Videos</h1>
+      <h1 class="menu-title">{{layout.translations.[page.lang].videos.menu-title}}</h1>
       {% endif %}
 
       <nav>
@@ -33,7 +33,8 @@ layout: default
             {% assign active = "" %}
             {% assign isVideo = false %}
 
-            {% if page.url contains node.url and node.url != "/videos/" %}
+            {% capture idxurl %}/{{node.lang}}/videos/{% endcapture %}
+            {% if page.url contains node.url and node.url != idxurl %}
               {% assign active = " current" %}
             {% endif %}
 
@@ -54,23 +55,24 @@ layout: default
               {% assign id = node.id | minus:4 %}
             {% endif %}
 
-            {% if isVideo and node_url_parts_size < 4 %}
+            {% if isVideo and node_url_parts_size < 5 %}
               <a href="{{node.url}}" class="page-{{id}}{{active}}">
                 <span>{{id}}. </span>{{node.short}}
               </a>
             {% endif %}
 
-            {% if node_url_parts_size >= 4 and isVideo and page.url contains "/build" %}
+            {% if node_url_parts_size >= 5 and isVideo and page.url contains "/build" %}
               <a href="{{node.url}}" class="sub-item{{active}}">{{node.short}}</a>
             {% endif %}
           {% endfor %}
         {% else %}
-          <a href="/about" {% if page.url == "/about/" %}class="current"{% endif %}>About</a>
-          <a href="/faq" {% if page.url == "/faq/" %}class="current"{% endif %}>FAQ</a>
-          <a href="/help-us" {% if page.url == "/help-us/" %}class="current"{% endif %}>Help Us</a>
-          <a href="/thanks" {% if page.url == "/thanks/" %}class="current"{% endif %}>Thanks!</a>
-          <a href="/terms" {% if page.url == "/terms/" %}class="current"{% endif %}>Terms</a>
-          <a href="/contact" {% if page.url == "/contact/" %}class="current"{% endif %}>Contact</a>
+        {% assign ln = layout.translations.[page.lang] %}
+        <a href="/{{page.lang}}/{{ln.about.link}}" {% if page.url == "/{{page.lang}}/{{ln.about.link}}" %}class="current"{% endif %}>{{ln.about.title}}</a>
+        <a href="/{{page.lang}}/{{ln.faq.link}}" {% if page.url == "/{{page.lang}}/{{ln.faq.link}}" %}class="current"{% endif %}>{{ln.faq.title}}</a>
+        <a href="/{{page.lang}}/{{ln.help-us.link}}" {% if page.url == "/{{page.lang}}/{{ln.help-us.link}}" %}class="current"{% endif %}>{{ln.help-us.title}}</a>
+        <a href="/{{page.lang}}/{{ln.thanks.link}}" {% if page.url == "/{{page.lang}}/{{ln.thanks.link}}" %}class="current"{% endif %}>{{ln.thanks.title}}</a>
+        <a href="/{{page.lang}}/{{ln.terms.link}}" {% if page.url == "/{{page.lang}}/{{ln.terms.link}}" %}class="current"{% endif %}>{{ln.terms.title}}</a>
+        <a href="/{{page.lang}}/{{ln.contact.link}}" {% if page.url == "/{{page.lang}}/{{ln.contact.link}}" %}class="current"{% endif %}>{{ln.contact.title}}</a>
         {% endif %}
       </nav>
     </aside>
