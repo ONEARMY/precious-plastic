@@ -19,5 +19,3 @@ gems:
 languages:
   - name: 'English'
     key: 'en'
-  - name: 'Nederlands'
-    key: 'nl'
