@@ -19,3 +19,11 @@ gems:
 languages:
   - name: 'English'
     key: 'en'
+
+# Set the lang variable for all files in the language directory
+defaults:
+  -
+    scope:
+      path: 'en'
+    values:
+      lang: 'en'
