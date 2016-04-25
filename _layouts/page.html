@@ -67,12 +67,11 @@ layout: default
           {% endfor %}
         {% else %}
         {% assign ln = layout.translations.[page.lang] %}
-        <a href="/{{page.lang}}/{{ln.about.link}}" {% if page.url == "/{{page.lang}}/{{ln.about.link}}" %}class="current"{% endif %}>{{ln.about.title}}</a>
-        <a href="/{{page.lang}}/{{ln.faq.link}}" {% if page.url == "/{{page.lang}}/{{ln.faq.link}}" %}class="current"{% endif %}>{{ln.faq.title}}</a>
-        <a href="/{{page.lang}}/{{ln.help-us.link}}" {% if page.url == "/{{page.lang}}/{{ln.help-us.link}}" %}class="current"{% endif %}>{{ln.help-us.title}}</a>
-        <a href="/{{page.lang}}/{{ln.thanks.link}}" {% if page.url == "/{{page.lang}}/{{ln.thanks.link}}" %}class="current"{% endif %}>{{ln.thanks.title}}</a>
-        <a href="/{{page.lang}}/{{ln.terms.link}}" {% if page.url == "/{{page.lang}}/{{ln.terms.link}}" %}class="current"{% endif %}>{{ln.terms.title}}</a>
-        <a href="/{{page.lang}}/{{ln.contact.link}}" {% if page.url == "/{{page.lang}}/{{ln.contact.link}}" %}class="current"{% endif %}>{{ln.contact.title}}</a>
+        {% assign words = "about_faq_help-us_thanks_terms_contact" | split: '_' %}
+        {% for word in words %}
+          {% capture lnk %}/{{page.lang}}/{{ln.[word].link}}/{% endcapture %}
+          <a href="{{lnk}}" {% if page.url == {{lnk}} %}class="current"{% endif %}>{{ln.[word].title}}</a>
+        {% endfor %}
         {% endif %}
       </nav>
     </aside>
