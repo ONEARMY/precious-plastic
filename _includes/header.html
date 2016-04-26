@@ -1,6 +1,6 @@
 <header id="menu">
   <div class="container">
-    <a href="/{{page.lang}}" class="logo"></a>
+    <a href="/" class="logo"></a>
 
     <span class="toggle">
       <b></b>
@@ -11,13 +11,9 @@
     <div class="clearfix"></div>
 
     <nav>
-        {% assign sorted = (site.pages | sort: "index") %}
+      {% assign sorted = (site.pages | sort: "index") %}
 
-        {% for node in sorted %}
-
-        {% if node.lang != page.lang %}
-          {% continue %}
-        {% endif %}
+      {% for node in sorted %}
 
         {% assign current = nil %}
 
@@ -30,7 +26,8 @@
         {% endunless %}
 
       {% endfor %}
-      <a href="/{{page.lang}}/videos" class="start">{{page.translations.[page.lang].videos.title}}</a>
+
+      <a href="/videos" class="start">Start</a>
     </nav>
   </div>
 </header>
