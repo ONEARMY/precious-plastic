@@ -17,12 +17,12 @@ layout: default
   <div class="container">
     <aside>
       <span>
-        {% if video %}Machines{% else %}tiny menu{% endif %}
+        {% if video %}{{page.translations.[page.lang].videos.mobile-title}}{% else %}tiny menu{% endif %}
         <b>&plus;</b>
       </span>
 
       {% if video %}
-        <h1 class="menu-title">Videos</h1>
+      <h1 class="menu-title">{{page.translations.[page.lang].videos.menu-title}}</h1>
       {% endif %}
 
       <nav>
@@ -33,7 +33,8 @@ layout: default
             {% assign active = "" %}
             {% assign isVideo = false %}
 
-            {% if page.url contains node.url and node.url != "/videos/" %}
+            {% capture idxurl %}/{{node.lang}}/videos/{% endcapture %}
+            {% if page.url contains node.url and node.url != idxurl %}
               {% assign active = " current" %}
             {% endif %}
 
@@ -54,23 +55,23 @@ layout: default
               {% assign id = node.id | minus:4 %}
             {% endif %}
 
-            {% if isVideo and node_url_parts_size < 4 %}
+            {% if isVideo and node_url_parts_size < 5 %}
               <a href="{{node.url}}" class="page-{{id}}{{active}}">
                 <span>{{id}}. </span>{{node.short}}
               </a>
             {% endif %}
 
-            {% if node_url_parts_size >= 4 and isVideo and page.url contains "/build" %}
+            {% if node_url_parts_size >= 5 and isVideo and page.url contains "/build" %}
               <a href="{{node.url}}" class="sub-item{{active}}">{{node.short}}</a>
             {% endif %}
           {% endfor %}
         {% else %}
-          <a href="/about" {% if page.url == "/about/" %}class="current"{% endif %}>About</a>
-          <a href="/faq" {% if page.url == "/faq/" %}class="current"{% endif %}>FAQ</a>
-          <a href="/help-us" {% if page.url == "/help-us/" %}class="current"{% endif %}>Help Us</a>
-          <a href="/thanks" {% if page.url == "/thanks/" %}class="current"{% endif %}>Thanks!</a>
-          <a href="/terms" {% if page.url == "/terms/" %}class="current"{% endif %}>Terms</a>
-          <a href="/contact" {% if page.url == "/contact/" %}class="current"{% endif %}>Contact</a>
+        {% assign ln = page.translations.[page.lang] %}
+        {% assign words = "about_faq_help-us_thanks_terms_contact" | split: '_' %}
+        {% for word in words %}
+          {% capture lnk %}/{{page.lang}}/{{ln.[word].link}}/{% endcapture %}
+          <a href="{{lnk}}" {% if page.url == {{lnk}} %}class="current"{% endif %}>{{ln.[word].title}}</a>
+        {% endfor %}
         {% endif %}
       </nav>
     </aside>

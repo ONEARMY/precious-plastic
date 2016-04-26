@@ -2,9 +2,9 @@
   <span class="toggle"></span>
 
   <div class="inner">
-    <a href="/" class="logo"></a>
-    <h1>Spread the knowledge!</h1>
-    <p>Make sure it reaches your friend, uncle and that farmer living in Africa.</p>
+    <a href="/{{page.lang}}/" class="logo"></a>
+    <h1>{{page.translations.[page.lang].overlay.spread}}</h1>
+    <p>{{page.translations.[page.lang].overlay.reach}}</p>
 
     <nav class="social">
       <a href="https://plus.google.com/share?url={{site.url | cgi_escape}}" class="google-plus" target="_blank"></a>
@@ -15,7 +15,7 @@
       <a href="http://www.linkedin.com/shareArticle?mini=true&url={{site.url | cgi_escape}}&title={{site.title | cgi_escape}}" class="linkedin" target="_blank"></a>
     </nav>
 
-    <p class="total">Total shares: <span>0</span></p>
+    <p class="total">{{page.translations.[page.lang].overlay.shares}}<span>0</span></p>
   </div>
 </aside>
 

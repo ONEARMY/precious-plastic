@@ -12,3 +12,18 @@ permalink: pretty
 
 gems:
   - jekyll-sitemap
+
+# This is used for the language selector, should contain native name of the 
+# language and the language abbreviation used in the 'lang' variable of the 
+# pages.
+languages:
+  - name: 'English'
+    key: 'en'
+
+# Set the lang variable for all files in the language directory
+defaults:
+  -
+    scope:
+      path: 'en'
+    values:
+      lang: 'en'
