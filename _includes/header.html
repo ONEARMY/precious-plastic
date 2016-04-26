@@ -14,24 +14,22 @@
         {% assign sorted = (site.pages | sort: "index") %}
 
         {% for node in sorted %}
+          {% if node.lang != page.lang %}
+            {% continue %}
+          {% endif %}
 
-        {% if node.lang != page.lang %}
-          {% continue %}
-        {% endif %}
+          {% assign current = nil %}
 
-        {% assign current = nil %}
+          {% if page.url == node.url %}
+            {% assign current = "active" %}
+          {% endif %}
 
-        {% if page.url == node.url %}
-          {% assign current = "active" %}
-        {% endif %}
+          {% unless node.url == "/" or node.url contains "assets" or node.layout == "page" or node.kind == "error" %}
+            <a href="{{node.url}}" class="{{current}}">{{node.title}}</a>
+          {% endunless %}
+        {% endfor %}
 
-        {% unless node.url == "/" or node.url contains "assets" or node.layout == "page" or node.kind == "error" %}
-          <a href="{{node.url}}" class="{{current}}">{{node.title}}</a>
-        {% endunless %}
-
-      {% endfor %}
-
-      <a href="/{{page.lang}}/videos" class="start">{{layout.translations.[page.lang].videos.title}}</a>
+      <a href="/{{page.lang}}/videos" class="start">{{layout.translations.[lang].videos.title}}</a>
     </nav>
   </div>
 </header>
