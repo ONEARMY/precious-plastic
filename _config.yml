@@ -12,3 +12,52 @@ permalink: pretty
 
 gems:
   - jekyll-sitemap
+
+# This is used for the language selector, should contain native name of the 
+# language and the language abbreviation used in the 'lang' variable of the 
+# pages.
+languages:
+  - name: 'English'
+    key: 'en'
+
+# Set the lang variable for all files in the language directory
+defaults:
+  -
+    scope:
+      path: 'en'
+    values:
+      lang: 'en'
+      translations:
+        videos:
+          title: 'Start'
+          menu-title: 'Videos'
+          mobile-title: 'Machines'
+        about:
+          link: 'about'
+          title: 'About'
+        faq:
+          link: 'faq'
+          title: 'FAQ'
+        help-us:
+          link: 'help-us'
+          title: 'Help Us'
+        thanks:
+          link: 'thanks'
+          title: 'Thanks'
+        terms:
+          link: 'terms'
+          title: 'Terms'
+        contact:
+          link: 'contact'
+          title: 'Contact'
+        donate:
+          title: 'Donate'
+        by:
+          title: 'A project by Dave Hakkens'
+        overlay:
+          spread: 'Spread the knowledge!'
+          reach: 'Make sure it reaches your friend, uncle, and that farmer living in Africa.'
+          shares: 'Total shares: '
+          want: 'Want to help us?'
+          SPREAD: 'SPREAD'
+          magic: 'the project and let the magic happen.'
