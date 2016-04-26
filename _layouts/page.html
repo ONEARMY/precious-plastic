@@ -17,12 +17,12 @@ layout: default
   <div class="container">
     <aside>
       <span>
-        {% if video %}{{layout.translations.[lang].videos.mobile-title}}{% else %}tiny menu{% endif %}
+        {% if video %}{{layout.translations.[page.lang].videos.mobile-title}}{% else %}tiny menu{% endif %}
         <b>&plus;</b>
       </span>
 
       {% if video %}
-      <h1 class="menu-title">{{layout.translations.[lang].videos.menu-title}}</h1>
+      <h1 class="menu-title">{{layout.translations.[page.lang].videos.menu-title}}</h1>
       {% endif %}
 
       <nav>
@@ -66,7 +66,7 @@ layout: default
             {% endif %}
           {% endfor %}
         {% else %}
-        {% assign ln = layout.translations.[lang] %}
+        {% assign ln = layout.translations.[page.lang] %}
         {% assign words = "about_faq_help-us_thanks_terms_contact" | split: '_' %}
         {% for word in words %}
           {% capture lnk %}/{{page.lang}}/{{ln.[word].link}}/{% endcapture %}
