@@ -27,3 +27,37 @@ defaults:
       path: 'en'
     values:
       lang: 'en'
+      translations:
+        videos:
+          title: 'Start'
+          menu-title: 'Videos'
+          mobile-title: 'Machines'
+        about:
+          link: 'about'
+          title: 'About'
+        faq:
+          link: 'faq'
+          title: 'FAQ'
+        help-us:
+          link: 'help-us'
+          title: 'Help Us'
+        thanks:
+          link: 'thanks'
+          title: 'Thanks'
+        terms:
+          link: 'terms'
+          title: 'Terms'
+        contact:
+          link: 'contact'
+          title: 'Contact'
+        donate:
+          title: 'Donate'
+        by:
+          title: 'A project by Dave Hakkens'
+        overlay:
+          spread: 'Spread the knowledge!'
+          reach: 'Make sure it reaches your friend, uncle, and that farmer living in Africa.'
+          shares: 'Total shares: '
+          want: 'Want to help us?'
+          SPREAD: 'SPREAD'
+          magic: 'the project and let the magic happen.'
