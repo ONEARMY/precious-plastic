@@ -13,12 +13,14 @@ permalink: pretty
 gems:
   - jekyll-sitemap
 
-# This is used for the language selector, should contain native name of the 
-# language and the language abbreviation used in the 'lang' variable of the 
+# This is used for the language selector, should contain native name of the
+# language and the language abbreviation used in the 'lang' variable of the
 # pages.
 languages:
   - name: 'English'
     key: 'en'
+  - name: 'Deutsch'
+    key: 'de'
 
 # Set the lang variable for all files in the language directory
 defaults:
@@ -61,3 +63,42 @@ defaults:
           want: 'Want to help us?'
           SPREAD: 'SPREAD'
           magic: 'the project and let the magic happen.'
+  -
+    scope:
+      path: 'de'
+    values:
+      lang: 'de'
+      translations:
+        videos:
+          title: 'Start'
+          menu-title: 'Videos'
+          mobile-title: 'Maschinen'
+        about:
+          link: 'ueber'
+          title: 'Über'
+        faq:
+          link: 'faq'
+          title: 'FAQ'
+        help-us:
+          link: 'helfen'
+          title: 'Helfen'
+        thanks:
+          link: 'danke'
+          title: 'Danke an'
+        terms:
+          link: 'bedingungen'
+          title: 'Bedingungen'
+        contact:
+          link: 'kontakt'
+          title: 'Kontakt'
+        donate:
+          title: 'Spenden'
+        by:
+          title: 'Ein Projekt von Dave Hakkens'
+        overlay:
+          spread: 'Teile das Wissen!'
+          reach: 'Und gehe sicher, dass es deinen Freund, Onkel, und den Bauern in Afrika erreicht.'
+          shares: 'Posts über uns: '
+          want: 'Möchtest du helfen?'
+          SPREAD: 'TEILE'
+          magic: 'das Projekt und lass der Magie ihren Lauf.'
