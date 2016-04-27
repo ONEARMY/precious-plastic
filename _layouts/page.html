@@ -69,7 +69,7 @@ layout: default
         {% assign ln = page.translations %}
         {% assign words = "about_faq_help-us_thanks_terms_contact" | split: '_' %}
         {% for word in words %}
-          {% capture lnk %}/{{page.lang}}/{{ln.[word].link}}/{% endcapture %}
+          {% capture lnk %}/{{page.lang}}/{{word}}/{% endcapture %}
           <a href="{{lnk}}" {% if page.url == {{lnk}} %}class="current"{% endif %}>{{ln.[word].title}}</a>
         {% endfor %}
         {% endif %}

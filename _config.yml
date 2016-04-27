@@ -35,22 +35,16 @@ defaults:
           menu-title: 'Videos'
           mobile-title: 'Machines'
         about:
-          link: 'about'
           title: 'About'
         faq:
-          link: 'faq'
           title: 'FAQ'
         help-us:
-          link: 'help-us'
           title: 'Help Us'
         thanks:
-          link: 'thanks'
           title: 'Thanks'
         terms:
-          link: 'terms'
           title: 'Terms'
         contact:
-          link: 'contact'
           title: 'Contact'
         donate:
           title: 'Donate'
@@ -74,22 +68,16 @@ defaults:
           menu-title: 'Videos'
           mobile-title: 'Maschinen'
         about:
-          link: 'ueber'
           title: 'Über'
         faq:
-          link: 'faq'
           title: 'FAQ'
         help-us:
-          link: 'helfen'
           title: 'Helfen'
         thanks:
-          link: 'team'
           title: 'Team'
         terms:
-          link: 'bedingungen'
           title: 'Bedingungen'
         contact:
-          link: 'kontakt'
           title: 'Kontakt'
         donate:
           title: 'Spenden'
