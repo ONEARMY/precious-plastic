@@ -83,8 +83,8 @@ defaults:
           link: 'helfen'
           title: 'Helfen'
         thanks:
-          link: 'danke'
-          title: 'Danke an'
+          link: 'team'
+          title: 'Team'
         terms:
           link: 'bedingungen'
           title: 'Bedingungen'
