@@ -59,7 +59,7 @@ defaults:
         overlay:
           spread: 'Spread the knowledge!'
           reach: 'Make sure it reaches your friend, uncle, and that farmer living in Africa.'
-          shares: 'Total shares: '
+          shares: 'Total shares:'
           want: 'Want to help us?'
           SPREAD: 'SPREAD'
           magic: 'the project and let the magic happen.'
@@ -98,7 +98,7 @@ defaults:
         overlay:
           spread: 'Teile das Wissen!'
           reach: 'Und gehe sicher, dass es deinen Freund, Onkel, und den Bauern in Afrika erreicht.'
-          shares: 'Posts über uns: '
+          shares: 'Posts über uns:'
           want: 'Möchtest du helfen?'
           SPREAD: 'TEILE'
           magic: 'das Projekt und lass der Magie ihren Lauf.'
