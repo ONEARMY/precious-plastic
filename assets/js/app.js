@@ -69,6 +69,19 @@ $.urlParam = function (name, url){
 }
 
 $(document).ready(function() {
+  if (document.title.indexOf('404') > -1) {
+    var location = window.location
+    var engURL = location.origin + '/en' + location.pathname
+
+    $.ajax({
+      type: 'HEAD',
+      url: engURL,
+      success: function() {
+        window.location.href = engURL
+      }
+    })
+  }
+
   if ($('.city-count').length) {
     var types = [
       'country',
