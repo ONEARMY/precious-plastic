@@ -33,6 +33,10 @@ layout: default
             {% assign active = "" %}
             {% assign isVideo = false %}
 
+            {% if page.lang != node.lang %}
+              {% continue %}
+            {% endif %}
+
             {% capture idxurl %}/{{node.lang}}/videos/{% endcapture %}
             {% if page.url contains node.url and node.url != idxurl %}
               {% assign active = " current" %}
