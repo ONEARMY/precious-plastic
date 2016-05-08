@@ -1,6 +1,6 @@
 # Precious Plastic
 
-This is the code that powers [Precious Plastic](http://preciousplastic.com). We're using [Jekyll](https://jekyllrb.com) to convert it into a static site which runs on [GitHub Pages](https://pages.github.com). Because of this, we're not able to accept any contributions containing Ruby files.
+This is the code that powers [Precious Plastic](http://preciousplastic.com). We're using [Jekyll](https://jekyllrb.com) to convert it into a static site that runs on [GitHub Pages](https://pages.github.com). Because of this, we're not able to accept any contributions containing Ruby files.
 
 ## Contribute
 
