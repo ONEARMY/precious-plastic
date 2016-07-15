@@ -231,8 +231,10 @@ $(document).ready(function() {
           general: parseInt($('.shares-count').text())
         }
 
-        $('#overlay .total span').html(previous.overlay + count)
-        $('.shares-count').html(previous.general + count)
+        var add = 70000
+
+        $('#overlay .total span').html(previous.overlay + count + add)
+        $('.shares-count').html(previous.general + count + add)
       }
     })
   }
