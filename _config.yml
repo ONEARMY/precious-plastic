@@ -33,7 +33,7 @@ defaults:
         videos:
           title: 'Start'
           menu-title: 'Videos'
-          mobile-title: 'Machines'
+          mobile-title: 'Chapters'
         about:
           title: 'About'
         faq:
