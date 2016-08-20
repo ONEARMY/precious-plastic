@@ -783,22 +783,14 @@ a {
 
     .start {
       display: inline-block;
-      border: 2px solid #5D6570;
+      color: #9DE6CF;
+      border: 2px solid #9DE6CF;
       border-radius: 4px;
       padding: 8px 25px;
-      background: #9DE6CF;
-      border-color: #5D6570;
-      color: #fff;
-
-      .start:hover {
-        background: #5D6570;
-        border-color: #5D6570;
-        color: #fff;
-        text-decoration: none;
-      }
 
       @media (min-width: 992px) {
-
+        color: #5D6570;
+        border-color: #5D6570;
       }
     }
   }
@@ -811,6 +803,12 @@ a {
         font-size: 18px;
       }
 
+      .start:hover {
+        background: #5D6570;
+        border-color: #5D6570;
+        color: #fff;
+        text-decoration: none;
+      }
     }
 
     .container {
