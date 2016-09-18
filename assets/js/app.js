@@ -169,7 +169,7 @@ $(document).ready(function() {
   if ($('#news')) {
     $.ajax({
       type: 'GET',
-      url: 'https://davehakkens.nl/tag/preciousplastic/feed/',
+      url: 'https://davehakkens.nl/category/preciousplastic/feed/',
       success: function (xml) {
         $(xml).find('item').each(function (index) {
           var article = $('<article />')
