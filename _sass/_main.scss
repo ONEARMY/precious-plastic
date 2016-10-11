@@ -2497,7 +2497,8 @@ a {
           }
 
           &.page-7,
-          &.page-8 {
+          &.page-8,
+          &.page-9 {
             background-repeat: no-repeat;
             background-position: left 30px center;
             padding-left: 55px;
@@ -2520,6 +2521,14 @@ a {
 
             &.current {
               background-image: url(/assets/images/menu-icon-download-white.svg);
+            }
+          }
+
+          &.page-9 {
+            background-image: url(/assets/images/menu-icon-map.svg);
+
+            &.current {
+              background-image: url(/assets/images/menu-icon-map-white.svg);
             }
           }
         }
