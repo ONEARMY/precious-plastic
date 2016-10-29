@@ -21,6 +21,8 @@ languages:
     key: 'en'
   - name: 'Deutsch'
     key: 'de'
+  - name: 'Suomi'
+    key: 'fi'
 
 # Set the lang variable for all files in the language directory
 defaults:
@@ -90,3 +92,36 @@ defaults:
           want: 'Möchtest du helfen?'
           SPREAD: 'TEILE'
           magic: 'das Projekt und lass der Magie ihren Lauf.'
+  -
+    scope:
+      path: 'fi'
+    values:
+      lang: 'fi'
+      translations:
+        videos:
+          title: 'Aloita'
+          menu-title: 'Videot'
+          mobile-title: 'Chapters'
+        about:
+          title: 'Tietoa'
+        faq:
+          title: 'UKK'
+        help-us:
+          title: 'Auta meitä'
+        thanks:
+          title: 'Kiitokset'
+        terms:
+          title: 'Ehdot'
+        contact:
+          title: 'Ota yhteyttä'
+        donate:
+          title: 'Lahjoita'
+        by:
+          title: 'Dave Hakkensin projekti'
+        overlay:
+          spread: 'Levitä tietoa!'
+          reach: 'Varmista että se saavuttaa ystäväsi, setäsi ja maanviljelijän, joka asuu Afrikassa.'
+          shares: 'Jaot yhteensä:'
+          want: 'Haluatko auttaa meitä?'
+          SPREAD: 'LEVITÄ'
+          magic: 'projektia ja anna taian toteutua.'
