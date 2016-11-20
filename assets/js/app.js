@@ -243,4 +243,20 @@ $(document).ready(function() {
     var url = $(this).attr('data-url')
     window.location.href = url
   })
+
+  $( '.overlayf .close' ).click( function( e ) {
+    $( this ).closest( '.overlayf' ).fadeOut( 300 );
+    e.preventDefault();
+  });
+
+  $('#copyright .by').click(function(event) {
+    $('#overlayf').addClass('open')
+    event.preventDefault()
+  })
+
+  $('#overlayf .close').click(function(event) {
+    $(this).closest('#overlayf').removeClass('open')
+    event.preventDefault()
+  })
+
 })

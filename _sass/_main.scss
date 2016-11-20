@@ -235,6 +235,66 @@ a {
   }
 }
 
+#overlayf {
+  position: fixed;
+  overflow: scroll;
+  justify-content: center;
+  align-items: center;
+  background: #313131;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+#overlayf.open {
+  display: block;
+  margin-top: -20px;
+}
+
+#overlayf nav {
+  margin: 10px auto;
+}
+
+#overlayf .close {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  text-indent: -99999px;
+  background: url(/assets/images/close.gif);
+  background-size: 35px;
+  height: 35px;
+  width: 35px;
+  background-repeat: no-repeat;
+}
+
+#overlayf .otherby {
+  margin: 50px auto 0;
+  width: 240px;
+  max-width: 70vw;
+}
+
+#overlayf .otherby img {
+  width: 250px;
+}
+
+#overlayf .external img {
+width: 200px;
+max-width: 70vw;
+height: auto;
+margin: 10px;
+}
+
+#overlayf a:hover {
+border: 0;
+}
+
+#overlayf .overlay-social img {
+display: none;
+}
+
 #the-plan {
   text-align: center;
   padding-top: 0px;
@@ -592,10 +652,9 @@ a {
   }
 
   .by {
-    width: 260px;
+    width: 230px;
     margin: 40px auto 0;
     height: 20px;
-    background: url(/assets/images/by.svg) no-repeat center center;
     background-size: contain;
     text-indent: -999999px;
 
@@ -657,11 +716,6 @@ a {
   }
 
   @media (min-width: 768px) {
-    .by {
-      width: 400px;
-      height: 18px;
-      margin-top: 100px;
-    }
 
     .social {
       margin-top: 30px;
