@@ -247,6 +247,7 @@ a {
   bottom: 0;
   right: 0;
   display: none;
+  -webkit-overflow-scrolling: touch;
 }
 
 #overlayf.open {
@@ -281,18 +282,59 @@ a {
 }
 
 #overlayf .external img {
-width: 200px;
-max-width: 70vw;
-height: auto;
-margin: 10px;
+  width: 200px;
+  max-width: 70vw;
+  height: auto;
+  margin: 10px;
 }
 
 #overlayf a:hover {
-border: 0;
+  border: 0;
 }
 
-#overlayf .overlay-social img {
-display: none;
+#overlayf .overlayf-social {
+  margin-top: -2px;
+  margin-bottom: 20px;
+}
+
+#overlayf .overlayf-social img {
+  width: 50px;
+  height: auto;
+  margin: -15px;
+}
+
+  @media (min-width: 992px) {
+
+    #overlayf {
+      margin-top: -20px;
+    }
+
+    #overlayf .close {
+      background-size: 70px;
+      height: 70px;
+      width: 70px;
+      top: 40px;
+      right: 40px;
+    }
+
+    #overlayf .otherby {
+      margin: 50px auto 0;
+      width: 320px;
+      max-width: 70vw;
+    }
+
+    #overlayf .external img {
+      width: 320px;
+      max-width: 70vw;
+      height: auto;
+      margin: 10px;
+    }
+
+    #overlayf .overlayf-social img {
+      margin-top: 50px;
+      width: 45px;
+      height: auto;
+    }
 }
 
 #the-plan {
