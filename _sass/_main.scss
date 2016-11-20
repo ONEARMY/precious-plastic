@@ -271,6 +271,7 @@ a {
   background-repeat: no-repeat;
 }
 
+
 #overlayf .otherby {
   margin: 50px auto 0;
   width: 240px;
@@ -694,11 +695,12 @@ a {
   }
 
   .by {
-    width: 230px;
     margin: 40px auto 0;
-    height: 20px;
-    background-size: contain;
-    text-indent: -999999px;
+
+    img {
+      width: 300px;
+      height: auto;
+    }
 
     .start & {
       margin-top: 0;
