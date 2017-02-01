@@ -121,8 +121,8 @@ a {
     }
 
     .spread {
-      background: #FFE096;
-      color: #000;
+      background: #00bfa5;
+      color: #fff;
       text-transform: uppercase;
       border-radius: 7px;
       font-size: 22px;
@@ -132,7 +132,7 @@ a {
       transition: background .2s;
 
       &:hover {
-        background: #d5b879;
+        background: #de5c5d;
       }
 
       & + span {
@@ -234,6 +234,24 @@ a {
     }
   }
 }
+.support-icon{
+  display: inline-block;
+  width: 250px;
+  height: 230px;
+  margin: 20px;
+  }
+
+
+  .support-icon img {
+      width: 100%;
+      height: auto;
+  }
+
+  .support-icon h1 {
+    font-size: 30px!important;
+    margin: 10px;
+}
+
 
 #overlayf {
   position: fixed;
@@ -487,7 +505,7 @@ a {
 
 #areas {
   text-align: center;
-  padding: 0 0 70px 0;
+  padding: 0 0 00px 0;
 
   article {
     padding: 60px 20px 0;
@@ -598,8 +616,8 @@ a {
 
     .spread {
       a {
-        background: #FFE096;
-        color: #000;
+        background: #e87e7f;
+        color: #fff;
         border-radius: 7px;
         font-size: 22px;
         padding: 29px 62px;
@@ -609,7 +627,7 @@ a {
         transition: background .2s;
 
         &:hover {
-          background: #d5b879;
+          background: #de5c5d;
         }
       }
 
@@ -2527,10 +2545,10 @@ a {
     ('pink', '#C1ADEC'),
     ('red', '#F58D8E'),
     ('yellow', '#FFE69D'),
-    ('orange', '#F7B67B'),
-    ('lightgreen', '#C1E49C'),
+    ('orange', '#f7b67b'),
+    ('lightgreen', '#7f94d8'),
     ('grey', '#9B9B9B'),
-    ('purple', '#BF9CBF')
+    ('purple', '#ffd8d3')
   );
 
   @each $handle, $hex in $colors {
@@ -3086,7 +3104,7 @@ a {
 }
 
 #overlay {
-  background: #FFE096;
+  background: #00bfa5;
   position: fixed;
   height: 100%;
   top: 100%;
@@ -3110,10 +3128,10 @@ a {
 
   h1 {
     font-size: 24px;
-    color: #000;
+    color: #fff;
 
     @media (min-width: 992px) {
-      font-size: 40px;
+      font-size: 60px;
     }
   }
 
@@ -3153,13 +3171,14 @@ a {
   .social {
     width: 290px;
     margin: 40px auto;
+    margin-top: 100px;
     font-size: 0;
 
     a {
-      height: 64px;
-      width: 64px;
+      height: 50px;
+      width: 50px;
       display: inline-block;
-      margin: 15px;
+      margin: 5px;
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: center;
@@ -3189,8 +3208,8 @@ a {
       }
 
       @media (min-width: 992px) {
-        width: 90px;
-        height: 90px;
+        width: 60px;
+        height: 60px;
 
         &:hover {
           opacity: .8;
@@ -3241,8 +3260,8 @@ a {
 }
 
 #toggle-overlay {
-  background: #FFD87D;
-  color: #000;
+  background: #00bfa5;
+  color: white;
   -webkit-text-size-adjust: 100%;
   position: fixed;
   bottom: 0;
@@ -3260,7 +3279,7 @@ a {
 
   span {
     color: inherit;
-    border-bottom: 1px solid #000
+    border-bottom: 1px solid #fff
   }
 
   .start & {
@@ -3269,7 +3288,7 @@ a {
 
   @media (min-width: 768px) {
     font-size: 15px;
-    padding: 16px 0;
+    padding: 30px 0;
   }
 }
 
