@@ -132,7 +132,7 @@ a {
       transition: background .2s;
 
       &:hover {
-        background: #de5c5d;
+        background: #309284;
       }
 
       & + span {
@@ -239,19 +239,35 @@ a {
   width: 250px;
   height: 230px;
   margin: 20px;
+  padding: 24px;
+  box-sizing: border-box;
+  padding-bottom: 0px;
   }
 
 
   .support-icon img {
-      width: 100%;
+      width: 67%;
       height: auto;
   }
 
   .support-icon h1 {
-    font-size: 30px!important;
-    margin: 10px;
+    font-size: 20px!important;
+    margin: 0px;
 }
 
+  @media (min-width: 992px) {
+
+    .support-icon h1 {
+        font-size: 30px!important;
+        margin: 10px;
+    }
+
+    .support-icon img {
+        width: 100%;
+        height: auto;
+    }
+
+  }
 
 #overlayf {
   position: fixed;
@@ -3153,7 +3169,7 @@ a {
     height: 78px;
     background: url(/assets/images/logo.png) no-repeat center center;
     background-size: 100% auto;
-    display: block;
+    display: none;
     margin: 30px auto;
 
     @media (min-width: 992px) {
@@ -3171,7 +3187,7 @@ a {
   .social {
     width: 290px;
     margin: 40px auto;
-    margin-top: 100px;
+    margin-top: 5%;
     font-size: 0;
 
     a {
