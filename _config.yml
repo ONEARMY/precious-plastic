@@ -54,9 +54,9 @@ defaults:
           spread: 'Spread the knowledge!'
           reach: 'Make sure it reaches your friend, uncle, and that farmer living in Africa.'
           shares: 'Total shares:'
-          want: 'Help Precious Plastic'
-          SPREAD: 'BOOST'
-          magic: 'plastic recycling all over the world!'
+          want: 'We need'
+          SPREAD: 'HELP'
+          magic: 'to plastic recycling all over the world!'
   -
     scope:
       path: 'de'
