@@ -1,8 +1,10 @@
-body {
-    background-color: lightblue;
-}
 
-h1 {
-    color: navy;
-    margin-left: 20px;
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+
+
+body {
+  font-family: 'Varela Round', sans-serif;
+
 }
