@@ -8,3 +8,15 @@ body {
   font-family: 'Varela Round', sans-serif;
 
 }
+
+h1.marketplace-lander-content-title {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.new-listing-link {
+    background-color: #87d9bf!important;
+}
+
+img.home-fluid-thumbnail-grid-author-avatar-image {
+    border-radius: 100px!important;
+}
