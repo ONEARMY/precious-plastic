@@ -20,3 +20,17 @@ h1.marketplace-lander-content-title {
 img.home-fluid-thumbnail-grid-author-avatar-image {
     border-radius: 100px!important;
 }
+
+
+a.home-categories-main {
+    text-transform: inherit!important;
+    background-color: #e8e8e8!important;
+    padding: 10px!important;
+    margin-top: 5px!important;
+}
+
+a.home-categories-sub {
+    background-color: #e8e8e8!important;
+    margin-top: 2px!important;
+    padding: 5px 10px!important;
+}
