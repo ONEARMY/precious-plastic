@@ -1,3 +1,8 @@
-$(".delivery-title").text(function () {
-    return $(this).text().replace("Pickup", "hello everyone");
+$(".col-12 ul").text(function () {
+    return $(this).text().replace("Pickup", "Domestic or pickup ");
+});
+
+
+$(".col-12 ul").text(function () {
+    return $(this).text().replace("Shipping", "International Shipping");
 });
