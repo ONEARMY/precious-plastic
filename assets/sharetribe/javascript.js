@@ -1,4 +1,4 @@
 
 
 
-document.getElementById("toggle-header").textContent="newtext";
+document.getElementById("div.toggle-header").textContent="newtext";
