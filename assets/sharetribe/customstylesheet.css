@@ -38,16 +38,31 @@ a.home-categories-sub {
 }
 
 .toggle-menu {
-    padding-right: 20px!important!important;
+    padding-right: 20px!important;
     background-color: #f58d8e!important;
 }
 
-.toggle-menu:first-child {
- {
-    display: none!important;
+.toggle-menu:nth-child(1) {
+ {  display: none!important;
   }
 
 .toggle.with-borders.toggled {
     border-radius: 0 0 5px 5px!important;
     background: #f58d8e!important;
+}
+
+.toggle-header-container {
+    background-color: #fff;
+}
+
+.header-toggle-menu-menu {
+    background-color: #474747;
+}
+
+.toggle-header {
+    color: #f58d8e;
+}
+
+.icon-dropdown {
+    color: #f58d8e;
 }
