@@ -24,7 +24,7 @@ img.home-fluid-thumbnail-grid-author-avatar-image {
 
 a.home-categories-main {
     text-transform: inherit!important;
-    text-transform: lowercase;
+    text-transform: capitalize!important;
     background-color: #f5f5f5!important;
     padding: 10px!important;
     margin-top: 5px!important;
@@ -32,22 +32,22 @@ a.home-categories-main {
 
 a.home-categories-sub {
     background-color: #e8e8e8!important;
-    text-transform: capitalize;
+    text-transform: capitalize!important;
     margin-top: 2px!important;
     padding: 5px 10px!important;
 }
 
 .toggle-menu {
-    padding-right: 20px;
-    background-color: #f58d8e;
+    padding-right: 20px!important!important;
+    background-color: #f58d8e!important;
 }
 
 .toggle-menu:first-child {
  {
-    display: none;
+    display: none!important;
   }
 
 .toggle.with-borders.toggled {
-    border-radius: 0 0 5px 5px;
-    background: #f58d8e;
+    border-radius: 0 0 5px 5px!important;
+    background: #f58d8e!important;
 }
