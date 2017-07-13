@@ -1,7 +1,4 @@
 
-
-
-document.getElementById("div.toggle-header").textContent="newtext";
-
-
-$("toggle-header").update("New text");
+​$(".toggle-header").text(function () {
+    return $(this).text().replace("All listing types", "hello everyone"); 
+});​​​​​
