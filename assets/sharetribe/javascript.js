@@ -1,4 +1,3 @@
-
-​$(".toggle-header").text(function () {
-    return $(this).text().replace("All listing types", "hello everyone"); 
-});​​​​​
+$(".delivery-title").text(function () {
+    return $(this).text().replace("Pickup", "hello everyone");
+});
