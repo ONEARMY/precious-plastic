@@ -104,3 +104,7 @@ b, strong {
     font-weight: bold;
     color: #f58d8e;
 }
+
+body {
+  background: #f58d8e!important;
+}
