@@ -39,7 +39,10 @@ a.home-categories-sub {
 
 .toggle-menu {
     padding-right: 20px!important;
-    background-color: #f58d8e!important;
+    background-color: #fff!important;
+    border-right: 1px solid #f58d8e!important;
+    border-left: 1px solid #f58d8e!important;
+    border-bottom: 1px solid #f58d8e!important;
 }
 
 .toggle-menu:nth-child(1) {
@@ -59,10 +62,32 @@ a.home-categories-sub {
     background-color: #474747;
 }
 
-.toggle-header {
+.toggle-header.toggled {
     color: #f58d8e;
+}
+
+.toggle.toggled {
+    border-color: #474747;
+}
+
+.toggle.with-borders.toggled {
+    background: #fff;
 }
 
 .icon-dropdown {
     color: #f58d8e;
+}
+
+.toggle.with-borders {
+    background: #fff;
+}
+
+.toggle-menu a {
+    color: #f58d8e;
+}
+
+.toggle.with-borders.toggled {
+  border-right: 1px solid #f58d8e!important;
+  border-left: 1px solid #f58d8e!important;
+  border-top: 1px solid #f58d8e!important;
 }
