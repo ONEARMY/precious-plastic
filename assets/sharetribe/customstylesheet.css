@@ -86,25 +86,7 @@ a.home-categories-sub {
     color: #f58d8e;
 }
 
-.toggle.with-borders.toggled {
-  border-right: 1px solid #f58d8e!important;
-  border-left: 1px solid #f58d8e!important;
-  border-top: 1px solid #f58d8e!important;
-}
-
-a.home-categories-sub {
-    background-color: #fff!important;
-    border-bottom: 1px solid #e0e0e0;
-    text-transform: capitalize!important;
-    margin-top: 2px!important;
-    padding: 5px 10px!important;
-}
-
 b, strong {
     font-weight: bold;
-    color: #f58d8e;
-}
-
-body {
-  background: #f58d8e!important;
+    color: #f58d8e!important;
 }
