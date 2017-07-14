@@ -45,7 +45,7 @@ a.home-categories-sub {
     border-bottom: 1px solid #f58d8e!important;
 }
 
-.toggle-menu:nth-child(1) {
+.toggle-menu a:nth-child(1) {
  {  display: none!important;
   }
 
