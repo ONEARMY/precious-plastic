@@ -3276,6 +3276,20 @@ a {
   }
 }
 
+.notification3 {
+    text-align: center;
+    background-color: #00bfa5;
+    color: white;
+}
+.notification3 a{
+    color:white;
+    text-decoration: underline;
+}
+
+p#demo{
+    display:inline-block;
+}
+
 #toggle-overlay {
   background: #00bfa5;
   color: white;
@@ -3289,6 +3303,7 @@ a {
   padding: 15px;
   line-height: 25px;
   z-index: 3000;
+  display: none;
 
   .error & {
     display: none;
