@@ -1,3 +1,13 @@
+<?php
+header( "Status: 301 Moved Permanently" );
+header( "Location: https://preciousplastic.com/en/" );
+exit(0);
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html data-wf-page="5882175c539953827ad46e5a" data-wf-site="5882175c539953827ad46e59">
 <head>
@@ -27,8 +37,6 @@ body {
   <meta content="summary" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
-  <meta http-equiv="refresh" content="0; url="https://preciousplastic.com/en/">
-<link rel="canonical" href="https://preciousplastic.com/en/" />
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/next-4c9ac3.webflow.css" rel="stylesheet" type="text/css">
