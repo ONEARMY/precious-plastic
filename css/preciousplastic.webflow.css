@@ -2737,6 +2737,10 @@
   align-items: center;
   font-family: 'Varela Round', sans-serif;
   text-align: center;
+  cursor: pointer;
+}
+
+.link-block.press-release.no-pointer {
   cursor: not-allowed;
 }
 
