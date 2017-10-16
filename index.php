@@ -1,9 +1,3 @@
-<!-- <?php
-header( "Status: 301 Moved Permanently" );
-header( "Location: https://preciousplastic.com/en/" );
-exit(0);
-?>
- -->
 
 
 
@@ -11,6 +5,12 @@ exit(0);
 <!DOCTYPE html>
 <html data-wf-page="5882175c539953827ad46e5a" data-wf-site="5882175c539953827ad46e59">
 <head>
+
+ <?php
+header( 'Location: https://preciousplastic.com/en/', true, 301);
+exit(0);
+?>
+
 
 
 <style>
