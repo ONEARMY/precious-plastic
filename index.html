@@ -7,15 +7,6 @@
 <head>
 
 
-<style>
-var http = require('http');
-var server = http.createServer(function(req, res){
-	res.writeHead(301, {'Location' : 'https://preciousplastic.com/en/'});
-	res.end();
-});
-server.listen(process.env.PORT || 3000);
-
-</style>
 
 
 
@@ -57,6 +48,17 @@ server.listen(process.env.PORT || 3000);
   ga('send', 'pageview');
 
 </script>
+	
+	
+<style>
+var http = require('http');
+var server = http.createServer(function(req, res){
+	res.writeHead(301, {'Location' : 'https://preciousplastic.com/en/'});
+	res.end();
+});
+server.listen(process.env.PORT || 3000);
+
+</style>
 
 <body class="body">
   <div class="soon"> <h1>Version 3, launching 16th October.</h1>
