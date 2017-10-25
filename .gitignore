@@ -4,3 +4,6 @@ _site
 # etc
 .jekyll-metadata
 .sass-cache
+
+# other OS stuff
+.DS_Store
