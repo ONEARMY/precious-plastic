@@ -2211,6 +2211,11 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+.news-wrapper .news-loading {
+  text-align: center;
+  font-size: 4em;
+  width: 100%;
+}
 
 .join-community {
   display: block;
