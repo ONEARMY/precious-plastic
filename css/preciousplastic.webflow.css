@@ -4859,6 +4859,10 @@
   background-size: cover;
 }
 
+.cta-bazar{
+  background-color: #f58d8e;
+}
+
 @media (max-width: 991px) {
   .body {
     background-color: #fff;
