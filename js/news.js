@@ -40,11 +40,11 @@ $(document).ready(function() {
                     }
                 )
                 link.appendChild(createElement(
-                    'img',
+                    'div',
                     {
-                        'src': media[post.id].media_details.sizes.thumbnail.source_url,
-                        'class': 'img-news'
-                    }
+                        'class': 'img-news',
+                        'style': 'background-image: url("' + media[post.id].media_details.sizes.thumbnail.source_url + '")'
+                    },
                 ));
                 link.appendChild(createElement(
                     'h3',

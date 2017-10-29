@@ -2275,6 +2275,9 @@
 
 .img-news {
   width: 100%;
+  background-size: cover;
+  height: 0;
+  padding-bottom: 100%;
 }
 
 .hero-profile {
