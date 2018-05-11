@@ -4728,6 +4728,9 @@
 
 .img-map-campaign {
   border-radius: 3px;
+  margin: auto;
+  width: 100%;
+
 }
 
 .jewelery-box {
@@ -8250,6 +8253,8 @@
   }
   .img-map-campaign {
     display: none;
+    margin: auto;
+    width: 100%;
   }
   .jewelery-box {
     display: none;
