@@ -5576,6 +5576,10 @@
   text-align: center;
 }
 
+.hero-pilot-bg-image.africa {
+  background-image: url('../images/africa.png');
+}
+
 
 
 
