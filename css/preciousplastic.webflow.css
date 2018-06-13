@@ -4875,6 +4875,36 @@
 }
 
 /*pilot kenya */
+
+.section-pilot {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  margin-left: 0%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 2.5px;
+  clear: both;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  text-align: center;
+}
+
+
 .video-pilot-2 {
   position: fixed;
   height: 100vh;
@@ -5580,6 +5610,18 @@
   background-image: url('../images/africa.png');
 }
 
+.section-pilot.grey.follow-support {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emoji-horn-kenya {
+  width: 200px;
+  margin-right: -200px;
+}
 
 
 
@@ -6568,6 +6610,7 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 100px;
   }
   .text-block-pilot.africa {
     display: block;
@@ -6609,10 +6652,7 @@
   .section-pilot.grey.partners {
     padding-bottom: 100px;
   }
-  .section-pilot.grey.follow-support {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
+
   .slider-wrapper {
     display: block;
     width: 99%;
@@ -6672,6 +6712,12 @@
     height: 50vh;
     background-position: 50% 50%;
   }
+
+  .emoji-horn-kenya {
+  width: 150px;
+  margin-bottom: 100px;
+  margin-right: 0
+}
 
 }
 
@@ -8473,6 +8519,9 @@
 }
 .h5-info-body {
   font-size: 12px;
+}
+.emoji-horn-kenya {
+  width: 100px;
 }
 
 }
