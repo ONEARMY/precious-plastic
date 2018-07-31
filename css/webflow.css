@@ -46,6 +46,17 @@ body {
   line-height: 20px;
   color: #333;
 }
+
+.notification
+{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    background-color: #ffe084;
+    color: black;
+}
+
 img {
   max-width: 100%;
   vertical-align: middle;
