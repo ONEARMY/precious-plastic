@@ -4881,7 +4881,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  height: auto;
   margin-left: 0%;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -5356,7 +5356,7 @@
 }
 
 .text-block-pilot.africa {
-  width: 40%;
+  width: 50%;
   margin-left: 15%;
   clear: both;
 }
@@ -5557,10 +5557,10 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 70%;
-  margin-right: 15%;
-  margin-left: 15%;
-  padding-bottom: 100px;
+  width: 50%;
+  margin:auto;
+  margin-bottom: 100px;
+  padding: 100px 0;
   float: none;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -5574,10 +5574,9 @@
 
 .pilot-block-intro {
   width: auto;
-  height: 100vh;
+  height: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 0%;
   background-color: #fff;
 }
 
@@ -6545,7 +6544,8 @@
     margin-left: auto;
   }
   .content-pilot-2 {
-    margin-top: 50vh;
+    margin-top: auto;
+    background-color: white;
   }
   .pilots-explained-wrapper {
     width: 80%;
@@ -6702,11 +6702,11 @@
   }
   .pilot-block-intro {
     display: block;
-    height: auto;
     margin-right: auto;
     margin-left: auto;
     padding-top: 0px;
     padding-bottom: 100px;
+    background-color: white;
   }
   .hero-pilot-bg-image {
     height: 50vh;
