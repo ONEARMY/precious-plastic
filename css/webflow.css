@@ -55,6 +55,7 @@ body {
     font-size: 13px;
     background-color: #ffe084;
     color: black;
+    display: none;
 }
 
 img {
