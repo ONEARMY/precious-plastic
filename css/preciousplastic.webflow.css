@@ -2140,6 +2140,9 @@
 .pic-showcase.waste {
   background-image: url('../images/waste_1.jpg');
 }
+.pic-showcase.pilots {
+  background-image: url('../images/pilots-cover-press.jpg');
+}
 
 .content-showcase {
   width: 60%;
