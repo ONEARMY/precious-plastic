@@ -55,7 +55,16 @@ body {
     font-size: 13px;
     background-color: #ffe084;
     color: black;
-    display: none;
+    text-decoration: none !important;
+
+}
+
+.notification-content{
+  text-decoration: none !important;
+}
+
+.deco-none{
+  text-decoration: none !important;
 }
 
 img {
