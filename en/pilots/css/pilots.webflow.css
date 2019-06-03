@@ -320,7 +320,7 @@
   display: block;
   width: 100vw;
   height: 100vh;
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 .what-is-a-pilot {
@@ -808,6 +808,7 @@
   .video-pilots {
     display: block;
     height: auto;
+    margin-top: 0px;
   }
   .emoji-partners {
     display: block;
@@ -906,6 +907,9 @@
     width: 100%;
     margin-bottom: 20%;
   }
+  .video-pilots {
+    margin-top: 80px;
+  }
   .paragraph-pilot.white {
     width: 100%;
   }
@@ -970,7 +974,7 @@
     font-size: 14px;
   }
   .video-pilots {
-    margin-top: 70px !important;
+    margin-top: 70px;
   }
   .what-is-a-pilot {
     margin-bottom: 0.5%;
