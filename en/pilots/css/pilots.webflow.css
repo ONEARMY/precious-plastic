@@ -628,6 +628,13 @@
   background-attachment: fixed;
 }
 
+.hero-pilot-bg-image.team.jerry {
+  background-image: url('../images/08.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .hero-pilot-bg-image.kids {
   background-image: url('../images/IMG_1749.jpg');
 }
@@ -652,17 +659,35 @@
   background-attachment: fixed;
 }
 
+.hero-pilot-bg-image.madives-cont {
+  background-image: url('../images/01.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-pilot-bg-image.last-mald {
+  background-image: url('../images/13.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .inline-link-jaden {
   color: #484b4d;
 }
 
-.emoji-jaden {
+.emoji-pilot {
   width: 100px;
   margin-bottom: 50px;
 }
 
-.emoji-jaden.intro-emoji.knowmore {
+.emoji-pilot.intro-emoji.knowmore {
   margin-top: 50px;
+}
+
+.emoji-pilot.zero-opacity {
+  opacity: 0;
 }
 
 .pilot-block-2 {
@@ -671,30 +696,30 @@
   border-radius: 5px;
 }
 
-.img-jaden {
+.img-pilots-big {
   width: 70%;
   margin-right: auto;
   margin-bottom: 100px;
   margin-left: auto;
 }
 
-.img-jaden.jaden-visit {
+.img-pilots-big.jaden-visit {
   width: 30%;
 }
 
-.img-jaden.jaden-small {
+.img-pilots-big.gif-small {
   width: 50%;
 }
 
-.img-jaden.space-jaden {
+.img-pilots-big.space-jaden {
   margin-top: 0px;
 }
 
-.img-jaden.space-jaden.mobile-jaden {
+.img-pilots-big.space-jaden.mobile-jaden {
   display: none;
 }
 
-.link-jaden {
+.link-pilot-new {
   color: #f58d8e;
   font-size: 16px;
 }
@@ -1035,31 +1060,32 @@
     position: relative;
     display: none;
   }
-  .emoji-jaden {
+  .emoji-pilot {
     width: 70px;
   }
-  .emoji-jaden.intro-emoji {
+  .emoji-pilot.intro-emoji {
     width: 50px;
     margin-top: 50px;
     margin-bottom: 0px;
   }
-  .emoji-jaden.intro-emoji.knowmore {
+  .emoji-pilot.intro-emoji.knowmore {
     margin-bottom: 50px;
   }
   .pilot-block-2.block-jaden {
     padding-bottom: 0px;
   }
-  .img-jaden {
-    width: 95%;
-  }
-  .img-jaden.jaden-visit {
-    width: 95%;
-  }
-  .img-jaden.jaden-small {
+  .img-pilots-big {
     width: 95%;
     margin-bottom: 50px;
   }
-  .img-jaden.space-jaden.mobile-jaden {
+  .img-pilots-big.jaden-visit {
+    width: 95%;
+  }
+  .img-pilots-big.gif-small {
+    width: 95%;
+    margin-bottom: 50px;
+  }
+  .img-pilots-big.space-jaden.mobile-jaden {
     display: block;
     margin-bottom: 50px;
   }
