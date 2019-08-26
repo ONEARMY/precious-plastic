@@ -57,6 +57,7 @@ body {
     color: black;
     position: fixed;
     bottom: 0;
+    z-index: 100;
 }
 
 img {
