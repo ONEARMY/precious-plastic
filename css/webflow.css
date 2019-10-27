@@ -47,19 +47,6 @@ body {
   color: #333;
 }
 
-.notification
-{
-    width: 100%;
-    text-align: center;
-    padding: 15px;
-    font-size: 15px;
-    background-color: #ffe084;
-    color: black;
-    position: fixed;
-    bottom: 0;
-    z-index: 100;
-}
-
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -1580,4 +1567,47 @@ textarea.w-select {
 }
 .w-condition-invisible {
   display: none !important;
+}
+
+/*
+ * Banner
+ *
+ */
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+}
+
+.banner {
+  padding-top: 70px;
+}
+
+@media screen and (min-width: 991px) {
+  .banner {
+    padding-top: 50px;
+  }
+}
+
+.banner-inner {
+  width: 100%;
+  display: block;
+  padding: 15px 20px;
+  font-weight: bold;
+  color: rgb(72, 75,77);
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: rgb(190, 214,226);
+  z-index: 2000;
+  font-size: 15px;
+}
+
+.countdown {
+  display: block;
+}
+
+@media screen and (min-width: 991px) {
+  .countdown {
+    display: inline-block;
+  }
 }
