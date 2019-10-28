@@ -1580,7 +1580,7 @@ textarea.w-select {
 }
 
 .banner {
-  padding-top: 70px;
+  padding-top: 90px;
 }
 
 @media screen and (min-width: 991px) {
@@ -1598,7 +1598,7 @@ textarea.w-select {
   text-align: center;
   letter-spacing: 1px;
   background-color: rgb(190, 214,226);
-  z-index: 2000;
+  z-index: 2001;
   font-size: 15px;
 }
 
