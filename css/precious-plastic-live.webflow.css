@@ -2365,11 +2365,13 @@
 .card.starterkits-workspaces {
   position: relative;
   z-index: 1;
-  width: 19%;
+  width: 23%;
 }
 
 .card.starterkit-overview-card {
   width: 23%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .card-image {
@@ -2411,7 +2413,7 @@
 }
 
 .card-image.starterkit-shredder {
-  height: 150px;
+  height: 200px;
   background-image: url('../images/ws-card-image-shre.jpg');
   cursor: pointer;
 }
@@ -3849,10 +3851,10 @@
 }
 
 .hidden-starterkits {
-  display: none;
+  display: block;
   margin-top: -80px;
   border-radius: 100px;
-  opacity: 0;
+  opacity: 1;
 }
 
 .academy {
@@ -5438,7 +5440,7 @@
     background-image: none;
   }
   .cards.starterkits-overview {
-    display: none;
+    display: block;
   }
   .cards.starterkits-overview.device {
     display: block;
@@ -7090,7 +7092,7 @@
     width: 70%;
   }
   .card.starterkit-overview-card {
-    width: 80%;
+    width: 90%;
   }
   .card-image {
     height: 200px;
