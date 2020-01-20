@@ -930,6 +930,12 @@
   margin-bottom: 0px;
 }
 
+.hero.product {
+  background-image: url('../images/Stool-hero.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
 .stroke {
   display: block;
   padding: 32px 60px 14px;
