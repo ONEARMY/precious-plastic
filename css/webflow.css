@@ -813,7 +813,6 @@ textarea.w-select {
 .w-widget-twitter-count-shim.w--large {
   width: 36px;
   height: 28px;
-  margin-left: 7px;
 }
 .w-widget-twitter-count-shim.w--large .w-widget-twitter-count-inner {
   font-size: 18px;
@@ -1597,7 +1596,7 @@ textarea.w-select {
   position: relative;
   float: right;
 }
-.w--nav-menu-open {
+[data-nav-menu-open] {
   display: block !important;
   position: absolute;
   top: 100%;
@@ -1621,14 +1620,14 @@ textarea.w-select {
   right: 0;
   width: 100%;
 }
-.w-nav-overlay .w--nav-menu-open {
+.w-nav-overlay [data-nav-menu-open] {
   top: 0;
 }
 .w-nav[data-animation="over-left"] .w-nav-overlay {
   width: auto;
 }
 .w-nav[data-animation="over-left"] .w-nav-overlay,
-.w-nav[data-animation="over-left"] .w--nav-menu-open {
+.w-nav[data-animation="over-left"] [data-nav-menu-open] {
   right: auto;
   z-index: 1;
   top: 0;
@@ -1637,7 +1636,7 @@ textarea.w-select {
   width: auto;
 }
 .w-nav[data-animation="over-right"] .w-nav-overlay,
-.w-nav[data-animation="over-right"] .w--nav-menu-open {
+.w-nav[data-animation="over-right"] [data-nav-menu-open] {
   left: auto;
   z-index: 1;
   top: 0;

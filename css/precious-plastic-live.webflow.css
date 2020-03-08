@@ -1007,7 +1007,7 @@
 }
 
 .stroke.community-machines {
-  background-image: url('../images/community-stroke.png');
+  background-image: url('../images/community-stroke_1.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1042,7 +1042,7 @@
 }
 
 .stroke.community {
-  background-image: url('../images/community-stroke_1.png');
+  background-image: url('../images/community-stroke.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2436,7 +2436,7 @@
 
 .card-image.starterkit-injection {
   height: 150px;
-  background-image: url('../images/ws-card-image-inj_1.jpg');
+  background-image: url('../images/ws-card-image-inj.jpg');
 }
 
 .card-image.starterkit-mix {
@@ -4980,7 +4980,12 @@
   justify-content: space-between;
 }
 
-@media (max-width: 991px) {
+.html-embed {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media screen and (max-width: 991px) {
   .precious-plastic-logo {
     z-index: 100;
   }
@@ -5950,7 +5955,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .dropdown-navbar {
     padding-left: 0px;
   }
@@ -6217,7 +6222,7 @@
   }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .precious-plastic-logo {
     margin-left: 10px;
   }
@@ -7306,7 +7311,7 @@
   }
   .fullwidth-image.mobile-bazar {
     display: block;
-    background-image: url('../images/ws-card-image-inj.jpg');
+    background-image: url('../images/ws-card-image-inj_1.jpg');
     background-position: 50% 50%;
     background-size: cover;
   }
