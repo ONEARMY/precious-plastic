@@ -1007,7 +1007,7 @@
 }
 
 .stroke.community-machines {
-  background-image: url('../images/community-stroke_1.png');
+  background-image: url('../images/community-stroke.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1042,7 +1042,7 @@
 }
 
 .stroke.community {
-  background-image: url('../images/community-stroke.png');
+  background-image: url('../images/community-stroke_1.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2436,7 +2436,7 @@
 
 .card-image.starterkit-injection {
   height: 150px;
-  background-image: url('../images/ws-card-image-inj.jpg');
+  background-image: url('../images/ws-card-image-inj_1.jpg');
 }
 
 .card-image.starterkit-mix {
@@ -4985,6 +4985,23 @@
   height: 100vh;
 }
 
+.div-block-35 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 991px) {
   .precious-plastic-logo {
     z-index: 100;
@@ -7311,7 +7328,7 @@
   }
   .fullwidth-image.mobile-bazar {
     display: block;
-    background-image: url('../images/ws-card-image-inj_1.jpg');
+    background-image: url('../images/ws-card-image-inj.jpg');
     background-position: 50% 50%;
     background-size: cover;
   }
