@@ -52,6 +52,10 @@
   cursor: pointer;
 }
 
+.navbar-cta.hide-mobile.covi {
+  opacity: 0;
+}
+
 .button {
   padding: 10px 15px;
   border: 2px solid #000;
@@ -115,6 +119,12 @@
   -webkit-transform: translate(-5px, -5px);
   -ms-transform: translate(-5px, -5px);
   transform: translate(-5px, -5px);
+}
+
+.button.cta.cov {
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .button.flex {
@@ -201,6 +211,14 @@
 
 .nav-menu {
   cursor: pointer;
+}
+
+.nav-menu.covi {
+  opacity: 0;
+}
+
+.menu-button.covi {
+  opacity: 0;
 }
 
 .nav-dropdown-element {
@@ -319,6 +337,10 @@
 
 .hero-title.community-platform {
   margin-top: 150px;
+}
+
+.hero-title.community-platform.cov {
+  margin-top: 300px;
 }
 
 .hero-title.global-community {
@@ -612,6 +634,11 @@
   font-size: 24px;
   line-height: 40px;
   font-weight: 500;
+}
+
+.h2-cta.smal {
+  font-size: 52px;
+  line-height: 50px;
 }
 
 .paragraph-big {
@@ -1048,6 +1075,12 @@
   background-repeat: no-repeat;
 }
 
+.stroke.community.cov {
+  -webkit-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+}
+
 .stroke.platform {
   margin-top: -32px;
   background-image: url('../images/platform-stroke.png');
@@ -1305,6 +1338,13 @@
 .stroke.withus-stroke {
   margin-top: -27px;
   background-image: url('../images/with-us-stroke.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.stroke.covid {
+  background-image: url('../images/collection-system-stroke.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2304,6 +2344,11 @@
   display: none;
 }
 
+.cards.cov {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
 .cards-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2378,6 +2423,20 @@
   width: 23%;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.card.covid {
+  width: 28%;
+  border-style: none;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card.covid:hover {
+  box-shadow: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
 }
 
 .card-image {
@@ -3055,6 +3114,11 @@
 
 .explainer-landscape.community-platform {
   width: 100%;
+}
+
+.explainer-landscape.community-platform.cov {
+  margin-top: 220px;
+  margin-bottom: 220px;
 }
 
 .button-wrapper {
@@ -5002,6 +5066,219 @@
   align-items: center;
 }
 
+.covid-hero {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.div-block-36 {
+  width: 80%;
+  max-width: 1260px;
+  margin: 0px auto 140px;
+}
+
+.img-covid {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.text-button-2 {
+  font-family: 'Varela Round', sans-serif;
+  color: #000;
+  font-size: 16px;
+}
+
+.text-button-2.cta {
+  margin-right: 0px;
+  margin-bottom: 0px;
+  font-family: Varelaroundprecious, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  white-space: nowrap;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.h3-card-2 {
+  margin-top: 0px;
+  font-family: Varelaroundprecious, sans-serif;
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.paragraph-card-2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.paragraph-card-2.cov {
+  margin-bottom: 0px;
+}
+
+.link-block {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+}
+
+.div-block-37 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.covid-banner {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  height: 50px;
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #2442d6;
+}
+
+.heading-5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.image-20 {
+  width: 13px;
+  margin-left: 5px;
+  -webkit-filter: brightness(0%) invert(100%);
+  filter: brightness(0%) invert(100%);
+}
+
+.link-block-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.slider-covid {
+  width: 55%;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.slide {
+  border-radius: 5px;
+  background-image: url('../images/covid-6.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide.visor-1 {
+  background-image: url('../images/covid-4.jpg');
+}
+
+.slide.door-1 {
+  background-image: url('../images/covid-2.jpg');
+}
+
+.slide.slide-3 {
+  background-image: url('../images/media-1.jpg');
+}
+
+.slide-2 {
+  border-radius: 5px;
+  background-image: url('../images/covid-7.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide-2.visor-2 {
+  background-image: url('../images/covid-3.jpg');
+}
+
+.slide-2.door-2 {
+  background-image: url('../images/covid-1.jpg');
+}
+
+.slide-2.visor-3 {
+  background-image: url('../images/covid-5.jpg');
+}
+
+.div-block-38 {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.link-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.heading-6 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 991px) {
   .precious-plastic-logo {
     z-index: 100;
@@ -5248,6 +5525,10 @@
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;
+  }
+  .stroke.covid {
+    padding-right: 40px;
+    padding-left: 40px;
   }
   .space {
     padding-right: 0px;
@@ -5970,6 +6251,9 @@
   .utility-page-content {
     width: 90%;
   }
+  .slider-covid {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -6237,6 +6521,27 @@
     width: 30%;
     margin-right: 0px;
   }
+  .covid-banner {
+    height: auto;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .image-20 {
+    display: none;
+  }
+  .link-block-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -6329,6 +6634,9 @@
     margin-top: 100px;
     margin-bottom: 50px;
   }
+  .hero-title.community-platform.cov {
+    margin-top: 100px;
+  }
   .hero-title.global-community {
     margin-top: -50px;
   }
@@ -6379,6 +6687,9 @@
   }
   .h1.hero-stroked.pp {
     display: inline-block;
+  }
+  .h1.hero-stroked.cov {
+    font-size: 40px;
   }
   .boxed-text {
     width: 90%;
@@ -6446,6 +6757,9 @@
   }
   .paragraph-big.top-margin {
     margin-top: 0px;
+  }
+  .paragraph-big.top-margin.cov {
+    font-size: 16px;
   }
   .cta-content-wrapper {
     padding-right: 10px;
@@ -6631,6 +6945,10 @@
   .stroke.community {
     padding-right: 20px;
     padding-left: 20px;
+  }
+  .stroke.community.cov {
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .stroke.platform {
     margin-top: -50px;
@@ -6831,6 +7149,11 @@
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;
+  }
+  .stroke.covid {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 10px;
   }
   .space {
     width: 100%;
@@ -7109,9 +7432,27 @@
     width: 100%;
     background-image: none;
   }
+  .cards.cov {
+    margin-bottom: 100px;
+  }
   .cards-wrapper.starterkits-overview {
     padding-right: 10px;
     padding-left: 10px;
+  }
+  .cards-wrapper.cov {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .card {
     width: 100%;
@@ -7121,6 +7462,11 @@
   }
   .card.starterkit-overview-card {
     width: 90%;
+  }
+  .card.covid {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .card-image {
     height: 200px;
@@ -7341,6 +7687,9 @@
   .illustrations-text.community-platform {
     margin-top: 100px;
   }
+  .illustrations-text.community-platform.cov {
+    margin-bottom: 150px;
+  }
   .explainer-50 {
     width: 90%;
     margin-top: 80px;
@@ -7353,6 +7702,9 @@
   }
   .explainer-landscape.community-platform {
     margin-top: 50px;
+  }
+  .explainer-landscape.community-platform.cov {
+    margin-bottom: 100px;
   }
   .button-wrapper.business-tools {
     margin-top: 100px;
@@ -7826,6 +8178,36 @@
   }
   .utility-page-content {
     width: 100%;
+  }
+  .text-button-2.cta {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .covid-banner {
+    height: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .heading-5 {
+    line-height: 24px;
+  }
+  .image-20 {
+    display: none;
+  }
+  .link-block-2 {
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .slider-covid {
+    width: 100%;
+    height: 350px;
+  }
+  .div-block-38 {
+    width: 80%;
   }
 }
 
