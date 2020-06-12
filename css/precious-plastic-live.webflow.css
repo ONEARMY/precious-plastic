@@ -590,6 +590,10 @@
   width: 100%;
 }
 
+.boxed-text.spaces.sk-buy {
+  margin-bottom: 50px;
+}
+
 .paragraph-small {
   margin-bottom: 0px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -648,6 +652,22 @@
   background-color: #fee77b;
 }
 
+.cta-content.buy-sk {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 65vh;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .h2-cta {
   font-family: Preciousplasticfont, sans-serif;
   color: #000;
@@ -675,6 +695,11 @@
 .h2-cta.smal {
   font-size: 52px;
   line-height: 50px;
+}
+
+.h2-cta.inline {
+  display: inline-block;
+  font-size: 50px;
 }
 
 .paragraph-big {
@@ -1114,7 +1139,7 @@
 }
 
 .stroke.community-machines {
-  background-image: url('../images/community-stroke.png');
+  background-image: url('../images/community-stroke_1.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1149,7 +1174,7 @@
 }
 
 .stroke.community {
-  background-image: url('../images/community-stroke_1.png');
+  background-image: url('../images/community-stroke.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1440,6 +1465,10 @@
   margin: 200px auto 80px;
 }
 
+.space.buy-sk {
+  margin-top: -30px;
+}
+
 .undeline-link-block {
   display: inline-block;
   -webkit-box-align: center;
@@ -1494,6 +1523,10 @@
   color: #000;
   font-size: 16px;
   font-weight: 500;
+}
+
+.h5.title.nigger {
+  font-size: 20px;
 }
 
 .h5.small {
@@ -2063,6 +2096,10 @@
   flex-direction: column-reverse;
 }
 
+.image-text-wrapper.center {
+  display: block;
+}
+
 .text-image-text-combo {
   width: 35%;
   max-width: 400px;
@@ -2105,6 +2142,10 @@
 
 .text-image-text-combo.business-tools {
   width: 100%;
+}
+
+.text-image-text-combo.business-tools.larg {
+  max-width: 420px;
 }
 
 .text-image-text-combo.bazar {
@@ -2583,7 +2624,7 @@
 
 .card-image.starterkit-injection {
   height: 200px;
-  background-image: url('../images/ws-card-image-inj_1.jpg');
+  background-image: url('../images/ws-card-image-inj.jpg');
 }
 
 .card-image.starterkit-mix {
@@ -2714,6 +2755,11 @@
   margin-bottom: 50px;
 }
 
+.features-wrapper.requirements {
+  width: 100%;
+  margin-top: 20px;
+}
+
 .feature._22 {
   width: 22%;
 }
@@ -2753,6 +2799,10 @@
 
 .h2.illustration-section-title {
   margin-bottom: 100px;
+}
+
+.h2.center {
+  text-align: center;
 }
 
 .paragraph-tiny {
@@ -2806,7 +2856,7 @@
   text-align: left;
 }
 
-.machine-description-table {
+.description-table {
   width: 50%;
   border-style: solid;
   border-width: 2px;
@@ -2814,12 +2864,12 @@
   border-radius: 5px;
 }
 
-.machine-description-table.table-starterkit {
+.description-table.table-starterkit {
   width: 100%;
   margin-top: 30px;
 }
 
-.machine-description-table.sk {
+.description-table.sk {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 50px;
@@ -3133,6 +3183,11 @@
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.arrow.big {
+  width: 25px;
+  margin-left: 20px;
 }
 
 .community-machines-section {
@@ -5680,6 +5735,10 @@
   display: -ms-flexbox;
   display: flex;
   width: 50%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .impact-landing-bottom-div {
@@ -5878,12 +5937,9 @@
 
 .buy-starterkit-hero.brick {
   width: 72vw;
-  height: 80vh;
-  margin: 85px auto 80px 2%;
+  height: auto;
+  margin: 75px auto 80px 2%;
   border-radius: 5px;
-  background-image: url('../images/brick-wall.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
 }
 
 .buy-starterkit {
@@ -5941,7 +5997,7 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #000;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .heading-9.dj {
@@ -5979,10 +6035,10 @@
   margin-top: 10px;
   margin-bottom: 10px;
   padding-bottom: 10px;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -6006,7 +6062,7 @@
 .text-block-2.sdv {
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #fee77b;
+  background-color: #f7f9ff;
   opacity: 0.8;
   font-family: Varela, sans-serif;
 }
@@ -6157,6 +6213,45 @@
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
+}
+
+.image-24 {
+  width: 100%;
+  height: 80vh;
+  border-radius: 10px;
+}
+
+.intro {
+  height: 200px;
+  margin-top: 20px;
+  background-color: #f7f9ff;
+}
+
+.buy-sk-div-wrapper {
+  margin-top: 220px;
+  margin-bottom: 220px;
+}
+
+.buy-sk-div-wrapper.requirements {
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #f7f9ff;
+}
+
+.buy-sk-cta {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -6716,7 +6811,7 @@
     -ms-flex-align: start;
     align-items: flex-start;
   }
-  .machine-description-table.table-starterkit {
+  .description-table.table-starterkit {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -7409,7 +7504,7 @@
   .machine-description-text {
     width: 100%;
   }
-  .machine-description-table {
+  .description-table {
     width: 100%;
     margin-top: 50px;
   }
@@ -8620,7 +8715,7 @@
     padding-right: 10px;
     padding-left: 10px;
   }
-  .machine-description-table.table-starterkit {
+  .description-table.table-starterkit {
     width: 100%;
   }
   .community-machines-wrapper {
@@ -8725,7 +8820,7 @@
   }
   .fullwidth-image.mobile-bazar {
     display: block;
-    background-image: url('../images/ws-card-image-inj.jpg');
+    background-image: url('../images/ws-card-image-inj_1.jpg');
     background-position: 50% 50%;
     background-size: cover;
   }
