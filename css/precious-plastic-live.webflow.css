@@ -5413,7 +5413,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 95%;
+  width: 70%;
   height: 50px;
   margin-right: auto;
   margin-bottom: 5px;
@@ -5427,7 +5427,7 @@
   -ms-flex-align: center;
   align-items: center;
   border-radius: 5px;
-  background-color: #2442d6;
+  background-color: #e76c72;
 }
 
 .heading-5 {
@@ -5545,8 +5545,9 @@
   text-decoration: none;
 }
 
-.heading-6 {
+.close-banner {
   font-family: 'Varela Round', sans-serif;
+  color: #e76c72;
   font-size: 20px;
 }
 
@@ -8048,6 +8049,7 @@
     font-weight: 500;
   }
   .text-button.cta.nomargin {
+    display: block;
     font-size: 16px;
   }
   .text-button.cta.visible {
@@ -8189,6 +8191,9 @@
   .hdit-badge.big {
     width: 100px;
     margin-top: -100px;
+  }
+  .cta {
+    margin-bottom: 40px;
   }
   .cta.machines.pro {
     margin-bottom: 0px;
@@ -9698,6 +9703,11 @@
     font-weight: 500;
   }
   .covid-banner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 99%;
     height: auto;
     padding-right: 20px;
     padding-left: 20px;
