@@ -6332,6 +6332,10 @@
   background-image: url('../images/sheets-header-small.jpeg');
 }
 
+.buy-sk-landing.bricks {
+  background-image: url('../images/brick-wall.jpg');
+}
+
 .intro {
   height: 200px;
   margin-top: 20px;
@@ -7693,6 +7697,9 @@
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end;
+  }
+  .buy-sk-landing.bricks {
+    background-attachment: scroll;
   }
   .taxes {
     position: relative;
@@ -9929,6 +9936,10 @@
     margin-right: auto;
     margin-left: auto;
   }
+  .tab-link-tab-1-2.w--current {
+    margin-right: auto;
+    margin-left: auto;
+  }
   .image-22 {
     width: 500px;
     margin-left: 0px;
@@ -10013,7 +10024,11 @@
     font-weight: 600;
   }
   .buy-sk-landing {
-    height: auto;
+    height: 300px;
+    background-attachment: scroll;
+  }
+  .buy-sk-landing.events {
+    background-attachment: scroll;
   }
   .buy-sk-div-wrapper.requirements {
     padding: 10px;
