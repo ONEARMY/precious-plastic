@@ -1334,7 +1334,7 @@
 }
 
 .stroke.community-machines {
-  background-image: url('../images/community-stroke_1.png');
+  background-image: url('../images/community-stroke.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1369,7 +1369,7 @@
 }
 
 .stroke.community {
-  background-image: url('../images/community-stroke.png');
+  background-image: url('../images/community-stroke_1.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1913,7 +1913,7 @@
   -ms-flex-align: end;
   align-items: flex-end;
   border-radius: 5px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
   background-position: 0px 0px;
   background-size: 125px;
 }
@@ -2509,7 +2509,7 @@
 }
 
 .image-image-text-combo.prev-proj {
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
   background-position: 0px 0px;
   background-size: 125px;
 }
@@ -2943,7 +2943,7 @@
 
 .card-image.starterkit-injection {
   height: 200px;
-  background-image: url('../images/ws-card-image-inj.jpg');
+  background-image: url('../images/ws-card-image-inj_1.jpg');
 }
 
 .card-image.starterkit-mix {
@@ -6333,7 +6333,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 24vw;
-  height: 70vh;
+  height: auto;
   margin: 15vh 20px 10px 40px;
   padding: 20px;
   -webkit-box-orient: vertical;
@@ -6424,6 +6424,15 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.div-block-52.dvhj.last {
+  margin-bottom: 5px;
+}
+
+.div-block-52.price {
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+
 .icon-4 {
   position: relative;
   margin-right: 0px;
@@ -6457,11 +6466,16 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -6504,6 +6518,7 @@
 }
 
 .button-wrap.nopad.sk {
+  margin-top: 40px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -6655,6 +6670,7 @@
 }
 
 .buy-sk-div-wrapper.whats-inc {
+  display: none;
   margin-top: 100px;
 }
 
@@ -6812,7 +6828,7 @@
 }
 
 .taxes.bottom-margin {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -9924,7 +9940,7 @@
   }
   .fullwidth-image.mobile-bazar {
     display: block;
-    background-image: url('../images/ws-card-image-inj_1.jpg');
+    background-image: url('../images/ws-card-image-inj.jpg');
     background-position: 50% 50%;
     background-size: cover;
   }
@@ -10580,15 +10596,16 @@
   }
   .div-block-51 {
     margin-right: 10px;
-    margin-left: -8px;
+    margin-left: 0px;
     padding-right: 0px;
+    padding-left: 10px;
     background-image: none;
     background-size: auto;
     background-repeat: repeat;
   }
   .h3-checkout-header {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     font-size: 18px;
   }
   .h3-checkout {
@@ -10600,13 +10617,14 @@
   }
   .h3-checkout.inline {
     margin-right: 5px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 25px;
     font-weight: 400;
   }
   .div-block-52 {
     margin-top: 0px;
     margin-left: 0px;
+    padding-left: 10px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -10623,12 +10641,13 @@
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+    margin-top: 0px;
     padding-right: 10px;
     padding-left: 10px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -10700,22 +10719,22 @@
   .checkout-mobile {
     width: 100%;
     padding-bottom: 0px;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
   .bold-text-3 {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 25px;
     font-weight: 400;
   }
@@ -10738,34 +10757,40 @@
   src: url('../fonts/PreciousplasticFont-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Preciousplasticfont';
   src: url('../fonts/PreciousPlasticFont-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Preciousplasticfont';
   src: url('../fonts/PreciousPlasticFont-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Varelaroundprecious';
   src: url('../fonts/VarelaRoundPrecious-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Varelaroundprecious';
   src: url('../fonts/VarelaRoundPrecious-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Varelaroundprecious';
   src: url('../fonts/VarelaRoundPrecious-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
+  font-display: auto;
 }
