@@ -8701,6 +8701,7 @@
     background-color: #fff;
   }
   .dropdown-toggle {
+    width: 100%;
     padding-left: 15px;
   }
   .dropdown-toggle:active {
@@ -8779,6 +8780,9 @@
     display: none;
   }
   .nav-menu {
+    position: absolute;
+    width: 100%;
+    margin-top: 0px;
     padding-top: 30px;
   }
   .menu-button.w--open {
@@ -8786,8 +8790,12 @@
   }
   .menu-button.covi {
     display: block;
+    margin-right: 0px;
     background-color: transparent;
     opacity: 1;
+  }
+  .menu-button.covi.w--open {
+    margin-right: 10px;
   }
   .nav-dropdown-element {
     padding-left: 30px;
