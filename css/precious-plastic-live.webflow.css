@@ -9838,7 +9838,7 @@
   }
 
   .cta {
-    margin-bottom: 40px;
+    margin-bottom: -5px;
   }
 
   .cta.machines.pro {
@@ -12112,6 +12112,20 @@
 
   .share-to-support {
     width: 98%;
+  }
+
+  .oa-footer-wrapper {
+    padding-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .one-army-logo {
+    margin-right: 0px;
+    margin-bottom: 5px;
   }
 }
 
