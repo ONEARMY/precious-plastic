@@ -787,6 +787,12 @@
   text-align: center;
 }
 
+.cta {
+  position: relative;
+  z-index: 2;
+  margin-bottom: -12px;
+}
+
 .cta.machines {
   margin-top: 140px;
   margin-bottom: 140px;
@@ -961,6 +967,14 @@
 
 .inline-link.grey {
   color: #7f7f7f;
+}
+
+.inline-link.oa {
+  color: #fff8ef;
+}
+
+.inline-link.oa:hover {
+  text-decoration: none;
 }
 
 .cta-content-wrapper {
@@ -7173,7 +7187,7 @@
 }
 
 .navbar-link.hide {
-  display: none;
+  display: block;
 }
 
 .project-by-link {
@@ -7282,7 +7296,7 @@
   width: 50%;
   margin-right: 20px;
   margin-left: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .embed-donations {
@@ -7505,6 +7519,79 @@
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
+}
+
+.one-army-footer {
+  position: relative;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  margin-top: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #27272c;
+  text-decoration: none;
+}
+
+.oa-footer-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #27272c;
+}
+
+.one-army-logo {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.h5-oa {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Klima, sans-serif;
+  color: #fff8ef;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+}
+
+.oa-link {
+  width: 100%;
+  text-decoration: none;
+}
+
+.text-span {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 991px) {
@@ -12069,4 +12156,18 @@
   font-weight: 700;
   font-style: normal;
   font-display: auto;
+}
+@font-face {
+  font-family: 'Klima';
+  src: url('../fonts/klima-medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Klima';
+  src: url('../fonts/klima-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
