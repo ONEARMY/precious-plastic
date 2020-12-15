@@ -1045,11 +1045,19 @@
 }
 
 .footer-div.links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 25%;
   padding-right: 0%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
-  -ms-grid-row-align: auto;
   align-self: auto;
   -webkit-box-ordinal-group: 1;
   -webkit-order: 0;
@@ -1126,6 +1134,10 @@
 
 .footer-link.hide {
   display: none;
+}
+
+.footer-link.oa {
+  display: inline-block;
 }
 
 .hero {
@@ -1380,7 +1392,7 @@
 }
 
 .stroke.community-machines {
-  background-image: url('../images/community-stroke_1.png');
+  background-image: url('../images/community-stroke.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1415,7 +1427,7 @@
 }
 
 .stroke.community {
-  background-image: url('../images/community-stroke.png');
+  background-image: url('../images/community-stroke_1.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2989,7 +3001,7 @@
 
 .card-image.starterkit-injection {
   height: 200px;
-  background-image: url('../images/ws-card-image-inj.jpg');
+  background-image: url('../images/ws-card-image-inj_1.jpg');
 }
 
 .card-image.starterkit-mix {
@@ -7594,6 +7606,32 @@
   text-decoration: underline;
 }
 
+.logo-footer-small {
+  width: 16px;
+  margin-left: 0px;
+}
+
+.one-army-footer-link-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.oa-link-block {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.oa-text-block {
+  display: inline-block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 28px;
+}
+
 @media screen and (max-width: 991px) {
   .precious-plastic-logo {
     z-index: 100;
@@ -11097,7 +11135,7 @@
 
   .fullwidth-image.mobile-bazar {
     display: block;
-    background-image: url('../images/ws-card-image-inj_1.jpg');
+    background-image: url('../images/ws-card-image-inj.jpg');
     background-position: 50% 50%;
     background-size: cover;
   }
