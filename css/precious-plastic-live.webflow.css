@@ -363,6 +363,23 @@
   background-color: rgba(1, 0, 5, 0.05);
 }
 
+.nav-dropdown-element.top.news {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-dropdown-element.top.news.mid {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
 .nav-dropdown-element.bottom {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -374,6 +391,17 @@
   cursor: pointer;
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+.text-block-navbar-dropdown-title.news {
+  display: block;
+  margin-right: 5px;
+  margin-left: 5px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 0px;
+  -ms-flex: 0 0 0px;
+  flex: 0 0 0px;
+  white-space: nowrap;
 }
 
 .text-block-navbar-dropdown-subtitle {
@@ -393,6 +421,10 @@
   border: 2px solid #000;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.dropdown-list.news.w--open {
+  margin-left: -70px;
 }
 
 .arrow-down-navbar {
@@ -7622,6 +7654,7 @@
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
+  text-decoration: none;
 }
 
 .oa-text-block {
@@ -7630,6 +7663,33 @@
   color: rgba(0, 0, 0, 0.6);
   font-size: 16px;
   line-height: 28px;
+}
+
+.image-news {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.image-news.first {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.image-news.sec {
+  border-radius: 0px;
+}
+
+.image-news.third {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.arrow-out-news {
+  width: 8px;
+  margin-right: 5px;
 }
 
 @media screen and (max-width: 991px) {
@@ -7706,6 +7766,8 @@
   }
 
   .nav-menu {
+    width: 100%;
+    margin-top: 400px;
     padding-top: 50px;
     background-color: #fff;
   }
@@ -9731,8 +9793,19 @@
     padding-left: 30px;
   }
 
+  .nav-dropdown-element.top.news {
+    margin: 2px 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: transparent;
+  }
+
   .nav-dropdown-element.bottom {
     padding-left: 30px;
+  }
+
+  .dropdown-list.news.w--open {
+    margin-left: 0px;
   }
 
   .arrow-down-navbar {
@@ -12164,6 +12237,18 @@
   .one-army-logo {
     margin-right: 0px;
     margin-bottom: 5px;
+  }
+
+  .image-news.first {
+    border-radius: 5px;
+  }
+
+  .image-news.sec {
+    border-radius: 5px;
+  }
+
+  .image-news.third {
+    border-radius: 5px;
   }
 }
 
