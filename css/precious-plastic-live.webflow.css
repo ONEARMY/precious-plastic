@@ -1430,7 +1430,7 @@
 }
 
 .stroke.community-machines {
-  background-image: url('../images/community-stroke_1.png');
+  background-image: url('../images/community-stroke.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1465,7 +1465,7 @@
 }
 
 .stroke.community {
-  background-image: url('../images/community-stroke.png');
+  background-image: url('../images/community-stroke_1.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -3039,7 +3039,7 @@
 
 .card-image.starterkit-injection {
   height: 200px;
-  background-image: url('../images/ws-card-image-inj.jpg');
+  background-image: url('../images/ws-card-image-inj_1.jpg');
 }
 
 .card-image.starterkit-mix {
@@ -7693,6 +7693,8 @@
   border-radius: 0px 5px 5px 0px;
   -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
 }
 
 .image-news.third {
@@ -7703,8 +7705,8 @@
   border-bottom-right-radius: 0px;
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: 50% 0%;
-  object-position: 50% 0%;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
 }
 
 .arrow-out-news {
@@ -11241,7 +11243,7 @@
 
   .fullwidth-image.mobile-bazar {
     display: block;
-    background-image: url('../images/ws-card-image-inj_1.jpg');
+    background-image: url('../images/ws-card-image-inj.jpg');
     background-position: 50% 50%;
     background-size: cover;
   }
