@@ -9768,8 +9768,8 @@
   }
 
   .text-button.cta {
-    display: none;
-    font-size: 18px;
+    display: block;
+    font-size: 16px;
     font-weight: 500;
   }
 
@@ -9779,6 +9779,10 @@
   }
 
   .text-button.cta.visible {
+    display: block;
+  }
+
+  .text-button.cta.nohidden {
     display: block;
   }
 
@@ -9886,6 +9890,10 @@
 
   .hero-title.open-source {
     margin-bottom: 100px;
+  }
+
+  .hero-title.recycling {
+    margin-top: -60px;
   }
 
   .hero-title-bg {
@@ -10198,7 +10206,8 @@
   }
 
   .hero.spaces {
-    display: none;
+    display: block;
+    margin-top: 50px;
   }
 
   .hero.beyond-plastic {
@@ -11419,6 +11428,10 @@
 
   .div-block-7 {
     display: block;
+  }
+
+  .div-block-7.tilesupd {
+    height: 60%;
   }
 
   .div-block-10 {
