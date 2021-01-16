@@ -129,6 +129,11 @@
   margin-right: 10px;
 }
 
+.button.primary.sk.soldout {
+  background-color: #ff998a;
+  cursor: not-allowed;
+}
+
 .button.primary.sk-nav {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6283,10 +6288,7 @@
   position: sticky;
   top: 70px;
   z-index: 5;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   margin-bottom: 50px;
   padding-top: 0px;
   padding-bottom: 10px;
@@ -6436,6 +6438,7 @@
   top: 0%;
   right: 0%;
   bottom: auto;
+  z-index: 5;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
