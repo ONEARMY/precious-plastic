@@ -7724,6 +7724,10 @@
   border-radius: 5px;
 }
 
+.crypto {
+  background-color: #fee77b;
+}
+
 @media screen and (max-width: 991px) {
   .precious-plastic-logo {
     z-index: 100;
