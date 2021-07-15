@@ -9877,6 +9877,10 @@
   .tabs-2 {
     display: none;
   }
+
+  .dropdown-5 {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
