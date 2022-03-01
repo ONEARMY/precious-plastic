@@ -7970,6 +7970,12 @@
   object-position: 50% 50%;
 }
 
+.roadmap-step-image.pr {
+  background-image: url('../images/production.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
 .collab-roadmap-step-text-div {
   width: 400px;
 }
