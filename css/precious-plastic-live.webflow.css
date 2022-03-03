@@ -7353,7 +7353,7 @@
   position: relative;
   z-index: 1;
   max-width: 1000px;
-  margin-top: 100px;
+  margin-top: 220px;
   margin-bottom: 0px;
   color: #000;
 }
@@ -7374,7 +7374,7 @@
   margin-right: auto;
   margin-left: auto;
   padding-top: 100px;
-  padding-bottom: 400px;
+  padding-bottom: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -8578,7 +8578,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 100px;
+  margin-top: 0px;
+  margin-bottom: 500px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
