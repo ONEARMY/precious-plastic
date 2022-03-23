@@ -7460,7 +7460,7 @@
 }
 
 .video-partner-proje.hide {
-  display: none;
+  display: block;
 }
 
 .collab-video-wrapper {
