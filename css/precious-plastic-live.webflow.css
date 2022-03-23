@@ -13447,6 +13447,10 @@
     padding-bottom: 30px;
   }
 
+  .partners-wrap.nosp {
+    margin-bottom: 220px;
+  }
+
   .partners {
     height: 80px;
   }
