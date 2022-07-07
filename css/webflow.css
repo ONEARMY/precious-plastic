@@ -297,8 +297,8 @@ fieldset {
   border: 0;
 }
 button,
-html input[type='button'],
-input[type='reset'] {
+[type='button'],
+[type='reset'] {
   border: 0;
   cursor: pointer;
   -webkit-appearance: button;
@@ -366,6 +366,13 @@ label {
 fieldset[disabled] .w-input,
 fieldset[disabled] .w-select {
   cursor: not-allowed;
+}
+.w-input[disabled]:not(.w-input-disabled),
+.w-select[disabled]:not(.w-input-disabled),
+.w-input[readonly],
+.w-select[readonly],
+fieldset[disabled]:not(.w-input-disabled) .w-input,
+fieldset[disabled]:not(.w-input-disabled) .w-select {
   background-color: #eeeeee;
 }
 textarea.w-input,
@@ -831,7 +838,7 @@ textarea.w-select {
   top: 50%;
   left: 0;
   border: solid transparent;
-  content: " ";
+  content: ' ';
   height: 0;
   width: 0;
   position: absolute;
@@ -871,7 +878,7 @@ textarea.w-select {
   top: 100%;
   left: 50%;
   border: solid transparent;
-  content: " ";
+  content: ' ';
   height: 0;
   width: 0;
   position: absolute;
@@ -919,6 +926,16 @@ textarea.w-select {
 .w-background-video > video::-webkit-media-controls-start-playback-button {
   display: none !important;
   -webkit-appearance: none;
+}
+.w-background-video--control {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  background-color: transparent;
+  padding: 0;
+}
+.w-background-video--control > [hidden] {
+  display: none !important;
 }
 .w-slider {
   position: relative;
@@ -1807,4 +1824,10 @@ textarea.w-select {
 }
 .w-condition-invisible {
   display: none !important;
+}
+.wf-layout-layout {
+  display: grid !important;
+}
+.wf-layout-cell {
+  display: flex !important;
 }

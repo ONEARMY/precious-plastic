@@ -1243,6 +1243,10 @@
   border-radius: 5px;
 }
 
+.footer-link.no-break {
+  white-space: nowrap;
+}
+
 .hero {
   display: -webkit-box;
   display: -webkit-flex;
