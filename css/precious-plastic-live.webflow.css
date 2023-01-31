@@ -1488,7 +1488,7 @@
 }
 
 .stroke.community-machines {
-  background-image: url('../images/community-stroke.png');
+  background-image: url('../images/community-stroke_1.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1523,7 +1523,7 @@
 }
 
 .stroke.community {
-  background-image: url('../images/community-stroke_1.png');
+  background-image: url('../images/community-stroke.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2901,7 +2901,7 @@
 
 .card-image.starterkit-injection {
   height: 200px;
-  background-image: url('../images/ws-card-image-inj_1.jpg');
+  background-image: url('../images/ws-card-image-inj.jpg');
 }
 
 .card-image.starterkit-mix {
@@ -11021,6 +11021,10 @@
     padding-left: 10px;
   }
 
+  .dropdown-list.w--open {
+    position: relative;
+  }
+
   .dropdown-list.news.w--open {
     width: 100%;
     margin-left: 0px;
@@ -12316,7 +12320,7 @@
 
   .fullwidth-image.mobile-bazar {
     display: block;
-    background-image: url('../images/ws-card-image-inj.jpg');
+    background-image: url('../images/ws-card-image-inj_1.jpg');
     background-position: 50% 50%;
     background-size: cover;
   }
