@@ -242,6 +242,7 @@
 }
 
 .nav-menu {
+  z-index: 100;
   cursor: pointer;
   align-items: center;
   margin-left: auto;
