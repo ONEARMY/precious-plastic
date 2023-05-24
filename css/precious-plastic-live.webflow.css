@@ -247,7 +247,7 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  display: none;
   position: relative;
   left: 0;
 }
@@ -921,7 +921,7 @@
   background-color: #fff;
   justify-content: space-between;
   align-items: center;
-  display: flex;
+  display: none;
   position: fixed;
   top: 0%;
   bottom: auto;
@@ -6865,6 +6865,51 @@
   text-decoration: underline;
 }
 
+.na-menu-new {
+  z-index: 200;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.n-nav {
+  z-index: 1000;
+  background-color: #fff;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.n-nav-container {
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.n-nav-logo-wrap {
+  width: 20%;
+}
+
+.n-nav-bar-cta {
+  width: 20%;
+  justify-content: flex-end;
+  margin-right: 20px;
+  display: flex;
+}
+
+.n-nav-menu {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.n-nav-cta-mobile {
+  display: none;
+}
+
 @media screen and (min-width: 1920px) {
   .cta-content.coollab {
     height: auto;
@@ -6903,6 +6948,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-left: 30px;
+    padding-right: 10px;
     display: block;
   }
 
@@ -6911,6 +6957,7 @@
   }
 
   .dropdown-toggle {
+    width: 100%;
     padding: 15px 20px 15px 0;
   }
 
@@ -6936,6 +6983,11 @@
     width: auto;
     margin-top: 20px;
     margin-bottom: 40px;
+  }
+
+  .button.primary.sk-nav.bazar {
+    margin-bottom: 0;
+    margin-right: 0;
   }
 
   .button.primary.bazar {
@@ -6997,19 +7049,33 @@
   }
 
   .nav-dropdown-element {
+    width: 100%;
+    padding: 15px 0 15px 10px;
+  }
+
+  .nav-dropdown-element.top {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 0;
+  }
+
+  .nav-dropdown-element.top.linkout {
+    padding-right: 20px;
+  }
+
+  .nav-dropdown-element.bottom {
     width: 95%;
-    padding-top: 15px;
-    padding-bottom: 15px;
     padding-left: 10px;
   }
 
-  .nav-dropdown-element.top, .nav-dropdown-element.bottom {
-    width: 95%;
-    padding-left: 10px;
+  .nav-dropdown-element.linkout {
+    padding-right: 20px;
   }
 
   .dropdown-list.w--open {
+    width: 100%;
     border-style: none;
+    position: relative;
   }
 
   .dropdown-list.news.w--open {
@@ -7125,7 +7191,7 @@
     justify-content: flex-start;
     align-items: center;
     padding-left: 10px;
-    display: flex;
+    display: none;
   }
 
   .navbar.collabs {
@@ -8129,6 +8195,46 @@
   .impact-banner {
     margin-top: 90px;
   }
+
+  .na-menu-new {
+    display: none;
+  }
+
+  .n-nav {
+    display: block;
+  }
+
+  .n-nav-logo-wrap {
+    justify-content: center;
+    display: flex;
+  }
+
+  .n-nav-bar-cta {
+    display: none;
+  }
+
+  .n-nav-menu {
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    padding: 60px 0 0 0%;
+  }
+
+  .menu-button-2 {
+    background-color: #fff;
+  }
+
+  .menu-button-2.w--open {
+    color: #000;
+    background-color: #fff;
+  }
+
+  .n-nav-cta-mobile {
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -8146,7 +8252,7 @@
 
   .nav-dropdown-element, .nav-dropdown-element.top {
     width: 90%;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .nav-dropdown-element.bottom {
@@ -8610,6 +8716,10 @@
   .partners-wrap {
     flex-wrap: wrap;
   }
+
+  .n-nav-cta-mobile {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -8625,6 +8735,7 @@
   .dropdown-toggle {
     width: 100%;
     padding-left: 20px;
+    padding-right: 0;
   }
 
   .dropdown-toggle:active {
@@ -8754,7 +8865,7 @@
   }
 
   .arrow-down-navbar {
-    margin-right: 25px;
+    margin-right: 10px;
   }
 
   .link-logo {
@@ -10750,6 +10861,16 @@
 
   .link-impact {
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .n-nav-menu {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+
+  .n-nav-cta-mobile {
     padding-left: 20px;
     padding-right: 20px;
   }
