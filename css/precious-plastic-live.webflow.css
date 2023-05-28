@@ -6842,6 +6842,8 @@
 
 .n-n-navbar {
   z-index: 100;
+  height: 80px;
+  background-color: #fff;
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 20px;
@@ -6869,8 +6871,9 @@
 }
 
 .nav-drop-wrap {
+  width: 500px;
   background-color: #fff;
-  border: 1px solid #000;
+  border: 1px #000;
   border-radius: 10px;
   margin-top: 10px;
   position: relative;
@@ -6887,7 +6890,9 @@
   position: relative;
 }
 
-.nav-drop-universe {
+.nav-drop-universe, .nav-drop-solutions, .nav-drop-community {
+  border: 2px solid #000;
+  border-radius: 5px;
   display: none;
 }
 
@@ -6955,7 +6960,7 @@
   }
 
   .navbar-cta.hide-mobile {
-    display: none;
+    display: block;
   }
 
   .button.primary {
@@ -7151,7 +7156,7 @@
     justify-content: flex-start;
     align-items: center;
     padding-left: 10px;
-    display: flex;
+    display: none;
   }
 
   .navbar.collabs {
