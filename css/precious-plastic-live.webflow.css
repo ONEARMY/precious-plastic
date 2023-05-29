@@ -6561,7 +6561,7 @@
 
 .link-navbar.collabs {
   align-items: center;
-  display: flex;
+  display: none;
 }
 
 .link-navbar.hdiw.w--current {
