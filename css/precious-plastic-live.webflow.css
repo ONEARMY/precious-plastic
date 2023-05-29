@@ -18,7 +18,7 @@
 .text-block-navbar-dropdown {
   color: #000;
   cursor: pointer;
-  margin-right: 5px;
+  margin-right: 30px;
   font-family: Varela Round, sans-serif;
   font-size: 16px;
 }
@@ -107,7 +107,6 @@
 .button.primary.sk-nav.bazar {
   background-color: #f58d8e;
   margin-right: 10px;
-  display: none;
 }
 
 .button.navabar {
@@ -308,7 +307,6 @@
 
 .text-block-navbar-dropdown-title {
   width: 100%;
-  white-space: nowrap;
   cursor: pointer;
   object-fit: fill;
   font-family: Varela Round, sans-serif;
@@ -352,8 +350,6 @@
 
 .arrow-down-navbar {
   cursor: pointer;
-  margin-right: 0;
-  position: relative;
 }
 
 .arrow-down-navbar.collab {
@@ -380,10 +376,6 @@
   bottom: auto;
   left: auto;
   right: auto;
-}
-
-.link-logo.w--current {
-  margin-top: 0;
 }
 
 .image {
@@ -926,7 +918,7 @@
   background-color: #fff;
   justify-content: space-between;
   align-items: center;
-  display: none;
+  display: flex;
   position: fixed;
   top: 0%;
   bottom: auto;
@@ -3797,7 +3789,7 @@
 }
 
 .landing-hero.devices {
-  display: block;
+  display: none;
 }
 
 .landing-hero-cta {
@@ -6569,7 +6561,7 @@
 
 .link-navbar.collabs {
   align-items: center;
-  display: none;
+  display: flex;
 }
 
 .link-navbar.hdiw.w--current {
@@ -6840,62 +6832,6 @@
   width: 20%;
 }
 
-.n-n-navbar {
-  z-index: 100;
-  height: 80px;
-  background-color: #fff;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-top: 20px;
-  display: flex;
-  position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
-}
-
-.n-nav-menu {
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  display: flex;
-}
-
-.n-nav-menu-item {
-  cursor: pointer;
-  align-items: center;
-  padding: 10px;
-  display: flex;
-  position: relative;
-}
-
-.nav-drop-wrap {
-  width: 500px;
-  background-color: #fff;
-  border: 1px #000;
-  border-radius: 10px;
-  margin-top: 10px;
-  position: relative;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
-}
-
-.nav-menus-items-wrap {
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  position: relative;
-}
-
-.nav-drop-universe, .nav-drop-solutions, .nav-drop-community {
-  border: 2px solid #000;
-  border-radius: 5px;
-  display: none;
-}
-
 @media screen and (min-width: 1920px) {
   .cta-content.coollab {
     height: auto;
@@ -6960,7 +6896,7 @@
   }
 
   .navbar-cta.hide-mobile {
-    display: block;
+    display: none;
   }
 
   .button.primary {
@@ -7156,7 +7092,7 @@
     justify-content: flex-start;
     align-items: center;
     padding-left: 10px;
-    display: none;
+    display: flex;
   }
 
   .navbar.collabs {
