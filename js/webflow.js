@@ -2203,7 +2203,7 @@
       var uncurryThis = require_function_uncurry_this();
       var id = 0;
       var postfix = Math.random();
-      var toString = uncurryThis(1 .toString);
+      var toString = uncurryThis(1.0.toString);
       module.exports = function(key) {
         return "Symbol(" + (key === void 0 ? "" : key) + ")_" + toString(++id + postfix, 36);
       };
