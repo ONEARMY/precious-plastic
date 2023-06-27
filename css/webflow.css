@@ -345,10 +345,6 @@ label {
   color: #999;
   opacity: 1;
 }
-.w-input:-ms-input-placeholder,
-.w-select:-ms-input-placeholder {
-  color: #999;
-}
 .w-input::-webkit-input-placeholder,
 .w-select::-webkit-input-placeholder {
   color: #999;
@@ -409,7 +405,6 @@ textarea.w-select {
 }
 .w-radio-input {
   margin: 4px 0 0;
-  margin-top: 1px \9;
   line-height: normal;
   float: left;
   margin-left: -20px;
@@ -1194,7 +1189,6 @@ textarea.w-select {
   opacity: 0;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-transform: translate(0, 0);
   /* 2 */
@@ -1376,14 +1370,12 @@ textarea.w-select {
   top: 50%;
   width: 100%;
   -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
 .w-lightbox-thumbnail .w-lightbox-wide {
   left: 50%;
   height: 100%;
   -webkit-transform: translate(-50%, 0);
-  -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
 }
 /*
