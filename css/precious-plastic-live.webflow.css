@@ -1138,7 +1138,7 @@
   min-width: 100%;
   object-fit: cover;
   align-items: flex-end;
-  margin-top: 65px;
+  margin-top: 0;
   display: flex;
 }
 
@@ -8770,6 +8770,41 @@
   align-items: flex-end;
   margin-bottom: -40px;
   display: flex;
+}
+
+.impact-banner {
+  height: 40px;
+  color: #000;
+  background-color: #f58d8e;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  font-family: Klima, sans-serif;
+  text-decoration: none;
+  display: flex;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+.image-93 {
+  width: 10px;
+  margin-left: 5px;
+}
+
+.link-block-9 {
+  align-items: center;
+  display: flex;
+}
+
+.link-block-10 {
+  color: #a27e7e;
+}
+
+.link-block-11, .link-block-12, .link-block-13, .link-block-14 {
+  color: #000;
 }
 
 @media screen and (min-width: 1920px) {
