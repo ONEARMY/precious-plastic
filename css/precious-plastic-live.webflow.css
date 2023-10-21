@@ -10382,6 +10382,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .link-block-14 {
+    flex-direction: column;
+  }
+  
   .dropdown-navbar {
     padding-left: 0;
   }
